@@ -13,7 +13,7 @@ import quizQuestionRoute from "./src/routes/quiz/quiz.question.route.js";
 import quizResultRoute from "./src/routes/quiz/quizResult.route.js";
 import premiumStudentRoute from "./src/routes/premium.student.route.js";
 import successBoardRoute from "./src/routes/success.board.route.js";
-
+   
 const app = express();
 
 app.use(express.json());
