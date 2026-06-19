@@ -106,10 +106,10 @@ const Navbar = () => {
         onClick={() => navigate("/")}
       >
         <div className="w-10 h-10 bg-blue-600 rounded-md  flex items-center justify-center shadow-lg shadow-blue-500/30">
-          <span className="text-white font-extrabold text-xl">K</span>
+          <span className="text-white font-extrabold text-xl">T</span>
         </div>
         <h1 className="text-2xl lg:text-3xl font-black tracking-tight text-slate-900">
-          Kritimaan<span className="text-blue-600">Classes</span>
+          Tejas<span className="text-blue-600">Defence</span>
         </h1>
       </div>
 
