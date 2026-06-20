@@ -72,11 +72,13 @@ const DashboardSidebar = () => {
         }`}
       >
         <div className="p-4 lg:p-6 border-b border-slate-200 flex justify-between items-center">
+
+
           <div className="flex items-center gap-2 lg:gap-3 min-w-0">
             {/* The Stylized 'K' Monogram */}
             <div className="w-8 h-8 lg:w-10 lg:h-10 rounded-md bg-gradient-to-br from-blue-600 to-indigo-700 flex items-center justify-center shadow-lg shadow-blue-200/50 shrink-0">
               <span className="text-white font-black text-lg lg:text-xl font-sans tracking-tighter">
-                K
+                T
               </span>
             </div>
 

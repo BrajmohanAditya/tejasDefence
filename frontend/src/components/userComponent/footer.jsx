@@ -544,9 +544,14 @@ const Footer = () => {
             justifyContent: 'space-between',
           }}
         >
-          <p style={{ fontSize: '12px', color: '#3d5c43', margin: 0 }}>
-            &copy; {new Date().getFullYear()} Tejas Defence Academy. All rights reserved.
-          </p>
+          <div style={{ display: 'flex', flexDirection: 'column', gap: '6px' }}>
+            <p style={{ fontSize: '12px', color: '#3d5c43', margin: 0 }}>
+              &copy; {new Date().getFullYear()} Tejas Defence Academy. All rights reserved.
+            </p>
+            <p style={{ fontSize: '11px', color: '#2a402e', margin: 0 }}>
+              Designed & Developed by <strong style={{ color: '#7a9e82' }}>IITNS</strong> | Contact: <a href="https://wa.me/918521859948" target="_blank" rel="noopener noreferrer" style={{ color: '#7a9e82', textDecoration: 'none' }}>WhatsApp (+91 85218 59948)</a>
+            </p>
+          </div>
           <div style={{ display: 'flex', gap: '24px' }}>
             {['Privacy Policy', 'Terms of Service', 'Refund Policy'].map((item) => (
               <a
