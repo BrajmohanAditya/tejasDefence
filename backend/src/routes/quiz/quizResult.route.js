@@ -3,7 +3,7 @@ import { isLoggedIn } from "../../middlewares/auth.middleware.js";
 import {
   submitQuiz,
   getMyResults,
-} from "../../controllers/quiz.result.controller.js";
+} from "../../controllers/quiz/quiz.result.controller.js";
 
 const quizResultRoute = express.Router();
 

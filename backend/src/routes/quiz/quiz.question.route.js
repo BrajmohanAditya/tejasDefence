@@ -2,7 +2,7 @@ import express from "express";
 import {
   createQuizQuestion,
   getQuizQuestions,
-} from "../../controllers/quiz.question.controller.js";
+} from "../../controllers/quiz/quiz.question.controller.js";
 
 const router = express.Router();
 

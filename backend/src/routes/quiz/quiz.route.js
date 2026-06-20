@@ -6,12 +6,12 @@ import {
   getQuizById,
   updateQuiz,
   deleteQuiz,
-} from "../../controllers/quiz.controller.js";
+} from "../../controllers/quiz/quiz.controller.js";
 import upload from "../../middlewares/multer.js";
 import {
   toggleQuizLock,
   toggleQuizType,
-} from "../../controllers/quiz.controller.js";
+} from "../../controllers/quiz/quiz.controller.js";
 const quizRoute = express.Router();
 
 // Notice we add isLoggedIn and adminRoute to protect the creation route!

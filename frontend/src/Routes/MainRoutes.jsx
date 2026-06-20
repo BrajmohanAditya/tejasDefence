@@ -20,6 +20,7 @@ import QuizeDetail from "@/pages/User/quize/quize.detail";
 import QuizResult from "@/pages/User/quize/quize.result";
 import PremiumStudent from "@/pages/Admin/premiumStudent";
 import SuccessBoard from "@/pages/Admin/Success.board";
+import QualifiedMentors from "@/pages/Admin/qualifiedMentors";
 // UserLayout wraps routes that SHOULD have the top Navbar
 
 const MainRoutes = () => {
@@ -68,6 +69,15 @@ const MainRoutes = () => {
           element={
             <ProtectedRoutes>
               <QuizResult />
+            </ProtectedRoutes>
+          }
+        />
+
+        <Route
+          path="/qualifiedMentors"
+          element={
+            <ProtectedRoutes>
+              <QualifiedMentors />
             </ProtectedRoutes>
           }
         />
@@ -137,6 +147,14 @@ const MainRoutes = () => {
           element={
             <ProtectedRoutes>
               <SuccessBoard />
+            </ProtectedRoutes>
+          }
+        />
+          <Route
+          path="qualifiedMentor"
+          element={
+            <ProtectedRoutes>
+              <QualifiedMentors />
             </ProtectedRoutes>
           }
         />

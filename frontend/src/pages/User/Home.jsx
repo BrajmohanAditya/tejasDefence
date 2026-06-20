@@ -5,6 +5,7 @@ import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
 import StudyMaterial from "./study.material";
 import SuccessBoardDisplay from "./success.board";
 import Footer from "@/components/userComponent/footer";
+import QualifiedMentorsDisplay from "./qualifiedMentors.board";
 
 const Home = () => {
   return (
@@ -12,6 +13,7 @@ const Home = () => {
       <HeroSection />
       <StudyMaterial />
       <CourseSection />
+      <QualifiedMentorsDisplay />
       <SuccessBoardDisplay />
       <Footer />
 

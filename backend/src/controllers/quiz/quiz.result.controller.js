@@ -1,6 +1,6 @@
-import { QuizResult } from "../models/quiz/quizResult.model.js";
-import { QuizQuestion } from "../models/quiz/quiz.question.model.js";
-import { Quiz } from "../models/quiz/quiz.model.js";
+import { QuizResult } from "../../models/quiz/quizResult.model.js";
+import { QuizQuestion } from "../../models/quiz/quiz.question.model.js";
+import { Quiz } from "../../models/quiz/quiz.model.js";
 
 // @desc    Submit a quiz and calculate result
 // @route   POST /api/quizResult/submit

@@ -9,6 +9,7 @@ import {
   FileText,
   Users,
   ClipboardList,
+  Presentation,
 } from "lucide-react";
 
 const DashboardSidebar = () => {
@@ -40,6 +41,11 @@ const DashboardSidebar = () => {
       to: "/admindashboard/selectedStudent",
       label: "Selected Student",
       icon: Users,
+    },
+    {
+      to: "/admindashboard/QualifiedMentor",
+      label: "Qualified Mentors",
+      icon: Presentation,
     },
   ];
 
