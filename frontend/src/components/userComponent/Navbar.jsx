@@ -20,9 +20,8 @@ import { userLogoutHook } from "../../hooks/User.hook";
 import { useNavigate } from "react-router-dom";
 import { useUserStore } from "../../store/user.store";
 import StudentIcon from "../icons/StudentIcon";
-import { GetUserHook } from "../../hooks/User.hook"; // Make sure this path matches your setup!
-
-import SearchBar from "./searchBar"; // Assuming SearchBar is in the same folder
+import { GetUserHook } from "../../hooks/User.hook";
+import SearchBar from "./searchBar";
 
 const Navbar = () => {
   const queryClient = useQueryClient();
@@ -100,16 +99,28 @@ const Navbar = () => {
   }
 
   return (
-    <div className="sticky top-0 z-50 bg-white min-h-[12vh] w-full flex flex-wrap items-center justify-between px-4 md:px-9 py-3 md:py-0 shadow gap-y-4">
+    <div className="sticky top-0 z-50 bg-white min-h-[12vh] w-full flex flex-wrap items-center justify-between px-4 md:px-6 py-3 md:py-0 shadow-md border-b-[3px] border-[#d4af37] gap-y-2">
       <div
-        className="flex items-center gap-3 order-1 cursor-pointer"
+        className="flex items-center  order-1 cursor-pointer"
         onClick={() => navigate("/")}
       >
-        <div className="w-10 h-10 bg-blue-600 rounded-md  flex items-center justify-center shadow-lg shadow-blue-500/30">
-          <span className="text-white font-extrabold text-xl">T</span>
-        </div>
-        <h1 className="text-2xl lg:text-3xl font-black tracking-tight text-slate-900">
-          Tejas<span className="text-blue-600">Defence</span>
+        <img
+          src="/logo3rd.png"
+          alt="Tejas Defence Logo"
+          className="h-20 w-auto object-contain drop-shadow-md"
+        />
+
+        <h1
+          className="text-2xl lg:text-3xl font-extrabold tracking-tight uppercase drop-shadow-sm"
+          style={{
+            color: "#050e08",
+            fontFamily: "'Inter', 'Segoe UI', sans-serif",
+          }}
+        >
+          Tejas
+          <span style={{ color: "#d4af37" }} className="ml-1">
+            Defence
+          </span>
         </h1>
       </div>
 
@@ -120,13 +131,13 @@ const Navbar = () => {
 
       <div className="order-2 md:order-3">
         <Popover>
-          <PopoverTrigger className="flex items-center gap-3 p-2 hover:bg-slate-100 rounded-xl transition-all duration-200 group cursor-pointer">
-            <Avatar className="w-10 h-10 ring-2 ring-slate-200 group-hover:ring-slate-300 transition-all">
+          <PopoverTrigger className="flex items-center gap-3 p-2 hover:bg-[#d4af37]/15 rounded-xl transition-all duration-300 group cursor-pointer">
+            <Avatar className="w-10 h-10 border-[3px] border-[#d4af37] shadow-sm group-hover:shadow-[0_0_12px_rgba(212,175,55,0.4)] transition-all duration-300">
               <AvatarImage
                 src={user?.profilePhoto || ""}
                 className="object-cover"
               />
-              <AvatarFallback className="bg-blue-50 w-full h-full">
+              <AvatarFallback className="bg-white w-full h-full text-[#050e08] flex items-center justify-center">
                 <StudentIcon />
               </AvatarFallback>
             </Avatar>

@@ -4,7 +4,7 @@ import HeroSection from "@/components/userComponent/heroSection";
 import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
 import StudyMaterial from "./study.material";
 import SuccessBoardDisplay from "./success.board";
-import Footer from "@/components/userComponent/homePage.footer";
+import Footer from "@/components/userComponent/footer";
 
 const Home = () => {
   return (
