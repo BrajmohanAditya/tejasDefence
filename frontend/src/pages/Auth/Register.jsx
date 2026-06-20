@@ -1,4 +1,4 @@
-import { userRegisterHook } from "@/hooks/User.hook";
+import { userRegisterHook, userGoogleLoginHook } from "@/hooks/User.hook";
 import React from "react";
 import { useForm } from "react-hook-form";
 import { Link } from "react-router-dom";
@@ -10,6 +10,7 @@ import Divider from "@/components/userComponent/Divider";
 const Register = () => {
   const { register, handleSubmit } = useForm();
   const { mutate, isPending } = userRegisterHook();
+  const { mutate: googleMutate } = userGoogleLoginHook();
   const navigate = useNavigate();
   const registerFormHandler = (data) => {
     mutate(data, {
