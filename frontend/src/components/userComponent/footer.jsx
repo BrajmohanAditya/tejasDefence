@@ -12,11 +12,17 @@ const Footer = () => {
   ];
 
   const examLinks = [
-    { label: 'NDA / CDS Preparation', href: '#' },
-    { label: 'AFCAT Coaching', href: '#' },
-    { label: 'SSB Interview Guidance', href: '#' },
-    { label: 'Agniveer Scheme', href: '#' },
-    { label: 'Previous Year Papers', href: '#' },
+    { label: 'NDA Foundation (11th+12th+NDA+SSB Interview)', href: '#' },
+    { label: 'NDA Target (12th Pass)', href: '#' },
+    { label: 'CDS', href: '#' },
+    { label: 'MNS', href: '#' },
+    { label: 'AFCAT', href: '#' },
+    { label: 'SSB Interview', href: '#' },
+    { label: 'NDA Test', href: '#' },
+    { label: 'CDS Test', href: '#' },
+    { label: 'AFCAT Test', href: '#' },
+    { label: 'NDA Mock Test 2026', href: '#' },
+    { label: 'CDS Mock Test 2026', href: '#' },
   ];
 
   const socialLinks = [

@@ -6,6 +6,62 @@ const QualifiedMentorsDisplay = () => {
   const { data: mentorsResp, isLoading } = useGetQualifiedMentorsHook();
   const mentors = mentorsResp?.mentors || [];
 
+  // Helper to format qualifications text into a nice point-wise list
+  const formatTextToList = (text) => {
+    if (!text) return null;
+    
+    // If text already has newlines, use them
+    if (text.includes("\n")) {
+      return text.split("\n").map((line, i) => {
+        const t = line.trim();
+        return t ? <div key={i} className="mb-1.5 last:mb-0">{t}</div> : null;
+      });
+    }
+
+    try {
+      // Split by emojis to create a point-wise list automatically
+      const parts = text.split(/(?=\p{Extended_Pictographic})/gu);
+      if (parts.length > 1) {
+        return parts.map((part, i) => {
+          const t = part.trim();
+          return t ? <div key={i} className="mb-2 last:mb-0 flex items-start gap-2"><span>{t}</span></div> : null;
+        });
+      }
+    } catch (e) {}
+
+    // Check if it's a comma-separated list
+    if (text.includes(",")) {
+      let prefix = "";
+      let mainText = text;
+      
+      const colonIdx = text.indexOf(":");
+      if (colonIdx > -1 && colonIdx < text.indexOf(",")) {
+        prefix = text.substring(0, colonIdx + 1);
+        mainText = text.substring(colonIdx + 1);
+      }
+
+      const items = mainText.split(",").map(i => i.trim()).filter(Boolean);
+      
+      if (items.length > 1) {
+        return (
+          <div>
+            {prefix && <div className="mb-1.5 font-bold text-slate-800">{prefix}</div>}
+            <ul className="space-y-1">
+              {items.map((item, i) => (
+                <li key={i} className="flex items-start gap-1.5">
+                  <span className="text-blue-500 mt-1 flex-shrink-0 text-[10px]">■</span>
+                  <span>{item}</span>
+                </li>
+              ))}
+            </ul>
+          </div>
+        );
+      }
+    }
+
+    return <div>{text}</div>;
+  };
+
   if (isLoading) {
     return (
       <div className="py-12 flex justify-center">
@@ -38,67 +94,75 @@ const QualifiedMentorsDisplay = () => {
         </div>
 
         {/* Mentors Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8 max-w-7xl mx-auto">
           {mentors.map((mentor) => (
             <div 
               key={mentor._id} 
-              className="group bg-white rounded-2xl shadow-[0_8px_30px_rgb(0,0,0,0.04)] border border-slate-100 hover:shadow-[0_8px_30px_rgb(0,0,0,0.08)] hover:-translate-y-2 transition-all duration-300 overflow-hidden flex flex-col"
+              className="group bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl hover:border-blue-200 transition-all duration-300 overflow-hidden flex flex-col relative"
             >
-              {/* Image Header */}
-              <div className="relative pt-6 pb-4 px-6 flex justify-center bg-gradient-to-b from-blue-50 to-white">
-                <div className="absolute top-0 left-0 w-full h-1 bg-blue-600"></div>
-                <div className="w-28 h-28 rounded-full ring-4 ring-white shadow-lg overflow-hidden bg-slate-100 flex items-center justify-center">
+              {/* Header Gradient (subtle) */}
+              <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-blue-50/80 to-transparent"></div>
+              
+              {/* Image Section */}
+              <div className="relative pt-8 pb-4 px-6 flex flex-col items-center">
+                <div className="w-[96px] h-[96px] rounded-full ring-4 ring-white shadow-md overflow-hidden bg-slate-50 flex items-center justify-center relative z-10 group-hover:scale-105 transition-transform duration-300">
                   {mentor.imageUrl ? (
                     <img 
                       src={mentor.imageUrl} 
                       alt={mentor.name}
-                      className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
+                      className="w-full h-full object-cover object-top"
                     />
                   ) : (
-                    <User className="w-12 h-12 text-slate-400" />
+                    <User className="w-10 h-10 text-slate-400" />
                   )}
                 </div>
+
+                {/* Name */}
+                <h3 className="mt-4 text-[19px] font-extrabold text-slate-900 tracking-tight text-center relative z-10">
+                  {mentor.name}
+                </h3>
                 
-                {/* Subject Floating Badge */}
-                <div className="absolute -bottom-3 bg-slate-900 text-white text-xs font-bold px-4 py-1.5 rounded-full flex items-center gap-1.5 shadow-md border-2 border-white transform transition-transform group-hover:scale-105">
-                  <BookOpen className="w-3 h-3 text-blue-400" />
-                  {mentor.subject}
+                {/* Subject Badge */}
+                <div className="mt-2.5 relative z-10">
+                  <span className="inline-flex items-center gap-1.5 bg-blue-50 text-blue-700 text-[11px] font-bold px-3 py-1 rounded-full uppercase tracking-wider border border-blue-100 shadow-sm">
+                    <BookOpen className="w-3.5 h-3.5" />
+                    {mentor.subject}
+                  </span>
                 </div>
               </div>
 
+              <div className="px-6">
+                <div className="h-px w-full bg-slate-100 mt-2 mb-5"></div>
+              </div>
+
               {/* Content Body */}
-              <div className="p-6 pt-8 flex-1 flex flex-col text-center">
-                <h3 className="text-xl font-bold text-slate-900 mb-1">{mentor.name}</h3>
-                
-                <div className="mt-5 space-y-3 flex-1">
+              <div className="px-6 pb-8 flex-1 flex flex-col">
+                <div className="space-y-4 flex-1 flex flex-col justify-center">
                   {/* Qualifications */}
                   {mentor.qualifications && (
-                    <div className="flex items-center gap-3 text-sm text-slate-600 bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-                      <div className="w-8 h-8 rounded-md bg-blue-100 flex items-center justify-center shrink-0">
-                        <GraduationCap className="w-4 h-4 text-blue-700" />
+                    <div className="bg-blue-50/40 p-4 rounded-xl border border-blue-100/60 shadow-sm hover:shadow-md hover:bg-blue-50/70 transition-all duration-300">
+                      <h4 className="text-[10px] font-bold text-blue-600 uppercase tracking-widest mb-2 flex items-center gap-1.5">
+                        Qualifications
+                      </h4>
+                      <div className="text-[13.5px] font-semibold text-slate-700 leading-relaxed">
+                        {formatTextToList(mentor.qualifications)}
                       </div>
-                      <span className="font-medium text-left leading-tight line-clamp-2">
-                        {mentor.qualifications}
-                      </span>
                     </div>
                   )}
 
                   {/* Experience */}
                   {mentor.experience && (
-                    <div className="flex items-center gap-3 text-sm text-slate-600 bg-slate-50 p-2.5 rounded-lg border border-slate-100">
-                      <div className="w-8 h-8 rounded-md bg-yellow-100 flex items-center justify-center shrink-0">
-                        <Briefcase className="w-4 h-4 text-yellow-700" />
+                    <div className="bg-amber-50/40 p-4 rounded-xl border border-amber-100/60 shadow-sm hover:shadow-md hover:bg-amber-50/70 transition-all duration-300">
+                      <h4 className="text-[10px] font-bold text-amber-600 uppercase tracking-widest mb-2 flex items-center gap-1.5">
+                        Experience
+                      </h4>
+                      <div className="text-[13.5px] font-semibold text-slate-700 leading-relaxed">
+                        {formatTextToList(mentor.experience)}
                       </div>
-                      <span className="font-medium text-left leading-tight">
-                        {mentor.experience}
-                      </span>
                     </div>
                   )}
                 </div>
               </div>
-              
-              {/* Bottom Decoration */}
-              <div className="h-1.5 w-full bg-slate-50 group-hover:bg-blue-600 transition-colors duration-300"></div>
             </div>
           ))}
         </div>
