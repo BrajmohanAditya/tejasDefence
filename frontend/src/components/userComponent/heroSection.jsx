@@ -50,14 +50,14 @@ const HeroSection = () => {
                     key={exam._id}
                     className="flex flex-col items-center justify-center p-3 border border-slate-200 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-pointer"
                   >
-                    <div className="w-full h-16 mb-2 flex items-center justify-center">
+                    <div className="w-full h-16 mb-4 flex items-center justify-center">
                       <img
                         src={exam.imageUrl}
                         alt={exam.title}
-                        className="w-full h-full object-contain scale-[1.35] mix-blend-multiply"
+                        className="w-full h-full object-contain mix-blend-multiply"
                       />
                     </div>
-                    <span className="text-sm font-bold text-center text-slate-700 leading-tight">
+                    <span className="text-sm font-bold text-center text-slate-700 leading-tight px-1">
                       {exam.title}
                     </span>
                   </div>

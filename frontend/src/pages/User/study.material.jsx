@@ -65,11 +65,11 @@ const StudyMaterial = () => {
             <img
               src={quiz.logoUrl}
               alt={quiz.nameOfExam || "Exam logo"}
-              className="w-18 h-18 object-contain hover:scale-110 rounded-lg"
+              className="w-14 h-14 object-contain hover:scale-110 transition-transform rounded-lg mix-blend-multiply"
             />
           ) : (
             // Fallback icon just in case a quiz doesn't have a logo
-            <div className="w-16 h-16 rounded-full bg-slate-100 border border-slate-200" />
+            <div className="w-14 h-14 rounded-full bg-slate-100 border border-slate-200" />
           ),
           iconBg: "", // Empty to prevent the colored background circle
         };
@@ -94,10 +94,10 @@ const StudyMaterial = () => {
             <img
               src={quiz.logoUrl}
               alt={quiz.nameOfExam || "Exam logo"}
-              className="w-18 h-18 object-contain hover:scale-110 rounded-lg"
+              className="w-14 h-14 object-contain hover:scale-110 transition-transform rounded-lg mix-blend-multiply"
             />
           ) : (
-            <div className="w-16 h-16 rounded-full bg-slate-100 border border-slate-200" />
+            <div className="w-14 h-14 rounded-full bg-slate-100 border border-slate-200" />
           ),
           iconBg: "", // Empty to prevent the colored background circle
         };
@@ -224,7 +224,7 @@ const StudyMaterial = () => {
                           {item.icon}
                         </div>
                       ) : (
-                        <div className=" flex items-center justify-center">
+                        <div className="flex items-center justify-center mb-3 mt-1 h-16">
                           {item.icon}
                         </div>
                       )}
