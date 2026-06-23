@@ -6,6 +6,19 @@ const QualifiedMentorsDisplay = () => {
   const { data: mentorsResp, isLoading } = useGetQualifiedMentorsHook();
   const mentors = mentorsResp?.mentors || [];
 
+  // Helper to get high-quality, perfectly cropped square images from Cloudinary
+  const optimizeImageUrl = (url) => {
+    if (!url) return "";
+    if (url.includes("ui-avatars")) return url;
+    if (url.includes("cloudinary.com") && url.includes("/upload/")) {
+      if (!url.includes("/upload/c_")) {
+        // c_thumb + g_face + z_0.7 zooms into the face nicely for a closer portrait look
+        return url.replace("/upload/", "/upload/c_thumb,g_face,z_0.7,h_400,w_400,q_auto:best,f_auto/");
+      }
+    }
+    return url;
+  };
+
   // Helper to format qualifications text into a nice point-wise list
   const formatTextToList = (text) => {
     if (!text) return null;
@@ -105,12 +118,12 @@ const QualifiedMentorsDisplay = () => {
               
               {/* Image Section */}
               <div className="relative pt-8 pb-4 px-6 flex flex-col items-center">
-                <div className="w-[96px] h-[96px] rounded-full ring-4 ring-white shadow-md overflow-hidden bg-slate-50 flex items-center justify-center relative z-10 group-hover:scale-105 transition-transform duration-300">
+                <div className="w-28 h-28 shrink-0 rounded-full ring-4 ring-white shadow-md overflow-hidden bg-slate-50 flex items-center justify-center relative z-10 group-hover:scale-105 transition-transform duration-300">
                   {mentor.imageUrl ? (
                     <img 
-                      src={mentor.imageUrl} 
+                      src={optimizeImageUrl(mentor.imageUrl)} 
                       alt={mentor.name}
-                      className="w-full h-full object-cover object-top"
+                      className="w-full h-full aspect-square shrink-0 object-cover object-top"
                     />
                   ) : (
                     <User className="w-10 h-10 text-slate-400" />

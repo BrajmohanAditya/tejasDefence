@@ -16,6 +16,19 @@ const SuccessBoardDisplay = () => {
   const displayStudents =
     storyStudents.length > 0 ? Array(8).fill(storyStudents).flat() : [];
 
+  // Helper to get high-quality, perfectly cropped square images from Cloudinary
+  const optimizeImageUrl = (url) => {
+    if (!url) return "";
+    if (url.includes("ui-avatars")) return url;
+    if (url.includes("cloudinary.com") && url.includes("/upload/")) {
+      if (!url.includes("/upload/c_")) {
+        // c_thumb + g_face + z_0.7 zooms into the face nicely for a closer portrait look
+        return url.replace("/upload/", "/upload/c_thumb,g_face,z_0.7,h_400,w_400,q_auto:best,f_auto/");
+      }
+    }
+    return url;
+  };
+
   if (isLoading) {
     return (
       <div className="py-12 flex justify-center">
@@ -93,12 +106,12 @@ const SuccessBoardDisplay = () => {
                       {/* Profile Image & Quote Icon */}
                       <div className="relative shrink-0 pointer-events-none">
                         <img
-                          src={
+                          src={optimizeImageUrl(
                             student.imageUrl ||
-                            "https://ui-avatars.com/api/?name=" + student.name
-                          }
+                            "https://ui-avatars.com/api/?size=256&name=" + student.name
+                          )}
                           alt={student.name}
-                          className="w-20 h-20 rounded-full object-cover border-4 border-white shadow-sm z-10 relative bg-slate-100"
+                          className="w-28 h-28 aspect-square shrink-0 rounded-full object-cover border-4 border-white shadow-sm z-10 relative bg-slate-100"
                         />
                       </div>
 
@@ -152,12 +165,12 @@ const SuccessBoardDisplay = () => {
                     <div className="absolute -bottom-4 -right-4 w-16 h-16 bg-slate-50 rounded-full -z-10"></div>
 
                     <img
-                      src={
+                      src={optimizeImageUrl(
                         achiever.imageUrl ||
-                        "https://ui-avatars.com/api/?name=" + achiever.name
-                      }
+                        "https://ui-avatars.com/api/?size=256&name=" + achiever.name
+                      )}
                       alt={achiever.name}
-                      className="w-16 h-16 rounded-full object-cover border-2 border-white shadow-sm mb-3 z-10 bg-slate-100"
+                      className="w-28 h-28 aspect-square shrink-0 rounded-full object-cover border-2 border-white shadow-sm mb-3 z-10 bg-slate-100"
                     />
                     <h4 className="font-bold text-slate-800 text-sm mb-1.5 leading-tight z-10">
                       {achiever.name}
