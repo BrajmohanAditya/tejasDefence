@@ -91,7 +91,7 @@ const SuccessBoardDisplay = () => {
                 return (
                   <div
                     key={`${student._id}-${index}`}
-                    className={`min-w-[340px] max-w-[360px] bg-white rounded-2xl border border-slate-100 p-7 flex-shrink-0 relative overflow-hidden transition-transform duration-500 ease-out select-none ${theme.shadow} hover:-translate-y-2 hover:-translate-x-2`}
+                    className={`w-[85vw] max-w-[340px] sm:min-w-[340px] sm:max-w-[360px] bg-white rounded-2xl border border-slate-100 p-5 sm:p-7 flex-shrink-0 relative overflow-hidden transition-transform duration-500 ease-out select-none ${theme.shadow} hover:-translate-y-2 hover:-translate-x-2`}
                   >
                     {/* Decorative Background Blobs */}
                     <div
@@ -102,7 +102,7 @@ const SuccessBoardDisplay = () => {
                     ></div>
 
                     {/* Content */}
-                    <div className="flex gap-5 items-start">
+                    <div className="flex gap-4 sm:gap-5 items-start">
                       {/* Profile Image & Quote Icon */}
                       <div className="relative shrink-0 pointer-events-none">
                         <img
@@ -111,12 +111,12 @@ const SuccessBoardDisplay = () => {
                             "https://ui-avatars.com/api/?size=256&name=" + student.name
                           )}
                           alt={student.name}
-                          className="w-28 h-28 aspect-square shrink-0 rounded-full object-cover border-4 border-white shadow-sm z-10 relative bg-slate-100"
+                          className="w-20 h-20 sm:w-28 sm:h-28 aspect-square shrink-0 rounded-full object-cover border-4 border-white shadow-sm z-10 relative bg-slate-100"
                         />
                       </div>
 
                       {/* Story Text */}
-                      <p className="text-slate-600 text-[13px] leading-relaxed line-clamp-5 relative z-10 pt-1 pointer-events-none">
+                      <p className="text-slate-600 text-[12px] sm:text-[13px] leading-relaxed line-clamp-5 relative z-10 pt-1 pointer-events-none">
                         {student.story}
                       </p>
                     </div>
