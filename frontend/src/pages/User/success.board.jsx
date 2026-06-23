@@ -66,24 +66,24 @@ const SuccessBoardDisplay = () => {
               {displayStudents.map((student, index) => {
                 const themes = [
                   {
-                    shadow: "shadow-[8px_8px_0_0_#fde047]",
-                    badge: "bg-yellow-500",
-                    blob: "bg-yellow-200/50",
+                    shadow: "shadow-[8px_8px_0_0_#4d7c0f]",
+                    badge: "bg-lime-700",
+                    blob: "bg-lime-700/10",
                   },
                   {
-                    shadow: "shadow-[8px_8px_0_0_#60a5fa]",
-                    badge: "bg-blue-500",
-                    blob: "bg-blue-200/50",
+                    shadow: "shadow-[8px_8px_0_0_#1e3a8a]",
+                    badge: "bg-blue-900",
+                    blob: "bg-blue-900/10",
                   },
                   {
-                    shadow: "shadow-[8px_8px_0_0_#c084fc]",
-                    badge: "bg-purple-500",
-                    blob: "bg-purple-200/50",
+                    shadow: "shadow-[8px_8px_0_0_#b45309]",
+                    badge: "bg-amber-700",
+                    blob: "bg-amber-700/10",
                   },
                   {
-                    shadow: "shadow-[8px_8px_0_0_#f472b6]",
-                    badge: "bg-pink-400",
-                    blob: "bg-pink-200/50",
+                    shadow: "shadow-[8px_8px_0_0_#334155]",
+                    badge: "bg-slate-700",
+                    blob: "bg-slate-700/10",
                   },
                 ];
                 const theme = themes[index % themes.length];
@@ -122,7 +122,7 @@ const SuccessBoardDisplay = () => {
                     </div>
 
                     <div className="mt-6 pt-4 pointer-events-none">
-                      <h4 className="font-bold text-purple-800 text-[13px] tracking-tight">
+                      <h4 className="font-bold text-slate-900 text-[13px] tracking-tight">
                         {student.name}
                       </h4>
                       <p className="text-[11px] text-slate-500 mt-0.5 font-medium">
@@ -140,18 +140,18 @@ const SuccessBoardDisplay = () => {
         {achievers.length > 0 && (
           <div className="mt-16 pt-8 border-t border-slate-100">
             <div className="flex justify-between items-center mb-8">
-              <h3 className="text-xl font-bold text-purple-900">Achievers</h3>
+              <h3 className="text-xl font-bold text-slate-900">Achievers</h3>
             </div>
 
             <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 lg:grid-cols-5 xl:grid-cols-7 gap-4">
               {achievers.map((achiever, index) => {
                 // Color array for the top borders (similar to the image design)
                 const colors = [
-                  "border-purple-300",
-                  "border-pink-300",
-                  "border-yellow-300",
-                  "border-green-300",
-                  "border-blue-300",
+                  "border-lime-700",
+                  "border-blue-900",
+                  "border-amber-700",
+                  "border-slate-700",
+                  "border-emerald-800",
                 ];
                 const topBorderColor = colors[index % colors.length];
 
@@ -176,7 +176,7 @@ const SuccessBoardDisplay = () => {
                       {achiever.name}
                     </h4>
                     <p
-                      className={`text-[10px] font-bold ${topBorderColor.replace("border-", "text-").replace("-300", "-600")} leading-tight z-10`}
+                      className={`text-[10px] font-bold ${topBorderColor.replace("border-", "text-")} leading-tight z-10`}
                     >
                       {achiever.exam} {achiever.year}
                     </p>

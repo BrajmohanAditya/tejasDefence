@@ -1,10 +1,14 @@
 import React from "react";
 import { useGetQualifiedMentorsHook } from "../../hooks/qualifiedMentors.hook.js";
 import { GraduationCap, Briefcase, BookOpen, User } from "lucide-react";
+import SmoothCarousel from "@/components/ui/SmoothCarousel";
 
 const QualifiedMentorsDisplay = () => {
   const { data: mentorsResp, isLoading } = useGetQualifiedMentorsHook();
   const mentors = mentorsResp?.mentors || [];
+  
+  // Duplicate mentors for infinite carousel scroll
+  const displayMentors = mentors.length > 0 ? Array(8).fill(mentors).flat() : [];
 
   // Helper to get high-quality, perfectly cropped square images from Cloudinary
   const optimizeImageUrl = (url) => {
@@ -106,13 +110,14 @@ const QualifiedMentorsDisplay = () => {
           </p>
         </div>
 
-        {/* Mentors Grid */}
-        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6 lg:gap-8 max-w-7xl mx-auto">
-          {mentors.map((mentor) => (
-            <div 
-              key={mentor._id} 
-              className="group bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl hover:border-blue-200 transition-all duration-300 overflow-hidden flex flex-col relative"
-            >
+        {/* Mentors Carousel */}
+        <div className="max-w-7xl mx-auto">
+          <SmoothCarousel itemsPerSet={mentors.length} autoSlideInterval={4000}>
+            {displayMentors.map((mentor, index) => (
+              <div 
+                key={`${mentor._id}-${index}`} 
+                className="w-[85vw] max-w-[340px] sm:min-w-[340px] sm:max-w-[360px] group bg-white rounded-2xl shadow-sm border border-slate-200 hover:shadow-xl hover:border-blue-200 transition-all duration-300 overflow-hidden flex flex-col flex-shrink-0 relative"
+              >
               {/* Header Gradient (subtle) */}
               <div className="absolute top-0 inset-x-0 h-32 bg-gradient-to-b from-blue-50/80 to-transparent"></div>
               
@@ -177,7 +182,8 @@ const QualifiedMentorsDisplay = () => {
                 </div>
               </div>
             </div>
-          ))}
+            ))}
+          </SmoothCarousel>
         </div>
 
       </div>

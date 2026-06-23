@@ -107,14 +107,14 @@ const SmoothCarousel = ({ children, itemsPerSet, autoSlideInterval = 4000 }) => 
     >
       <button 
         onClick={scrollLeftBtn}
-        className="absolute left-0 top-1/2 -translate-y-1/2 -ml-5 z-20 bg-purple-800 text-white p-2.5 rounded-full shadow-lg hover:bg-purple-900 transition transform hover:scale-105 opacity-0 group-hover:opacity-100"
+        className="absolute left-0 top-1/2 -translate-y-1/2 -ml-5 z-20 bg-slate-800 text-white p-2.5 rounded-full shadow-lg hover:bg-slate-900 transition transform hover:scale-105 opacity-0 group-hover:opacity-100"
       >
         <ChevronLeft className="w-5 h-5" />
       </button>
       
       <button 
         onClick={scrollRightBtn}
-        className="absolute right-0 top-1/2 -translate-y-1/2 -mr-5 z-20 bg-purple-800 text-white p-2.5 rounded-full shadow-lg hover:bg-purple-900 transition transform hover:scale-105 opacity-0 group-hover:opacity-100"
+        className="absolute right-0 top-1/2 -translate-y-1/2 -mr-5 z-20 bg-slate-800 text-white p-2.5 rounded-full shadow-lg hover:bg-slate-900 transition transform hover:scale-105 opacity-0 group-hover:opacity-100"
       >
         <ChevronRight className="w-5 h-5" />
       </button>
