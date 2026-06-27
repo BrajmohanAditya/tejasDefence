@@ -36,4 +36,8 @@ jobs:
             npm install
             npm run build
             
+            echo "Copying new build to Nginx folder..."
+            sudo rm -rf /var/www/html/*
+            sudo cp -r dist/* /var/www/html/
+            
             echo "Deployment Completed Successfully!"
