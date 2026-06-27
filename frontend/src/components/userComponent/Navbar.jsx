@@ -20,25 +20,15 @@ import { userLogoutHook } from "../../hooks/User.hook";
 import { useNavigate } from "react-router-dom";
 import { useUserStore } from "../../store/user.store";
 import StudentIcon from "../icons/StudentIcon";
-import { GetUserHook } from "../../hooks/User.hook";
 import SearchBar from "./searchBar";
 
 const Navbar = () => {
   const queryClient = useQueryClient();
   const setUser = useUserStore((state) => state.setUser);
-  const { data, isError } = GetUserHook();
-
+  
   const navigate = useNavigate();
   const { mutate, isPending } = userLogoutHook();
   const { user } = useUserStore();
-
-  useEffect(() => {
-    if (data) {
-      setUser(data?.user);
-    } else if (isError) {
-      setUser(null);
-    }
-  }, [data, setUser]);
 
   const logoutHandler = () => {
     mutate(undefined, {
