@@ -17,14 +17,7 @@ function App() {
     }
   }, [data, isError, setUser, clearUser]);
 
-  // Jab tak API call ho rahi hai, hum app ko aage load nahi hone denge
-  if (isLoading) {
-    return (
-      <div className="h-screen w-full flex items-center justify-center">
-        <h2>Loading your profile...</h2>
-      </div>
-    );
-  }
+
 
   return (
     <>
