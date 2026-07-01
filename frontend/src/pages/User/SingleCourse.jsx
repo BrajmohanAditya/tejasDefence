@@ -34,7 +34,6 @@ const SingleCourse = () => {
         {/* Details below */}
         <div className="flex flex-col p-7 gap-4">
           <h1 className="text-2xl font-black text-slate-900">{course?.title}</h1>
-          <p className="text-slate-500 text-sm leading-relaxed">{course?.description}</p>
 
           {/* Meta */}
           <div className="flex items-center gap-5 text-sm text-slate-600">
