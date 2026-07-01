@@ -4,13 +4,13 @@ import { Course } from "../models/course.model.js";
 import { GoogleGenerativeAI } from "@google/generative-ai";
 import { User } from "../models/user.model.js";
 import { Modules } from "../models/module.model.js";
- 
+
 const genAi = new GoogleGenerativeAI(ENV.GEMINI_API_KEY);
 const model = genAi.getGenerativeModel({ model: "gemini-2.5-flash" });
 
 export const createCourse = async (req, res) => {
   try {
-    const { title, description, amount } = req.body;
+    const { title, description, amount, duration } = req.body;
     const thumbnail = req.file;
     if (!title || !description || !amount) {
       return res.status(400).json({
@@ -33,6 +33,7 @@ export const createCourse = async (req, res) => {
       title,
       description,
       amount,
+      duration,
       thumbnail: imageUrl,
       thumbnail_id: imageId,
     });
@@ -175,7 +176,7 @@ export const getAllPurchasedCourse = async (req, res) => {
   }
 };
 
-export const deleteCourse = async (req, res) => {
+export const deleteCourse = async (req, res, next) => {
   try {
     const courseId = req.params.id;
 
@@ -214,10 +215,46 @@ export const deleteCourse = async (req, res) => {
       message: "Course and all its modules deleted completely!",
     });
   } catch (error) {
-    console.log(`Error from delete course: ${error}`);
-    return res.status(500).json({
-      success: false,
-      message: "Internal server error",
-    });
+    next(error);
+  }
+};
+
+export const editCourse = async (req, res, next) => {
+  try {
+    const courseId = req.params.id;
+    const { title, description, amount, duration } = req.body;
+    const thumbnail = req.file;
+
+    const course = await Course.findById(courseId);
+    if (!course) {
+      return res
+        .status(404)
+        .json({ success: false, message: "Course not found" });
+    }
+
+    // Agar naya thumbnail upload kiya hai toh purana delete karke naya upload karo
+    if (thumbnail) {
+      if (course.thumbnail_id) {
+        await cloudinary.uploader.destroy(course.thumbnail_id);
+      }
+      const base64 = `data:${thumbnail.mimetype};base64,${thumbnail.buffer.toString("base64")}`;
+      const uploadRes = await cloudinary.uploader.upload(base64, {
+        folder: "Akash Acadmy",
+      });
+      course.thumbnail = uploadRes.secure_url;
+      course.thumbnail_id = uploadRes.public_id;
+    }
+
+    if (title) course.title = title;
+    if (description) course.description = description;
+    if (amount) course.amount = amount;
+    if (duration !== undefined) course.duration = duration;
+
+    await course.save();
+    return res
+      .status(200)
+      .json({ success: true, message: "Course updated successfully" });
+  } catch (error) {
+    return next(error);
   }
 };

@@ -24,6 +24,9 @@ const courseSchema = new mongoose.Schema({
     type:Number,
     required:true
   },
+  duration: {
+    type: String,
+  },
 
   modules:[
     {

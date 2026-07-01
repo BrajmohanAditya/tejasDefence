@@ -43,7 +43,7 @@ const SingleCourse = () => {
             </div>
             <div className="flex items-center gap-1.5">
               <Clock className="w-4 h-4 text-emerald-500" />
-              Lifetime Access
+              {course?.duration ? course.duration : "Lifetime Access"}
             </div>
           </div>
 

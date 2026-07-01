@@ -1,5 +1,5 @@
 import CreateCourseDialog from "../../components/Admin/CreateCourseDialog";
-import { useGetCourseHook, useDeleteCourseHook } from "../../hooks/course.hook";
+import { useGetCourseHook, useDeleteCourseHook, useEditCourseHook } from "../../hooks/course.hook";
 import { useNavigate } from "react-router-dom";
 import { Edit, Trash2, BookOpen, Video } from "lucide-react";
 import DeleteAlertbox from "@/components/ui/DeleteAlertbox";
@@ -14,6 +14,7 @@ const DashboardProducts = () => {
   const { mutate: deleteCourse, isPending } = useDeleteCourseHook();
 
   const [deleteConfirm, setDeleteConfirm] = useState(null);
+  const [editingCourse, setEditingCourse] = useState(null);
 
   const handleDelete = (id, title) => {
     setDeleteConfirm({ id, title });
@@ -31,7 +32,10 @@ const DashboardProducts = () => {
             View, edit, and manage all active courses.
           </p>
         </div>
-        <CreateCourseDialog />
+        <CreateCourseDialog 
+          editingCourse={editingCourse}
+          onCloseEdit={() => setEditingCourse(null)}
+        />
       </div>
 
       {/* Admin List Section */}
@@ -60,8 +64,15 @@ const DashboardProducts = () => {
                         <div className="w-10 h-10 rounded-lg bg-blue-100 flex items-center justify-center text-blue-700 shrink-0">
                           <BookOpen className="w-5 h-5" />
                         </div>
-                        <div className="font-semibold text-slate-900 line-clamp-1">
-                          {item.title}
+                        <div className="flex flex-col">
+                          <div className="font-semibold text-slate-900 line-clamp-1">
+                            {item.title}
+                          </div>
+                          {item.duration && (
+                            <div className="text-xs text-slate-500 mt-0.5">
+                              Duration: {item.duration}
+                            </div>
+                          )}
                         </div>
                       </div>
                     </td>
@@ -90,7 +101,7 @@ const DashboardProducts = () => {
                         <button
                           onClick={(e) => {
                             e.stopPropagation();
-                            console.log("Edit clicked", item._id);
+                            setEditingCourse(item);
                           }}
                           className="p-2 text-slate-400 hover:text-blue-600 hover:bg-blue-50 rounded-lg transition-colors"
                           title="Edit Course"
@@ -142,13 +153,21 @@ const DashboardProducts = () => {
                   <div className="font-semibold text-slate-900 text-base leading-tight line-clamp-2">
                     {item.title}
                   </div>
-                  <div className="mt-1.5 flex items-center gap-2">
+                  <div className="mt-1.5 flex flex-wrap items-center gap-2">
                     <span className="inline-flex items-center px-2 py-0.5 rounded-full text-[10px] font-medium bg-blue-100 text-blue-800">
                       Active
                     </span>
                     <span className="text-xs text-slate-500 font-medium">
                       ₹{item.amount}
                     </span>
+                    {item.duration && (
+                      <>
+                        <span className="text-slate-300">•</span>
+                        <span className="text-xs text-slate-500 font-medium">
+                          {item.duration}
+                        </span>
+                      </>
+                    )}
                   </div>
                 </div>
               </div>
@@ -178,10 +197,10 @@ const DashboardProducts = () => {
                 >
                   <Video className="w-4 h-4" /> Video
                 </button>
-                <button
+                 <button
                   onClick={(e) => {
                     e.stopPropagation();
-                    console.log("Edit clicked", item._id);
+                    setEditingCourse(item);
                   }}
                   className="flex-1 flex justify-center items-center gap-2 py-2 px-3 text-sm font-medium text-slate-600 bg-slate-100 hover:bg-blue-50 hover:text-blue-700 rounded-lg transition-colors border border-transparent hover:border-blue-100"
                 >

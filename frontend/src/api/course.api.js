@@ -74,6 +74,16 @@ export const deleteCourseApi = async (courseId) => {
     return res.data;
 }
 
+export const editCourseApi = async ({ courseId, formData }) => {
+    const res = await axios.put(`${baseUrl}/course/editCourse/${courseId}`,
+        formData,
+        {
+            headers: { 'Content-Type': 'multipart/form-data' },
+            withCredentials: true
+        }
+    )
+    return res.data
+}
 
 
 

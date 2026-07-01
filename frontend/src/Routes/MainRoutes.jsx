@@ -4,7 +4,7 @@ import Login from "../pages/Auth/Login";
 import Register from "../pages/Auth/Register";
 import Home from "../pages/User/Home";
 import { ProtectedRoutes } from "./protectedRoute";
-import DashboardProducts from "../pages/Admin/DashboardProducts";
+import DashboardProducts from "../pages/Admin/course";
 import Dashboard from "../pages/Admin/dashboard";
 import UserLayout from "../layout/userLayout";
 import ModulePage from "../pages/Admin/module";

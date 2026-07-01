@@ -5,6 +5,7 @@ import {
   getSinglePurchaseCourseApi,
   getSingleCourseApi,
   deleteCourseApi,
+  editCourseApi,
 } from "../api/course.api.js";
 import { useMutation, useQuery, useQueryClient } from "@tanstack/react-query";
 import { toast } from "sonner";
@@ -67,6 +68,20 @@ export const useDeleteCourseHook = () => {
     },
     onError: (err) => {
       console.log(err);
+    },
+  });
+};
+
+export const useEditCourseHook = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: editCourseApi,
+    onSuccess: (data) => {
+      queryClient.invalidateQueries(["getCourse"]);
+      toast.success(data?.message);
+    },
+    onError: (err) => {
+      toast.error(err.response?.data?.message || "Failed to update course");
     },
   });
 };

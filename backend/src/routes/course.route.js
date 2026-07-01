@@ -8,6 +8,7 @@ import {
   getCourse,
   getSingleCourse,
   getSinglePurchasedCourse,
+  editCourse
 } from "../controllers/course.controller.js";
 
 const courseRoute = express.Router();
@@ -27,5 +28,6 @@ courseRoute.get(
   getSinglePurchasedCourse,
 );
 courseRoute.delete("/deleteCourse/:id", isLoggedIn, isAdmin, deleteCourse);
+courseRoute.put("/editCourse/:id", isLoggedIn, isAdmin, upload.single("thumbnail"), editCourse);
 
 export default courseRoute;
