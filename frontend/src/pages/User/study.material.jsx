@@ -3,25 +3,20 @@ import { useNavigate } from "react-router-dom";
 
 import {
   PlaySquare,
-  Calculator,
-  Brain,
-  Languages,
-  Globe,
+
   FileCheck,
   PenTool,
   FileBox,
   Calendar,
   MessageCircle,
-  Camera,
-  Users,
   Send,
-  Video,
   Target,
   Megaphone,
   Crown,
 } from "lucide-react";
 
 import { useGetQuizzesHook } from "@/hooks/quiz/quiz.hook";
+import InstagramIcon from "@/components/icons/InstagramIcon";
 const StudyMaterial = () => {
   const navigate = useNavigate();
 
@@ -153,21 +148,25 @@ const StudyMaterial = () => {
           name: "WhatsApp",
           icon: <MessageCircle className="w-5 h-5 text-green-500" />,
           iconBg: "bg-green-100",
+          action: () => window.open("https://chat.whatsapp.com/D0zaMV3rs8V02UWbB8cmz4", "_blank"),
         },
         {
           name: "Instagram",
-          icon: <Camera className="w-5 h-5 text-pink-600" />,
+          icon: <InstagramIcon className="w-5 h-5 text-pink-600" />,
           iconBg: "bg-pink-100",
-        },
-        {
-          name: "Group",
-          icon: <Users className="w-5 h-5 text-blue-500" />,
-          iconBg: "bg-blue-100",
+          action: () => window.open("https://instagram.com/", "_blank"),
         },
         {
           name: "Channel",
+          icon: <Send className="w-5 h-5 text-blue-500" />,
+          iconBg: "bg-blue-100",
+          action: () => window.open("https://t.me/+pjxH9qZmjyo0MTFl", "_blank"),
+        },
+        {
+          name: "Group",
           icon: <Send className="w-5 h-5 text-sky-500" />,
           iconBg: "bg-sky-100",
+          action: () => window.open("https://t.me/+2ogEgNHN7OljMTE1", "_blank"),
         },
       ],
     },
