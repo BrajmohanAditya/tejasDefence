@@ -69,7 +69,7 @@ const HeroSection = () => {
           {/* ========================================= */}
           {/* RIGHT SIDE: Offer Banner (50% width)      */}
           {/* ========================================= */}
-          <div className=" w-full lg:w-[50%] bg-white shadow-sm border border-slate-200 rounded-2xl overflow-hidden relative lg:h-[240px] flex items-center justify-center p-3 lg:p-0">
+          <div className=" w-full lg:w-[50%] bg-white shadow-sm border border-slate-200 rounded-2xl overflow-hidden relative h-[180px] sm:h-[200px] lg:h-[240px] flex items-center justify-center p-3 lg:p-0">
             {isLoading ? (
               <h2 className="text-slate-800 text-xl font-bold z-10">
                 Loading banner...
