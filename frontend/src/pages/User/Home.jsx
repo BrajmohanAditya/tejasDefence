@@ -12,7 +12,7 @@ import QualifiedMentorsDisplay from "./qualifiedMentors.board";
 const Home = () => {
   const [showPopup, setShowPopup] = useState(() => {
     const hasSeenPopup = sessionStorage.getItem("hasSeenPopup");
-    return !hasSeenPopup; // Returns true (show popup) if not seen yet, false otherwise
+    return !hasSeenPopup; 
   });
 
   const handleClose = () => {
