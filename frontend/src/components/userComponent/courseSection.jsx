@@ -4,7 +4,7 @@ import {
   useGetAllPurchasedCourseHook,
 } from "../../hooks/course.hook.js";
 import { useNavigate } from "react-router-dom";
-import { Clock, Users, Star, ArrowRight, Zap } from "lucide-react";
+import { Clock, Users, Star, ArrowRight, Zap, MessageSquare } from "lucide-react";
 
 const courseSection = () => {
   const { data, error, isLoading } = useGetCourseHook();
@@ -57,7 +57,7 @@ const courseSection = () => {
                 <div className="absolute top-3 right-3 bg-white/90 backdrop-blur-sm px-3 py-1 rounded-full shadow-lg">
                   <Star className="w-4 h-4 text-yellow-500 fill-current inline mr-1" />
                   <span className="text-sm font-bold text-slate-800">
-                      {item.rating || (4.5 + Math.random() * 0.5).toFixed(1)}
+                    {item.rating || (4.5 + Math.random() * 0.5).toFixed(1)}
                   </span>
                 </div>
               </div>
@@ -81,6 +81,18 @@ const courseSection = () => {
                   <div className="flex items-center gap-2 text-sm text-slate-600">
                     <Clock className="w-4 h-4" />
                     <span>{item.duration || "12 hours"}</span>
+                  </div>
+
+                  {/* Highlights Badges */}
+                  <div className="flex flex-wrap gap-2 mt-1">
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-blue-50/80 border border-blue-100 rounded-lg text-xs font-semibold text-blue-800 shadow-sm w-fit">
+                      <Zap className="w-3.5 h-3.5 text-blue-600 fill-blue-100 animate-pulse" />
+                      <span>20 Online & 20 Offline Mocks + Daily Live Test</span>
+                    </div>
+                    <div className="inline-flex items-center gap-1.5 px-2.5 py-1 bg-purple-50/80 border border-purple-100 rounded-lg text-xs font-semibold text-purple-800 shadow-sm w-fit">
+                      <MessageSquare className="w-3.5 h-3.5 text-purple-600 fill-purple-100" />
+                      <span>30 Min Spoken English Session</span>
+                    </div>
                   </div>
                 </div>
 
