@@ -40,7 +40,7 @@ const SuccessBoardDisplay = () => {
   if (students.length === 0) return null;
 
   return (
-    <div className="py-16 bg-white overflow-hidden font-sans">
+    <div id="success-stories" className="py-16 bg-white overflow-hidden font-sans">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         {/* Success Stories Section */}
         {storyStudents.length > 0 && (
