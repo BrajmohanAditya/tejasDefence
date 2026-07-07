@@ -1,0 +1,132 @@
+[
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Consider the following statements:\nI. If θ = 1200°, then (secθ + tanθ)^(-1) is positive.\nII. If θ = 1200°, then (cosecθ − cotθ) is negative.\nWhich of the statements given above is/are correct?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "Only I", "isCorrect": false },
+      { "text": "Only II", "isCorrect": false },
+      { "text": "Both I nor II", "isCorrect": false },
+      { "text": "Neither I nor II", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Match List I with List II and select the correct answer using the code given below the lists.",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "A-(iv), B-(i), C-(ii)", "isCorrect": false },
+      { "text": "A-(iv), B-(ii), C-(i)", "isCorrect": true },
+      { "text": "A-(iii), B-(ii), C-(i)", "isCorrect": false },
+      { "text": "A-(ii), B-(i), C-(iv)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If A + B + C = π/2, then what is the value of tanA tanB + tanB tanC + tanC tanA?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": true },
+      { "text": "-1", "isCorrect": false },
+      { "text": "tanA tanB tanC", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cos(π/9) + cos(π/3) + cos(5π/9) + cos(7π/9)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "-1", "isCorrect": false },
+      { "text": "-1/2", "isCorrect": false },
+      { "text": "1/2", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If cotθ = 5/12 and θ lies in the third quadrant, then what is the value of (2sinθ + 3cosθ)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-4", "isCorrect": false },
+      { "text": "-p² for some odd prime p", "isCorrect": false },
+      { "text": "-46/13", "isCorrect": true },
+      { "text": "-p for some odd prime p", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If cotθ = 2cosθ, where π/2 < θ < π, then what is the value of θ?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "5π/6", "isCorrect": true },
+      { "text": "2π/3", "isCorrect": false },
+      { "text": "3π/4", "isCorrect": false },
+      { "text": "11π/12", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If p = sin(989°) cos(991°), then which one of the following is correct?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "p is finite and positive", "isCorrect": false },
+      { "text": "p is finite and negative", "isCorrect": true },
+      { "text": "p = 0", "isCorrect": false },
+      { "text": "p is undefined", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sinx + cosecx = 2, then what is the value of sin⁴x + cosec⁴x?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "2", "isCorrect": true },
+      { "text": "4", "isCorrect": false },
+      { "text": "8", "isCorrect": false },
+      { "text": "16", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of tan(-1575°)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": true },
+      { "text": "1/2", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "-1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "For which acute angle θ, cosec²θ = 3√3 cotθ − 5?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "5π/12", "isCorrect": false },
+      { "text": "π/3", "isCorrect": false },
+      { "text": "π/6", "isCorrect": true },
+      { "text": "π/4", "isCorrect": false }
+    ]
+  }
+]

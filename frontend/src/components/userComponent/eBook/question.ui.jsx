@@ -29,90 +29,59 @@ const QuestionCard = ({
           )}
         </div>
 
-        {currentQuestion.optionsInstruction ? (
-          /* COMPREHENSION LAYOUT: Side-by-side with independent scroll panels */
-          <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch min-h-0 overflow-hidden mt-3">
-            {/* Left Column: Comprehension */}
-            <div className="flex flex-col h-full min-h-0 overflow-hidden md:border-r md:border-slate-100 md:pr-4">
-              <div className="text-xs sm:text-sm font-semibold text-slate-800 shrink-0 mb-3">
-                <span className="text-slate-500 font-bold">(Que No. {currentIdx + 1} - {currentIdx + 1})</span>
-              </div>
-              <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar text-xs sm:text-sm text-slate-700 font-medium leading-relaxed whitespace-pre-line min-h-0">
-                {currentQuestion.optionsInstruction}
-              </div>
+        {/* Split Layout: Question on the Left, Instructions & Options on the Right */}
+        <div className="flex-1 grid grid-cols-1 md:grid-cols-2 gap-6 items-stretch min-h-0 overflow-hidden mt-3">
+          {/* Left Column: Question Text & Image */}
+          <div className="flex flex-col h-full min-h-0 overflow-hidden md:border-r md:border-slate-100 md:pr-4">
+            <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider shrink-0 mb-3">
+              (Que No. {currentIdx + 1})
             </div>
-
-            {/* Right Column: Question & Options */}
-            <div className="flex flex-col h-full min-h-0 overflow-hidden">
-              <div className="flex-1 overflow-y-auto pr-1 custom-scrollbar min-h-0 space-y-4">
-
-                <h2 className="text-xs sm:text-sm font-bold text-slate-800 leading-relaxed whitespace-pre-line">
-                  {currentQuestion.questionText}
-                </h2>
-
-                {/* Question Image if present */}
-                {currentQuestion.questionImage && (
-                  <div className="max-h-56 bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center p-3">
-                    <img
-                      src={currentQuestion.questionImage}
-                      alt="Question Visual"
-                      className="max-h-full max-w-full object-contain"
-                    />
-                  </div>
-                )}
-
-                {/* Options List */}
-                <div className="pt-1">
-                  <OptionList
-                    options={currentQuestion.options}
-                    questionId={currentQuestion._id}
-                    userAnswer={userAnswer}
-                    onSelectOption={onSelectOption}
+            <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar text-xs sm:text-sm text-slate-800 font-bold leading-relaxed whitespace-pre-line min-h-0 space-y-4">
+              <h2 className="text-xs sm:text-sm font-bold text-slate-800 leading-relaxed">
+                {currentQuestion.questionText}
+              </h2>
+              
+              {/* Question Image if present */}
+              {currentQuestion.questionImage && (
+                <div className="max-h-56 bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center p-3">
+                  <img
+                    src={currentQuestion.questionImage}
+                    alt="Question Visual"
+                    className="max-h-full max-w-full object-contain"
                   />
                 </div>
-
-                {/* Solution Explanation */}
-                <SolutionExplanation
-                  userAnswer={userAnswer}
-                  solutionExplanation={currentQuestion.solutionExplanation}
-                />
-              </div>
+              )}
             </div>
           </div>
-        ) : (
-          /* STANDARD LAYOUT: Single scrollable vertical stack */
-          <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar min-h-0 space-y-5 mt-3">
-            {/* Question Title */}
-            <h2 className="text-sm sm:text-base font-extrabold text-slate-855 leading-relaxed">
-              {currentQuestion.questionText}
-            </h2>
 
-            {/* Question Image if present */}
-            {currentQuestion.questionImage && (
-              <div className="mb-5 max-h-56 bg-slate-50 border border-slate-100 rounded-xl overflow-hidden flex items-center justify-center p-3">
-                <img
-                  src={currentQuestion.questionImage}
-                  alt="Question Visual"
-                  className="max-h-full max-w-full object-contain"
+          {/* Right Column: Instructions, Options & Solution */}
+          <div className="flex flex-col h-full min-h-0 overflow-hidden">
+            <div className="flex-1 overflow-y-auto pr-1 custom-scrollbar min-h-0 space-y-4">
+              {/* Options Instruction if present */}
+              {currentQuestion.optionsInstruction && (
+                <div className="text-xs text-slate-500 font-semibold bg-slate-50 p-2.5 rounded-lg border border-slate-100 italic">
+                  {currentQuestion.optionsInstruction}
+                </div>
+              )}
+
+              {/* Options List */}
+              <div className="pt-1">
+                <OptionList
+                  options={currentQuestion.options}
+                  questionId={currentQuestion._id}
+                  userAnswer={userAnswer}
+                  onSelectOption={onSelectOption}
                 />
               </div>
-            )}
 
-            {/* Options List Component */}
-            <OptionList
-              options={currentQuestion.options}
-              questionId={currentQuestion._id}
-              userAnswer={userAnswer}
-              onSelectOption={onSelectOption}
-            />
-
-            {/* Solution Explanation Component */}
-            <SolutionExplanation
-              userAnswer={userAnswer}
-              solutionExplanation={currentQuestion.solutionExplanation}
-            />
+              {/* Solution Explanation */}
+              <SolutionExplanation
+                userAnswer={userAnswer}
+                solutionExplanation={currentQuestion.solutionExplanation}
+              />
+            </div>
           </div>
-        )}
+        </div>
 
         {/* Navigation Buttons */}
         <div className="flex items-center justify-between border-t border-slate-100 mt-4 pt-4 gap-4 shrink-0">

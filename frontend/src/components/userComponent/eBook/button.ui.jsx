@@ -13,7 +13,7 @@ const QuestionPalette = ({ questions = [], currentIdx, setCurrentIdx, userAnswer
       </div>
 
       {questions.length > 0 ? (
-        <div className="grid grid-cols-5 gap-2 flex-1 overflow-y-auto pr-1 custom-scrollbar min-h-0">
+        <div className="grid grid-cols-5 gap-2 flex-1 overflow-y-auto pr-1 custom-scrollbar min-h-0 content-start">
           {questions.map((q, qIndex) => {
             const qId = q._id;
             const answer = userAnswers[qId];
