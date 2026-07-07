@@ -3,7 +3,7 @@ import { toast } from "sonner";
 import {
   submitQuizApi,
   getMyQuizResultsApi,
-} from "../../api/quizResult.api.js";
+} from "../../api/quize/quizResult.api.js";
 import { useNavigate } from "react-router-dom";
 
 export const useSubmitQuizHook = () => {

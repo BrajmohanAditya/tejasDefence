@@ -33,7 +33,7 @@ const Navbar = () => {
   const logoutHandler = () => {
     mutate(undefined, {
       onSuccess: () => {
-        queryClient.removeQueries(["get-user"]);
+        queryClient.removeQueries({ queryKey: ["get-user"] });
         setUser(null); // This instantly clears the global state!
         navigate("/login"); // Optional: send them to the login page
       },

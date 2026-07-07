@@ -21,6 +21,9 @@ import QuizResult from "@/pages/User/quize/quize.result";
 import PremiumStudent from "@/pages/Admin/premiumStudent";
 import SuccessBoard from "@/pages/Admin/Success.board";
 import QualifiedMentors from "@/pages/Admin/qualifiedMentors";
+import EbookCreate from "@/pages/Admin/ebook";
+import AllEbooks from "@/pages/User/eBooks.jsx/All.eBook";
+import EbookQuestionPractice from "@/pages/User/eBooks.jsx/eBook.ui";
 // UserLayout wraps routes that SHOULD have the top Navbar
 
 const MainRoutes = () => {
@@ -81,6 +84,17 @@ const MainRoutes = () => {
             </ProtectedRoutes>
           }
         />
+
+        <Route
+          path="/ebooks"
+          element={
+            <ProtectedRoutes>
+              <AllEbooks />
+            </ProtectedRoutes>
+          }
+        />
+
+
       </Route>
 
       {/* --- Full Screen Mock Test (No Navbar) --- */}
@@ -92,6 +106,14 @@ const MainRoutes = () => {
           </ProtectedRoutes>
         }
       />
+              <Route
+          path="/ebooks/practice/:id"
+          element={
+            <ProtectedRoutes>
+              <EbookQuestionPractice />
+            </ProtectedRoutes>
+          }
+        />
 
       {/* --- Admin Routes (No Main Navbar) --- */}
       <Route
@@ -155,6 +177,15 @@ const MainRoutes = () => {
           element={
             <ProtectedRoutes>
               <QualifiedMentors />
+            </ProtectedRoutes>
+          }
+        />
+
+        <Route
+          path="ebook"
+          element={
+            <ProtectedRoutes>
+              <EbookCreate />
             </ProtectedRoutes>
           }
         />

@@ -3,7 +3,7 @@ import { toast } from "sonner";
 import {
   createQuizQuestionApi,
   getQuizQuestionsApi,
-} from "../../api/quiz.createQuest.api.js";
+} from "../../api/quize/quiz.createQuest.api.js";
 
 export const useCreateQuizQuestionHook = () => {
   return useMutation({

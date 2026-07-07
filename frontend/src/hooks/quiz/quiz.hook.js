@@ -7,7 +7,7 @@ import {
   getQuizByIdApi,
   toggleQuizLockApi,
   toggleQuizTypeApi,
-} from "../../api/quiz.api.js";
+} from "../../api/quize/quiz.api.js";
 
 export const useCreateQuizHook = () => {
   return useMutation({

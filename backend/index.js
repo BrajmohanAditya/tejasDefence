@@ -14,7 +14,9 @@ import quizResultRoute from "./src/routes/quiz/quizResult.route.js";
 import premiumStudentRoute from "./src/routes/premium.student.route.js";
 import successBoardRoute from "./src/routes/success.board.route.js";
 import qualifiedMentorRoute from "./src/routes/qualifiedMentors.js";
-   
+import ebookRoute from "./src/routes/ebook.route.js";
+import ebookQuestionRoute from "./src/routes/ebookQuestion.route.js";
+
 const app = express();
 
 app.use(express.json());
@@ -26,7 +28,7 @@ app.use(
     credentials: true,
   }),
 );
-   
+
 app.use("/api", userRoute);
 app.use("/api/course", courseRoute);
 app.use("/api/module", moduleRoute);
@@ -38,6 +40,8 @@ app.use("/api/quizResult", quizResultRoute);
 app.use("/api/premiumStudent", premiumStudentRoute);
 app.use("/api/successBoard", successBoardRoute);
 app.use("/api/mentor", qualifiedMentorRoute);
+app.use("/api/ebook", ebookRoute);
+app.use("/api/ebookQuestion", ebookQuestionRoute);
 
 app.get("/", (req, res) => {
   res.send("Hello World!");

@@ -5,7 +5,7 @@ import {
   PlaySquare,
 
   FileCheck,
-  PenTool,
+  Book,
   FileBox,
   Calendar,
   MessageCircle,
@@ -100,7 +100,7 @@ const StudyMaterial = () => {
     },
 
     {
-      title: "Free Materials",
+      title: "Study Materials",
       bgColor: "bg-[#E6EFFF]", // Light blue
       titleColor: "text-blue-700",
       mainIcon: (
@@ -116,9 +116,10 @@ const StudyMaterial = () => {
           iconBg: "bg-blue-100",
         },
         {
-          name: "Practice Quiz",
-          icon: <PenTool className="w-5 h-5 text-pink-500" />,
+          name: "Practice Book",
+          icon: <Book className="w-5 h-5 text-pink-500" />,
           iconBg: "bg-pink-100",
+          action: () => navigate("/ebooks"),
         },
         {
           name: "PYP",
