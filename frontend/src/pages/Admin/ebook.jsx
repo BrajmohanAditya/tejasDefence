@@ -11,12 +11,14 @@ import {
 } from "lucide-react";
 import CreateEbookDialog from "../../components/Admin/ebook/create.Ebook";
 import AddChapterDialog from "../../components/Admin/ebook/add.chapter";
+import ManageQuestionsDialog from "../../components/Admin/ebook/manage.questions";
 import {
   useGetEbooksHook,
   useDeleteEbookHook,
 } from "../../hooks/eBook.jsx/ebook.hook";
 import { format } from "date-fns";
 import DeleteAlertbox from "@/components/ui/DeleteAlertbox";
+import { Layers } from "lucide-react";
 
 const EbookCreate = () => {
   const { data, isLoading, isError, refetch } = useGetEbooksHook();
@@ -26,6 +28,7 @@ const EbookCreate = () => {
   const [editingEbook, setEditingEbook] = useState(null);
   const [ebookToDelete, setEbookToDelete] = useState(null);
   const [ebookForChapter, setEbookForChapter] = useState(null);
+  const [ebookForQuestions, setEbookForQuestions] = useState(null);
 
   const handleDeleteEbook = (ebook) => {
     setEbookToDelete(ebook);
@@ -162,6 +165,13 @@ const EbookCreate = () => {
                     <td className="px-6 py-4">
                       <div className="flex items-center justify-end gap-3">
                         <button
+                          onClick={() => setEbookForQuestions(ebook)}
+                          className="p-1.5 text-indigo-600 hover:text-indigo-800 hover:bg-indigo-50 rounded-lg transition cursor-pointer"
+                          title="Manage Questions"
+                        >
+                          <Layers className="w-4.5 h-4.5" />
+                        </button>
+                        <button
                           onClick={() => setEbookForChapter(ebook)}
                           className="p-1.5 text-indigo-600 hover:text-indigo-800 hover:bg-indigo-50 rounded-lg transition cursor-pointer"
                           title="Add Chapter"
@@ -219,6 +229,12 @@ const EbookCreate = () => {
         isOpen={!!ebookForChapter}
         ebook={ebookForChapter}
         onClose={() => setEbookForChapter(null)}
+      />
+
+      <ManageQuestionsDialog
+        isOpen={!!ebookForQuestions}
+        ebook={ebookForQuestions}
+        onClose={() => setEbookForQuestions(null)}
       />
     </div>
   );

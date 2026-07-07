@@ -134,3 +134,67 @@ export const deleteEbookQuestion = async (req, res, next) => {
     next(error);
   }
 };
+
+export const updateEbookQuestion = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const {
+      chapterNumber,
+      chapterName,
+      questionText,
+      marks,
+      optionsInstruction,
+      options,
+      solutionExplanation,
+    } = req.body;
+
+    const question = await EbookQuestion.findById(id);
+    if (!question) {
+      return res.status(404).json({
+        success: false,
+        message: "Question not found",
+      });
+    }
+
+    let parsedOptions = options;
+    if (typeof options === "string") {
+      try {
+        parsedOptions = JSON.parse(options);
+      } catch (err) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid options format",
+        });
+      }
+    }
+
+    let questionImageUrl = question.questionImage;
+    if (req.file) {
+      const base64Img = `data:${req.file.mimetype};base64,${req.file.buffer.toString("base64")}`;
+      const uploadResImg = await cloudinary.uploader.upload(base64Img, {
+        folder: "TejasDefence/ebooks/questions",
+      });
+      questionImageUrl = uploadResImg.secure_url;
+    }
+
+    question.chapterNumber = Number(chapterNumber || question.chapterNumber);
+    if (chapterName !== undefined) question.chapterName = chapterName;
+    if (questionText !== undefined) question.questionText = questionText;
+    if (marks !== undefined) question.marks = Number(marks);
+    if (optionsInstruction !== undefined) question.optionsInstruction = optionsInstruction;
+    if (parsedOptions !== undefined) question.options = parsedOptions;
+    if (solutionExplanation !== undefined) question.solutionExplanation = solutionExplanation;
+    question.questionImage = questionImageUrl;
+
+    await question.save();
+
+    return res.status(200).json({
+      success: true,
+      message: "Question updated successfully",
+      question,
+    });
+  } catch (error) {
+    console.error("Error updating ebook question:", error);
+    next(error);
+  }
+};

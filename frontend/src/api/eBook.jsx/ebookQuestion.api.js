@@ -28,3 +28,12 @@ export const deleteEbookQuestionApi = async (id) => {
   const { data } = await client.delete(`/delete/${id}`);
   return data;
 };
+
+export const updateEbookQuestionApi = async ({ id, payload }) => {
+  const { data } = await client.put(`/update/${id}`, payload, {
+    headers: {
+      "Content-Type": "multipart/form-data",
+    },
+  });
+  return data;
+};
