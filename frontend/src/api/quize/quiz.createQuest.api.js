@@ -21,3 +21,23 @@ export const getQuizQuestionsApi = async (quizId) => {
     );
     return res.data;
 };
+
+export const updateQuizQuestionApi = async ({ id, payload }) => {
+    const res = await axios.put(`${baseUrl}/quizQuestion/update/${id}`, 
+        payload, 
+        {
+            headers: { 'Content-Type': 'application/json' },
+            withCredentials: true
+        }
+    );
+    return res.data;
+};
+
+export const deleteQuizQuestionApi = async (id) => {
+    const res = await axios.delete(`${baseUrl}/quizQuestion/delete/${id}`, 
+        {
+            withCredentials: true
+        }
+    );
+    return res.data;
+};

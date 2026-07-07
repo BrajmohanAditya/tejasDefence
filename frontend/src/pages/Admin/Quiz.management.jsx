@@ -20,8 +20,9 @@ import {
 } from "../../hooks/quiz/quiz.hook";
 import { format } from "date-fns";
 import QuizQuestionAdd from "../../components/Admin/quiz.question.add";
+import ManageQuizQuestionsDialog from "../../components/Admin/quiz/manage.quiz.questions";
 import DeleteAlertbox from "../../components/ui/DeleteAlertbox";
-import { Lock, Unlock } from "lucide-react";
+import { Lock, Unlock, Layers } from "lucide-react";
 
 const QuizManagement = () => {
   const { data, isLoading, isError } = useGetQuizzesHook();
@@ -30,11 +31,18 @@ const QuizManagement = () => {
 
   const [selectedQuizForAdd, setSelectedQuizForAdd] = useState(null);
   const [isAddQuestionOpen, setIsAddQuestionOpen] = useState(false);
+  const [selectedQuizForManage, setSelectedQuizForManage] = useState(null);
+  const [isManageQuestionOpen, setIsManageQuestionOpen] = useState(false);
   const [quizToDelete, setQuizToDelete] = useState(null);
 
   const handleOpenAddQuestion = (quiz) => {
     setSelectedQuizForAdd(quiz);
     setIsAddQuestionOpen(true);
+  };
+
+  const handleOpenManageQuestions = (quiz) => {
+    setSelectedQuizForManage(quiz);
+    setIsManageQuestionOpen(true);
   };
 
   const handleDeleteQuiz = (quiz) => {
@@ -156,6 +164,14 @@ const QuizManagement = () => {
                         </button>
 
                         <button
+                          className="text-indigo-650 hover:text-indigo-800 transition cursor-pointer"
+                          title="Manage Questions"
+                          onClick={() => handleOpenManageQuestions(quiz)}
+                        >
+                          <Layers className="w-4 h-4" />
+                        </button>
+
+                        <button
                           className="text-blue-600 hover:text-blue-800 transition"
                           title="Add Question"
                           onClick={() => handleOpenAddQuestion(quiz)}
@@ -228,6 +244,17 @@ const QuizManagement = () => {
           });
         }}
       />
+
+      {isManageQuestionOpen && (
+        <ManageQuizQuestionsDialog
+          isOpen={isManageQuestionOpen}
+          onClose={() => {
+            setIsManageQuestionOpen(false);
+            setSelectedQuizForManage(null);
+          }}
+          quiz={selectedQuizForManage}
+        />
+      )}
     </div>
   );
 };

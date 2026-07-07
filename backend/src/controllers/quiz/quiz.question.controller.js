@@ -89,3 +89,65 @@ export const getQuizQuestions = async (req, res, next) => {
     next(error);
   }
 };
+
+export const updateQuizQuestion = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const {
+      sectionName,
+      questionText,
+      marks,
+      optionsInstruction,
+      options,
+      solutionExplanation,
+    } = req.body;
+
+    const question = await QuizQuestion.findById(id);
+    if (!question) {
+      return res.status(404).json({
+        success: false,
+        message: "Question not found",
+      });
+    }
+
+    if (sectionName !== undefined) question.sectionName = sectionName;
+    if (questionText !== undefined) question.questionText = questionText;
+    if (marks !== undefined) question.marks = Number(marks);
+    if (optionsInstruction !== undefined) question.optionsInstruction = optionsInstruction;
+    if (options !== undefined) question.options = options;
+    if (solutionExplanation !== undefined) question.solutionExplanation = solutionExplanation;
+
+    await question.save();
+
+    return res.status(200).json({
+      success: true,
+      message: "Question updated successfully",
+      question,
+    });
+  } catch (error) {
+    next(error);
+  }
+};
+
+export const deleteQuizQuestion = async (req, res, next) => {
+  try {
+    const { id } = req.params;
+    const question = await QuizQuestion.findById(id);
+
+    if (!question) {
+      return res.status(404).json({
+        success: false,
+        message: "Question not found",
+      });
+    }
+
+    await QuizQuestion.findByIdAndDelete(id);
+
+    return res.status(200).json({
+      success: true,
+      message: "Question deleted successfully",
+    });
+  } catch (error) {
+    next(error);
+  }
+};
