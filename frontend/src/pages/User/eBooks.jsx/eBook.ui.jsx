@@ -34,7 +34,21 @@ const EbookQuestionPractice = () => {
     chapterNumber: activeChapter,
   });
 
+  // Fetch all questions to extract chapter/set names
+  const { data: allQuestionsData } = useGetEbookQuestionsHook({
+    ebookId: id,
+  });
+
   const questions = questionsData?.questions || [];
+  const allQuestions = allQuestionsData?.questions || [];
+
+  // Create a mapping of chapter/set numbers to names
+  const chapterNames = {};
+  allQuestions.forEach((q) => {
+    if (q.chapterNumber && q.chapterName) {
+      chapterNames[q.chapterNumber] = q.chapterName;
+    }
+  });
 
   // Reset question index and answers when changing chapters
   useEffect(() => {
@@ -126,9 +140,14 @@ const EbookQuestionPractice = () => {
           </div>
 
           <div className="text-right">
-            <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Active Chapter</div>
+            <div className="text-[11px] font-bold text-slate-400 uppercase tracking-wider">Active Set</div>
             <div className="text-xs sm:text-sm font-black text-slate-800">
-              Chapter {activeChapter} of {ebook.numberOfChapters}
+              Set {activeChapter} of {ebook.numberOfChapters}
+              {chapterNames[activeChapter] && (
+                <span className="text-indigo-600 block sm:inline sm:ml-2">
+                  ({chapterNames[activeChapter]})
+                </span>
+              )}
             </div>
           </div>
         </div>
@@ -187,12 +206,13 @@ const EbookQuestionPractice = () => {
           {/* Card 2: Chapter Selection Sidebar */}
           <div className="bg-white p-4 flex flex-col flex-1 min-h-0 overflow-hidden">
             <h3 className="text-xs font-black text-slate-400 uppercase tracking-widest px-1 mb-2.5 shrink-0">
-              Total Chapters
+              Total Sets
             </h3>
             <div className="space-y-1 flex-1 overflow-y-auto pr-1 custom-scrollbar min-h-0">
               {Array.from({ length: ebook.numberOfChapters || 0 }).map((_, idx) => {
                 const chNum = idx + 1;
                 const isActive = activeChapter === chNum;
+                const chName = chapterNames[chNum];
                 return (
                   <button
                     key={chNum}
@@ -203,18 +223,25 @@ const EbookQuestionPractice = () => {
                         : "hover:bg-slate-50 text-slate-700 hover:text-slate-900"
                     }`}
                   >
-                    <div className="flex items-center gap-2">
-                      <span className={`w-5 h-5 rounded-md flex items-center justify-center text-[10px] font-extrabold ${
+                    <div className="flex items-center gap-2 min-w-0">
+                      <span className={`w-5 h-5 rounded-md flex items-center justify-center text-[10px] font-extrabold shrink-0 ${
                         isActive ? "bg-white/20 text-white" : "bg-slate-100 text-slate-500"
                       }`}>
                         {chNum}
                       </span>
-                      <span>Chapter {chNum}</span>
+                      <div className="flex items-center gap-1.5 min-w-0 flex-1">
+                        <span className="shrink-0">Set</span>
+                        {chName && (
+                          <span className={`truncate text-[10px] ${isActive ? "text-slate-300" : "text-slate-500"} font-medium`}>
+                            : {chName}
+                          </span>
+                        )}
+                      </div>
                     </div>
                     {isActive ? (
-                      <Play className="w-3 h-3 fill-current text-white animate-pulse" />
+                      <Play className="w-3 h-3 fill-current text-white animate-pulse shrink-0 ml-1" />
                     ) : (
-                      <ChevronRight className="w-3.5 h-3.5 text-slate-400" />
+                      <ChevronRight className="w-3.5 h-3.5 text-slate-400 shrink-0 ml-1" />
                     )}
                   </button>
                 );

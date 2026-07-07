@@ -195,7 +195,7 @@ const AddChapterDialog = ({ isOpen, onClose, ebook }) => {
                     >
                       {Array.from({ length: totalChapters }).map((_, idx) => (
                         <option key={idx + 1} value={idx + 1}>
-                          Chapter {idx + 1}
+                          Set {idx + 1}
                         </option>
                       ))}
                     </select>
