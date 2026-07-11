@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import { X } from "lucide-react";
 
 import CourseSection from "@/components/userComponent/courseSection";
-import HeroSection from "@/components/userComponent/heroSection";
+import HeroSection from "@/components/userComponent/HeroSection/heroSection";
 import FloatingWhatsApp from "@/components/ui/FloatingWhatsApp";
 import StudyMaterial from "./study.material";
 import SuccessBoardDisplay from "./success.board";

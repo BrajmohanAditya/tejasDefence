@@ -1,5 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { useGetHeroSectionHook } from "@/hooks/hero.hook";
+import ExamSyllabusModal from "./examSyllabus";
 
 const HeroSection = () => {
   const { data, isLoading } = useGetHeroSectionHook();
@@ -7,6 +8,7 @@ const HeroSection = () => {
   const banners = data?.banners || [];
 
   const [currentBanner, setCurrentBanner] = useState(0);
+  const [selectedExam, setSelectedExam] = useState(null);
 
   useEffect(() => {
     if (banners.length > 1) {
@@ -48,6 +50,7 @@ const HeroSection = () => {
                 exams.slice(0, 4).map((exam) => (
                   <div
                     key={exam._id}
+                    onClick={() => setSelectedExam(exam)}
                     className="flex flex-col items-center justify-center p-3 border border-slate-200 rounded-2xl shadow-sm hover:shadow-md hover:-translate-y-1 transition-all duration-300 cursor-pointer"
                   >
                     <div className="w-full h-16 mb-4 flex items-center justify-center">
@@ -108,6 +111,14 @@ const HeroSection = () => {
           </div>
         </div>
       </div>
+
+      {/* Syllabus and Selection Process Modal */}
+      <ExamSyllabusModal
+        isOpen={!!selectedExam}
+        onClose={() => setSelectedExam(null)}
+        examTitle={selectedExam?.title}
+        examImageUrl={selectedExam?.imageUrl}
+      />
     </div>
   );
 };
