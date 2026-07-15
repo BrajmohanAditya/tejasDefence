@@ -8,6 +8,7 @@ import StudyMaterial from "./study.material";
 import SuccessBoardDisplay from "./success.board";
 import Footer from "@/components/userComponent/footer";
 import QualifiedMentorsDisplay from "./qualifiedMentors.board";
+import TrendingBar from "@/components/userComponent/TrendingBar";
 
 const Home = () => {
   const [showPopup, setShowPopup] = useState(false);
@@ -30,6 +31,7 @@ const Home = () => {
 
   return (
     <div className="min-h-[88vh] bg-slate-50">
+      <TrendingBar />
       <HeroSection />
       <StudyMaterial />
       <CourseSection />

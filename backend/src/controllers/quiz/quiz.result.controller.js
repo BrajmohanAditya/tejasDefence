@@ -115,3 +115,25 @@ export const getMyResults = async (req, res, next) => {
     next(error);
   }
 };
+
+// @desc    Get all results of a quiz (for leaderboard/participants list)
+// @route   GET /api/quizResult/all-results/:quizId
+// @access  Private (Logged In)
+export const getAllQuizResults = async (req, res, next) => {
+  try {
+    const { quizId } = req.params;
+
+    const results = await QuizResult.find({ quiz: quizId })
+      .populate("user", "name email")
+      .sort({ totalScore: -1, createdAt: 1 });
+
+    res.status(200).json({
+      success: true,
+      count: results.length,
+      results,
+    });
+  } catch (error) {
+    console.error("Error fetching all quiz results:", error);
+    next(error);
+  }
+};

@@ -3,6 +3,7 @@ import { toast } from "sonner";
 import {
   submitQuizApi,
   getMyQuizResultsApi,
+  getAllQuizResultsApi,
 } from "../../api/quize/quizResult.api.js";
 import { useNavigate } from "react-router-dom";
 
@@ -27,5 +28,13 @@ export const useGetMyQuizResultsHook = (quizId) => {
   return useQuery({
     queryFn: () => getMyQuizResultsApi(quizId),
     queryKey: ["getMyQuizResults", quizId],
+  });
+};
+
+export const useGetAllQuizResultsHook = (quizId) => {
+  return useQuery({
+    queryFn: () => getAllQuizResultsApi(quizId),
+    queryKey: ["getAllQuizResults", quizId],
+    enabled: !!quizId,
   });
 };

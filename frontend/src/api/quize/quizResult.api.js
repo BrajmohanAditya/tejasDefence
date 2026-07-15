@@ -16,3 +16,10 @@ export const getMyQuizResultsApi = async (quizId) => {
   });
   return response.data;
 };
+
+export const getAllQuizResultsApi = async (quizId) => {
+  const response = await axios.get(`${baseUrl}/quizResult/all-results/${quizId}`, {
+    withCredentials: true,
+  });
+  return response.data;
+};
