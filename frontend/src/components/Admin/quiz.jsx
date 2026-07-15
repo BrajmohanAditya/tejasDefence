@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import {
   Dialog,
   DialogTrigger,
@@ -10,15 +10,24 @@ import {
 import { Loader2, Plus, Trash2 } from "lucide-react";
 import { toast } from "sonner";
 import { useForm, useFieldArray } from "react-hook-form";
-import { useCreateQuizHook } from "../../hooks/quiz/quiz.hook";
+import { useCreateQuizHook, useUpdateQuizHook } from "../../hooks/quiz/quiz.hook";
 
-const CreateQuiz = ({ children }) => {
+const CreateQuiz = ({ children, quiz }) => {
   const [isOpen, setIsOpen] = useState(false);
+  const isEditMode = !!quiz;
 
-  const { mutate, isPending } = useCreateQuizHook();
+  const { mutate: createQuiz, isPending: isCreating } = useCreateQuizHook();
+  const { mutate: updateQuiz, isPending: isUpdating } = useUpdateQuizHook();
+  const isPending = isCreating || isUpdating;
 
   const { register, handleSubmit, reset, control } = useForm({
     defaultValues: {
+      nameOfExam: "",
+      quizName: "",
+      duration: "",
+      totalNoOfQueation: "",
+      negativeMark: 0,
+      totalMarks: "",
       sections: [{ name: "", totalQuestions: "" }],
     },
   });
@@ -27,11 +36,36 @@ const CreateQuiz = ({ children }) => {
     name: "sections",
   });
 
-  const createQuizHandler = (data) => {
-    // 1. Create a new FormData object
-    const formData = new FormData();
+  useEffect(() => {
+    if (isOpen) {
+      if (isEditMode && quiz) {
+        reset({
+          nameOfExam: quiz.nameOfExam || "",
+          quizName: quiz.quizName || "",
+          duration: quiz.duration || "",
+          totalNoOfQueation: quiz.totalNoOfQueation || "",
+          negativeMark: quiz.negativeMark || 0,
+          totalMarks: quiz.totalMarks || "",
+          sections: quiz.section && quiz.section.length > 0
+            ? quiz.section.map((s) => ({ name: s.name, totalQuestions: s.totalQuestions }))
+            : [{ name: "", totalQuestions: "" }],
+        });
+      } else {
+        reset({
+          nameOfExam: "",
+          quizName: "",
+          duration: "",
+          totalNoOfQueation: "",
+          negativeMark: 0,
+          totalMarks: "",
+          sections: [{ name: "", totalQuestions: "" }],
+        });
+      }
+    }
+  }, [isOpen, quiz, isEditMode, reset]);
 
-    // 2. Append all standard text fields
+  const submitQuizHandler = (data) => {
+    const formData = new FormData();
     formData.append("nameOfExam", data.nameOfExam);
     formData.append("quizName", data.quizName);
     formData.append("duration", Number(data.duration));
@@ -39,26 +73,34 @@ const CreateQuiz = ({ children }) => {
     formData.append("totalNoOfQueation", Number(data.totalNoOfQueation));
     formData.append("totalMarks", Number(data.totalMarks));
 
-    // 3. Append complex objects (like sections array) as a JSON string
     const sectionsData = data.sections.map((s) => ({
       name: s.name,
       totalQuestions: Number(s.totalQuestions),
     }));
     formData.append("section", JSON.stringify(sectionsData));
 
-    // 4. Append the uploaded file!
-    // react-hook-form stores files in an array (FileList), so we get index [0]
     if (data.logo && data.logo[0]) {
       formData.append("logo", data.logo[0]);
     }
 
-    // 5. Send this formData to the mutation
-    mutate(formData, {
-      onSuccess: () => {
-        setIsOpen(false);
-        reset();
-      },
-    });
+    if (isEditMode) {
+      updateQuiz(
+        { id: quiz._id, payload: formData },
+        {
+          onSuccess: () => {
+            setIsOpen(false);
+            reset();
+          },
+        }
+      );
+    } else {
+      createQuiz(formData, {
+        onSuccess: () => {
+          setIsOpen(false);
+          reset();
+        },
+      });
+    }
   };
 
   return (
@@ -67,11 +109,11 @@ const CreateQuiz = ({ children }) => {
 
       <DialogContent className="sm:max-w-lg max-h-[90vh] overflow-y-auto">
         <DialogHeader>
-          <DialogTitle>Add New Quiz</DialogTitle>
+          <DialogTitle>{isEditMode ? "Edit Quiz" : "Add New Quiz"}</DialogTitle>
           <DialogDescription>
             <form
               className="mt-6 space-y-4 text-left"
-              onSubmit={handleSubmit(createQuizHandler)}
+              onSubmit={handleSubmit(submitQuizHandler)}
             >
               <div>
                 <label className="block text-sm font-medium text-slate-700 mb-1">
@@ -93,7 +135,7 @@ const CreateQuiz = ({ children }) => {
                 <input
                   type="file"
                   accept="image/png, image/jpeg, image/jpg, image/webp"
-                  {...register("logo", { required: true })}
+                  {...register("logo", { required: !isEditMode })}
                   className="w-full p-2 border rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500 file:mr-4 file:py-2 file:px-4 file:rounded-full file:border-0 file:text-sm file:font-semibold file:bg-blue-50 file:text-blue-700 hover:file:bg-blue-100"
                 />
               </div>
@@ -221,7 +263,7 @@ const CreateQuiz = ({ children }) => {
                 {isPending ? (
                   <Loader2 className="animate-spin" />
                 ) : (
-                  "Create Quiz"
+                  isEditMode ? "Update Quiz" : "Create Quiz"
                 )}
               </button>
             </form>

@@ -7,6 +7,7 @@ import {
   getQuizByIdApi,
   toggleQuizLockApi,
   toggleQuizTypeApi,
+  updateQuizApi,
 } from "../../api/quize/quiz.api.js";
 
 export const useCreateQuizHook = () => {
@@ -87,6 +88,20 @@ export const useToggleQuizTypeHook = () => {
     },
     onError: (err) => {
       toast.error(err.response?.data?.message || "Failed to change quiz type");
+    },
+  });
+};
+
+export const useUpdateQuizHook = () => {
+  const queryClient = useQueryClient();
+  return useMutation({
+    mutationFn: updateQuizApi,
+    onSuccess: (data) => {
+      toast.success(data?.message || "Quiz updated successfully");
+      queryClient.invalidateQueries(["getQuizzes"]); // Table refresh karega
+    },
+    onError: (err) => {
+      toast.error(err.response?.data?.message || "Failed to update quiz");
     },
   });
 };

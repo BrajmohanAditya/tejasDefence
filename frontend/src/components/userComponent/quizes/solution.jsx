@@ -59,9 +59,10 @@ const SolutionUI = ({ solutionText, solutionImage, correctOptionText }) => {
 
               {/* Explanation Text */}
               {solutionText && (
-                <div className="text-slate-700 text-[15px] leading-relaxed whitespace-pre-wrap">
-                  {solutionText}
-                </div>
+                <div
+                  className="text-slate-700 text-[15px] leading-relaxed whitespace-pre-wrap"
+                  dangerouslySetInnerHTML={{ __html: solutionText }}
+                />
               )}
 
               {/* Explanation Image */}

@@ -11,9 +11,10 @@ const QuestionUI = ({ children, question, questionNumber = 1 }) => {
       <div className="flex flex-col p-6 md:p-8 h-full">
         {/* Question Content */}
         <div className="mb-8">
-          <div className="text-slate-800 text-[16px] leading-relaxed font-medium whitespace-pre-wrap">
-            {question?.questionText}
-          </div>
+          <div
+            className="text-slate-800 text-[16px] leading-relaxed font-medium whitespace-pre-wrap"
+            dangerouslySetInnerHTML={{ __html: question?.questionText }}
+          />
 
           {/* Question Image (If it exists in the database) */}
           {question?.questionImage && (

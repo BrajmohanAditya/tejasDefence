@@ -3,130 +3,1509 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "Consider the following statements:\nI. If θ = 1200°, then (secθ + tanθ)^(-1) is positive.\nII. If θ = 1200°, then (cosecθ − cotθ) is negative.\nWhich of the statements given above is/are correct?",
+    "questionText": "A is an angle in the fourth quadrant. If it satisfies the trigonometric equation 3(3 - tan² A - cot² A)² = 1, then which one of the following is a value of A?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "Only I", "isCorrect": false },
-      { "text": "Only II", "isCorrect": false },
-      { "text": "Both I nor II", "isCorrect": false },
-      { "text": "Neither I nor II", "isCorrect": true }
+      { "text": "300°", "isCorrect": true },
+      { "text": "315°", "isCorrect": false },
+      { "text": "330°", "isCorrect": false },
+      { "text": "345°", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "Match List I with List II and select the correct answer using the code given below the lists.",
+    "questionText": "If sec(θ - α), sec θ and sec(θ + α) are in AP, where cos α ≠ 1, then what is the value of sin² θ + cos α?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "A-(iv), B-(i), C-(ii)", "isCorrect": false },
-      { "text": "A-(iv), B-(ii), C-(i)", "isCorrect": true },
-      { "text": "A-(iii), B-(ii), C-(i)", "isCorrect": false },
-      { "text": "A-(ii), B-(i), C-(iv)", "isCorrect": false }
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "-1", "isCorrect": false },
+      { "text": "1/2", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "If A + B + C = π/2, then what is the value of tanA tanB + tanB tanC + tanC tanA?",
+    "questionText": "What is 2tanθ / (1 + tan²θ) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "cos2θ", "isCorrect": false },
+      { "text": "tan2θ", "isCorrect": false },
+      { "text": "sin2θ", "isCorrect": true },
+      { "text": "cosec2θ", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sinθ = -1/2 and tanθ = 1/√3, then in which quadrant does θ lie?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "First", "isCorrect": false },
+      { "text": "Second", "isCorrect": false },
+      { "text": "Third", "isCorrect": true },
+      { "text": "Fourth", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sinθ + cosθ = √2 cosθ, then what is cosθ - sinθ equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-√2 cosθ", "isCorrect": true },
+      { "text": "-√2 sinθ", "isCorrect": false },
+      { "text": "√2 sinθ", "isCorrect": false },
+      { "text": "2 sinθ", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "In a circle of diameter 44 cm, the length of chord is 22 cm. What is the length of minor arc of the chord?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "484/21 cm", "isCorrect": false },
+      { "text": "242/21 cm", "isCorrect": true },
+      { "text": "121/21 cm", "isCorrect": false },
+      { "text": "44/7 cm", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is (1 + tanα tanβ)² + (tanα - tanβ)² - sec²α sec²β equal to?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
       { "text": "0", "isCorrect": false },
-      { "text": "1", "isCorrect": true },
-      { "text": "-1", "isCorrect": false },
-      { "text": "tanA tanB tanC", "isCorrect": false }
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": true },
+      { "text": "4", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "What is the value of cos(π/9) + cos(π/3) + cos(5π/9) + cos(7π/9)?",
+    "questionText": "If p = cosecθ - cotθ and q = (cosecθ + cotθ)⁻¹, then which one of the following is correct?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "pq = 1", "isCorrect": false },
+      { "text": "p = q", "isCorrect": true },
+      { "text": "p + q = 1", "isCorrect": false },
+      { "text": "p + q = 0", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of (sin 34° cos 236° - sin 56° sin 124°) / (cos 28° cos 88° + cos 178° sin 208°)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-2", "isCorrect": true },
+      { "text": "-1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "tan 54° can be expressed as:",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(sin 9° + cos 9°) / (sin 9° - cos 9°)", "isCorrect": false },
+      { "text": "(sin 9° - cos 9°) / (sin 9° + cos 9°)", "isCorrect": false },
+      { "text": "(cos 9° + sin 9°) / (cos 9° - sin 9°)", "isCorrect": true },
+      { "text": "sin 36° / cos 36°", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If p = X cosθ - Y sinθ, q = X sinθ + Y cosθ and p² + 4pq + q² = A X² + B Y², where 0 ≤ θ ≤ π/2. What is the value of θ?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "π/2", "isCorrect": false },
+      { "text": "π/3", "isCorrect": false },
+      { "text": "π/4", "isCorrect": true },
+      { "text": "π/6", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If p = X cosθ - Y sinθ, q = X sinθ + Y cosθ and p² + 4pq + q² = A X² + B Y², where 0 ≤ θ ≤ π/2. What is the value of A?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "4", "isCorrect": true },
+      { "text": "3", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If p = X cosθ - Y sinθ, q = X sinθ + Y cosθ and p² + 4pq + q² = A X² + B Y², where 0 ≤ θ ≤ π/2. What is the value of B?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": true },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "It is given that cos(θ - α) = a, cos(θ - β) = b. What is cos(α - β) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "ab + √(1 - a²)(1 - b²)", "isCorrect": true },
+      { "text": "ab - √(1 - a²)(1 - b²)", "isCorrect": false },
+      { "text": "a√(1 - b²) - b√(1 - a²)", "isCorrect": false },
+      { "text": "a√(1 - b²) + b√(1 - a²)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "It is given that cos(θ - α) = a, cos(θ - β) = b. What is sin²(α - β) + 2ab cos(α - β) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "a² + b²", "isCorrect": true },
+      { "text": "a² - b²", "isCorrect": false },
+      { "text": "b² - a²", "isCorrect": false },
+      { "text": "-(a² + b²)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sinθ + cosθ = p, then what is cos²(2θ) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "p²(2 - p²)", "isCorrect": false },
+      { "text": "p² - 1", "isCorrect": false },
+      { "text": "p²(2 - p²)", "isCorrect": true },
+      { "text": "p² + 1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tanθ = 1/2 and tanφ = 1/3, then what is the value of (θ + φ)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "π/6", "isCorrect": false },
+      { "text": "π/4", "isCorrect": true },
+      { "text": "π/2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If cos A = 3/4, then what is the value of sin(A/2) sin(3A/2)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "5/8", "isCorrect": false },
+      { "text": "5/16", "isCorrect": true },
+      { "text": "5/24", "isCorrect": false },
+      { "text": "7/32", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of tan 75° + cot 75°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "2", "isCorrect": false },
+      { "text": "4", "isCorrect": true },
+      { "text": "2√3", "isCorrect": false },
+      { "text": "4√3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cos 46° cos 47° cos 48° cos 49° cos 50° ... cos 135°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": false },
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "Greater than 1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sin 2θ = cos 3θ, where 0 ≤ θ ≤ π/2, then what is sin θ equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(√5 + 1)/4", "isCorrect": false },
+      { "text": "(√5 - 1)/4", "isCorrect": true },
+      { "text": "(√5 + 1)/16", "isCorrect": false },
+      { "text": "(√5 - 1)/16", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the least value of 25 cosec² x + 36 sec² x?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
       { "text": "1", "isCorrect": false },
-      { "text": "-1", "isCorrect": false },
-      { "text": "-1/2", "isCorrect": false },
-      { "text": "1/2", "isCorrect": true }
+      { "text": "11", "isCorrect": false },
+      { "text": "120", "isCorrect": true },
+      { "text": "121", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "If cotθ = 5/12 and θ lies in the third quadrant, then what is the value of (2sinθ + 3cosθ)?",
+    "questionText": "What is the minimum value of a²/cos²x + b²/sin²x where a > 0 and b > 0?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "-4", "isCorrect": false },
-      { "text": "-p² for some odd prime p", "isCorrect": false },
-      { "text": "-46/13", "isCorrect": true },
-      { "text": "-p for some odd prime p", "isCorrect": false }
+      { "text": "(a+b)²", "isCorrect": true },
+      { "text": "(a-b)²", "isCorrect": false },
+      { "text": "a² + b²", "isCorrect": false },
+      { "text": "|a² + b²|", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "If cotθ = 2cosθ, where π/2 < θ < π, then what is the value of θ?",
+    "questionText": "If cosec θ = 29/21, where 0 < θ < 90°, then what is the value of 4secθ + 4tanθ?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "5π/6", "isCorrect": true },
-      { "text": "2π/3", "isCorrect": false },
-      { "text": "3π/4", "isCorrect": false },
-      { "text": "11π/12", "isCorrect": false }
+      { "text": "5", "isCorrect": false },
+      { "text": "10", "isCorrect": false },
+      { "text": "15", "isCorrect": true },
+      { "text": "20", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "If p = sin(989°) cos(991°), then which one of the following is correct?",
+    "questionText": "Consider the following statements:\n1. cosθ + secθ can never be equal to 1.5.\n2. tanθ + cotθ can never be less than 2.\nWhich of the statements given above is/are correct?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "p is finite and positive", "isCorrect": false },
-      { "text": "p is finite and negative", "isCorrect": true },
-      { "text": "p = 0", "isCorrect": false },
-      { "text": "p is undefined", "isCorrect": false }
+      { "text": "1 only", "isCorrect": false },
+      { "text": "2 only", "isCorrect": false },
+      { "text": "Both 1 and 2", "isCorrect": true },
+      { "text": "Neither 1 nor 2", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "If sinx + cosecx = 2, then what is the value of sin⁴x + cosec⁴x?",
+    "questionText": "What is the length of the chord of a unit circle which subtends an angle θ at the centre?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "2", "isCorrect": true },
-      { "text": "4", "isCorrect": false },
-      { "text": "8", "isCorrect": false },
-      { "text": "16", "isCorrect": false }
+      { "text": "sin(θ/2)", "isCorrect": false },
+      { "text": "cos(θ/2)", "isCorrect": false },
+      { "text": "2sin(θ/2)", "isCorrect": true },
+      { "text": "2cos(θ/2)", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "What is the value of tan(-1575°)?",
+    "questionText": "If tanA - tanB = x, and cotB - cotA = y, then what is the value of cot(A - B)?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "1", "isCorrect": true },
-      { "text": "1/2", "isCorrect": false },
+      { "text": "1/x + 1/y", "isCorrect": true },
+      { "text": "1/y - 1/x", "isCorrect": false },
+      { "text": "xy / (x+y)", "isCorrect": false },
+      { "text": "1 + 1/xy", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is sin(α + β) - 2sinα cosβ + sin(α - β) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": true },
+      { "text": "2sinα", "isCorrect": false },
+      { "text": "2sinβ", "isCorrect": false },
+      { "text": "sinα + sinβ", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If 2tanA = 3tanB = 1, then what is tan(A-B) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/5", "isCorrect": false },
+      { "text": "1/6", "isCorrect": false },
+      { "text": "1/7", "isCorrect": true },
+      { "text": "1/9", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is cos 80° + cos 40° - cos 20° equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "2", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "0", "isCorrect": true },
+      { "text": "-19", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is cot(A/2) - tan(A/2) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "tanA", "isCorrect": false },
+      { "text": "cotA", "isCorrect": false },
+      { "text": "2tanA", "isCorrect": false },
+      { "text": "2cotA", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is cotθ + cosecθ equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "tan(θ/2)", "isCorrect": false },
+      { "text": "cot(θ/2)", "isCorrect": true },
+      { "text": "2tan(θ/2)", "isCorrect": false },
+      { "text": "2cot(θ/2)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is tan 25° tan 15° + tan 15° tan 50° + tan 25° tan 50° equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
       { "text": "0", "isCorrect": false },
-      { "text": "-1", "isCorrect": false }
+      { "text": "1", "isCorrect": true },
+      { "text": "2", "isCorrect": false },
+      { "text": "4", "isCorrect": false }
     ]
   },
   {
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 11,
     "chapterName": "Trigonometry",
-    "questionText": "For which acute angle θ, cosec²θ = 3√3 cotθ − 5?",
+    "questionText": "Let asin²x + bcos²x = c, bsin²y + acos²y = d, and p tanx = q tany. What is tan²x equal to?",
     "optionsInstruction": "Choose the single correct option.",
     "options": [
-      { "text": "5π/12", "isCorrect": false },
+      { "text": "(c - b) / (a - c)", "isCorrect": false },
+      { "text": "(a - c) / (c - b)", "isCorrect": false },
+      { "text": "(c - a) / (c - b)", "isCorrect": false },
+      { "text": "(c - b) / (c - a)", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let asin²x + bcos²x = c, bsin²y + acos²y = d, and p tanx = q tany. What is (d - a) / (b - d) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "sin²y", "isCorrect": false },
+      { "text": "cos²y", "isCorrect": false },
+      { "text": "tan²y", "isCorrect": true },
+      { "text": "cot²y", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let asin²x + bcos²x = c, bsin²y + acos²y = d, and p tanx = q tany. What is p²/q² equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(b - c)(b - d) / (a - d)(a - c)", "isCorrect": false },
+      { "text": "(a - d)(c - a) / (b - c)(d - b)", "isCorrect": true },
+      { "text": "(d - a)(c - a) / (b - c)(d - b)", "isCorrect": false },
+      { "text": "(b - c)(b - d) / (c - a)(d - a)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let tn = sinⁿθ + cosⁿθ. What is (t3 - t5) / (t5 - t7) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "t1 / t3", "isCorrect": true },
+      { "text": "t3 / t5", "isCorrect": false },
+      { "text": "t5 / t7", "isCorrect": false },
+      { "text": "t1 / t7", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let tn = sinⁿθ + cosⁿθ. What is t1² - t2 equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "cos 2θ", "isCorrect": false },
+      { "text": "sin 2θ", "isCorrect": true },
+      { "text": "2cosθ", "isCorrect": false },
+      { "text": "2sinθ", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let tn = sinⁿθ + cosⁿθ. What is the value of t10 where θ = 45°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "1/4", "isCorrect": false },
+      { "text": "1/16", "isCorrect": true },
+      { "text": "1/32", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let α = β = 15°. What is the value of sin α + cos β?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/V2", "isCorrect": false },
+      { "text": "1/2V2", "isCorrect": false },
+      { "text": "V3/2V2", "isCorrect": false },
+      { "text": "V3/V2", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let α = β = 15°. What is the value of sin 7α - cos 7β?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/V2", "isCorrect": true },
+      { "text": "1/2V2", "isCorrect": false },
+      { "text": "V3/2V2", "isCorrect": false },
+      { "text": "V3/V2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let α = β = 15°. What is sin(α + 1°) + cos(β + 1°) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "V3 cos 1° + sin 1°", "isCorrect": true },
+      { "text": "V3 cos 1° - sin 1°", "isCorrect": false },
+      { "text": "1/2 (V3 cos 1° + sin 1°)", "isCorrect": false },
+      { "text": "1/2 (V3 cos 1° - sin 1°)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sin x + sin y = cos y - cos x, where 0 < x < y < π/2, then what is tan((x - y)/2) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "1/2", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If cot α and cot β are the roots of equation x² - 3x + 2 = 0, then what is cot(α + β) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/2", "isCorrect": true },
+      { "text": "1/3", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let tan(3A) / tan A = K, where tan A ≠ 0 and K ≠ 1/3. What is tan²A equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(K - 3) / (3K - 1)", "isCorrect": true },
+      { "text": "(K - 3) / (3K + 1)", "isCorrect": false },
+      { "text": "(3K - 3) / (K - 3)", "isCorrect": false },
+      { "text": "(K + 3) / (3K - 1)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let tan(3A) / tan A = K, where tan A ≠ 0 and K ≠ 1/3. For real value of tan A, K cannot lie between:",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/3 and 3", "isCorrect": true },
+      { "text": "1/3 and 2", "isCorrect": false },
+      { "text": "1/5 and 5", "isCorrect": false },
+      { "text": "1/7 and 7", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tan θ = (cos 17° - sin 17°) / (cos 17° + sin 17°), then what is the value of θ?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0°", "isCorrect": true },
+      { "text": "28°", "isCorrect": false },
+      { "text": "38°", "isCorrect": false },
+      { "text": "52°", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "A and B are positive acute angles such that cos 2B = 3sin²A and 3sin 2A = 2sin 2B. What is the value of (A + 2B)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "π/6", "isCorrect": false },
+      { "text": "π/4", "isCorrect": false },
       { "text": "π/3", "isCorrect": false },
+      { "text": "π/2", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is sin 3x + cos 3x + 4sin³x - 3sinx + 3cosx - 4cos³x equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "2sin2x", "isCorrect": false },
+      { "text": "4cos4x", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "The value of ordinate of the graph of y = 2 + cos x lie in the interval:",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "[0, 1]", "isCorrect": false },
+      { "text": "[0, 3]", "isCorrect": true },
+      { "text": "[-1, 1]", "isCorrect": false },
+      { "text": "[1, 3]", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of 8cos 10° cos 20° cos 40°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "tan 10°", "isCorrect": false },
+      { "text": "cot 10°", "isCorrect": false },
+      { "text": "cosec 10°", "isCorrect": false },
+      { "text": "sec 10°", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cos 48° - cos 12°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(√5 - 1)/4", "isCorrect": false },
+      { "text": "(1 - √5)/4", "isCorrect": false },
+      { "text": "(√5 + 1)/4", "isCorrect": false },
+      { "text": "(1 - √5)/8", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tan A = 1/7, then what is cos 2A equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "24/25", "isCorrect": true },
+      { "text": "18/25", "isCorrect": false },
+      { "text": "12/25", "isCorrect": false },
+      { "text": "6/25", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of tan 31° tan 33° tan 35° ... tan 57° tan 59°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": true },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of (sin 24° + cos 66°)(sin 24° - cos 66°)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": true },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is (1 + cotθ - cosecθ)(1 + tanθ + secθ) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "3", "isCorrect": true },
+      { "text": "4", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is (1 + tan²θ) / (1 + cot²θ) - ((1 - tanθ) / (1 - cotθ))² equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "2tanθ", "isCorrect": false },
+      { "text": "2cotθ", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the interior angle of a regular octagon of side length 2 cm?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "π/2", "isCorrect": false },
+      { "text": "3π/4", "isCorrect": true },
+      { "text": "3π/5", "isCorrect": false },
+      { "text": "3π/8", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If 7sinθ + 24cosθ = 25, then what is the value of (sinθ + cosθ)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "26/25", "isCorrect": true },
+      { "text": "6/5", "isCorrect": false },
+      { "text": "31/25", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If 3cosθ = 4sinθ, then what is the value of tan(45° + θ)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "10", "isCorrect": false },
+      { "text": "7", "isCorrect": false },
+      { "text": "7/2", "isCorrect": true },
+      { "text": "7/4", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "The number of integer values of k, for which the equation 2sinx = 2k + 1 has a solution, is:",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "zero", "isCorrect": false },
+      { "text": "one", "isCorrect": true },
+      { "text": "two", "isCorrect": false },
+      { "text": "four", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of the following: cot2x . cot4x - cot4x . cot6x - cot6x . cot2x?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": true },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tanx = -3/4 and x is in second quadrant, then what is the value of sinx cosx?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "6/25", "isCorrect": false },
+      { "text": "12/25", "isCorrect": false },
+      { "text": "-6/25", "isCorrect": true },
+      { "text": "-12/25", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cosec(7π/6) sec(5π/3)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "4/3", "isCorrect": false },
+      { "text": "4", "isCorrect": true },
+      { "text": "-4", "isCorrect": false },
+      { "text": "-4/√3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let 4 sin²x = 3, here 0 ≤ x ≤ π. What is tan 3x equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-2", "isCorrect": true },
+      { "text": "-1", "isCorrect": false },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let the equation sec x . cosec x = p have a solution, where p is a positive real number. What should be the smallest value of p?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/2", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": true },
+      { "text": "Minimum does not exist", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sinθ and cosθ are the roots of the equation ax² + bx + c = 0, then which one of the following is correct?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "a² + b² - 2ac = 0", "isCorrect": false },
+      { "text": "-a² + b² + 2ac = 0", "isCorrect": false },
+      { "text": "a² - b² + 2ac = 0", "isCorrect": false },
+      { "text": "a² + b² + 2ac = 0", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sin(A + B) = 1 and 2 sin(A - B) = 1, where 0 ≤ A, B ≤ π/2, then what is tan A : tan B equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1:2", "isCorrect": false },
+      { "text": "2:1", "isCorrect": false },
+      { "text": "1:3", "isCorrect": false },
+      { "text": "3:1", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let sinx + siny = cosx + cosy for all x, y ∈ R. What is tan((x+y)/2) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "√2", "isCorrect": true },
+      { "text": "2√2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tanθ = -5/12, then what can be the value of sinθ?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "5/13 but cannot be -5/13", "isCorrect": false },
+      { "text": "-5/13 but cannot be 5/13", "isCorrect": false },
+      { "text": "5/13 or -5/13", "isCorrect": true },
+      { "text": "None of the above", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cos⁴(7π/8) + cos⁴(5π/8)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "3/2", "isCorrect": true },
+      { "text": "3/4", "isCorrect": false },
+      { "text": "3/8", "isCorrect": false },
+      { "text": "3/16", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is sin²(π/4 + θ) - sin²(π/4 - θ) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "sin2θ", "isCorrect": true },
+      { "text": "cos2θ", "isCorrect": false },
+      { "text": "2sinθ", "isCorrect": false },
+      { "text": "2cosθ", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tanα + tanβ = 1 - tanα tanβ, where tanα tanβ ≠ 1, then which of the following is one of the value of (α + β)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
       { "text": "π/6", "isCorrect": true },
-      { "text": "π/4", "isCorrect": false }
+      { "text": "π/4", "isCorrect": false },
+      { "text": "π/3", "isCorrect": false },
+      { "text": "π/2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If (1 + tanθ)(1 + tan9θ) = 2, then what is the value of tan(10θ)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "infinite", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of sin0° + sin10° + sin20° + sin30° + ... + sin360°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": false },
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is value of cot²15° + tan²15°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "12", "isCorrect": false },
+      { "text": "14", "isCorrect": false },
+      { "text": "8√3", "isCorrect": false },
+      { "text": "4", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If α + β = π/4 and 2 tanα = 1, then what is tan2β equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/3", "isCorrect": true },
+      { "text": "2/3", "isCorrect": false },
+      { "text": "3/4", "isCorrect": false },
+      { "text": "3/5", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tan(45° + θ) = 1 + sin2θ, where -π/4 < θ < π/4, then what is the value of cos2θ?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": true },
+      { "text": "1/2", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let sin2θ = cos3θ where θ is acute angle. What is the value of 1 + 4sinθ? (given that sin 18° = (√5 - 1)/4)",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "√3", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "√5", "isCorrect": true },
+      { "text": "3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cosec(-73π/3)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "2/√3", "isCorrect": true },
+      { "text": "-2/3", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "-2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of cos(5π/17) + cos(7π/17) + 2cos(11π/17) cos(π/17)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "4cos(6pi/17)cos(pi/17)", "isCorrect": false },
+      { "text": "4cos(11pi/17)cos(pi/17)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of tan(3π/8)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "√2 - 1", "isCorrect": true },
+      { "text": "√2 + 1", "isCorrect": false },
+      { "text": "1 - √2", "isCorrect": false },
+      { "text": "-(√2 + 1)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is cos36° - cos72° equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1/2", "isCorrect": true },
+      { "text": "-1/2", "isCorrect": false },
+      { "text": "1/2", "isCorrect": false },
+      { "text": "-1/2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If sec x = 25/24 and x lies in the fourth quadrant, then what is the value of tan x + sin x?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-625/168", "isCorrect": false },
+      { "text": "-343/600", "isCorrect": false },
+      { "text": "625/168", "isCorrect": true },
+      { "text": "-343/600", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of tan²165° + cot²165°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "7", "isCorrect": false },
+      { "text": "14", "isCorrect": false },
+      { "text": "4√3", "isCorrect": true },
+      { "text": "8√3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of sin(2nπ + 5π/6) sin(2nπ - 5π/6) where n ∈ Z?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1/4", "isCorrect": false },
+      { "text": "-3/4", "isCorrect": false },
+      { "text": "1/4", "isCorrect": true },
+      { "text": "3/4", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If 1 + 2 (sin x + cos x) (sin x - cos x) = 0 where 0 < x < 360°, then how many values does x take?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "only one value", "isCorrect": false },
+      { "text": "only two values", "isCorrect": false },
+      { "text": "only three values", "isCorrect": false },
+      { "text": "four values", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the maximum value of 3(sin x - cos x) + 4(cos³x - sin³x)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "√2", "isCorrect": true },
+      { "text": "√3", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the diameter of a circle inscribed in a regular polygon of 12 sides, each of length 1 cm?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1 + √2 cm", "isCorrect": false },
+      { "text": "2 + √2 cm", "isCorrect": false },
+      { "text": "2 + √3 cm", "isCorrect": true },
+      { "text": "3 + √3 cm", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Given that: sinx + cosx + tanx + cotx + secx + cosecx = 7. The given equation can be reduced to:",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "sin² 2x - 44 sin 2x + 36 = 0", "isCorrect": false },
+      { "text": "sin² 2x + 44 sin 2x - 36 = 0", "isCorrect": false },
+      { "text": "sin² 2x - 22 sin 2x + 18 = 0", "isCorrect": false },
+      { "text": "sin² 2x + 22 sin 2x - 18 = 0", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Given that: sinx + cosx + tanx + cotx + secx + cosecx = 7. If sin2x = a - b√c, where a and b are natural numbers and c is prime number, then what is the value of a - b + 2c?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "14", "isCorrect": false },
+      { "text": "21", "isCorrect": true },
+      { "text": "28", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let sinβ be the GM of sinα and cosα; tanγ be the AM of sinα and cosα. What is cos2β equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(cosα - sinα)²", "isCorrect": true },
+      { "text": "(cosα + sinα)²", "isCorrect": false },
+      { "text": "(cosα - sinα)³", "isCorrect": false },
+      { "text": "(cosα - sinα)² / 2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let sinβ be the GM of sinα and cosα; tanγ be the AM of sinα and cosα. What is the value of sec2γ?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(3 - sin 2α) / (5 + 2sin 2α)", "isCorrect": false },
+      { "text": "(5 + sin 2α) / (3 - sin 2α)", "isCorrect": true },
+      { "text": "(3 - 2sin 2α) / (4 + sin 2α)", "isCorrect": false },
+      { "text": "(4 + sin 2α) / (3 - sin 2α)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tan(π cos θ) = cot(π sin θ), 0 < θ < π/2; then what is the value of 8 sin²(θ + π/4)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "16", "isCorrect": true },
+      { "text": "2", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "1/2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tan α = 1/7, sin β = 1/√10; 0 < α, β < π/2, then what is the value of cos(α + 2β)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1/2", "isCorrect": false },
+      { "text": "-1/√2", "isCorrect": false },
+      { "text": "1/2", "isCorrect": false },
+      { "text": "1/10", "isCorrect": false },
+      { "text": "1/√2", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let p = cos(π/5) cos(2π/5) and q = cos(4π/5) cos(8π/5). What is the value of p + q?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1/2", "isCorrect": false },
+      { "text": "-1/4", "isCorrect": false },
+      { "text": "0", "isCorrect": true },
+      { "text": "1/2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let p = cos(π/5) cos(2π/5) and q = cos(4π/5) cos(8π/5). What is the value of pq?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1/16", "isCorrect": false },
+      { "text": "-1/4", "isCorrect": true },
+      { "text": "1/4", "isCorrect": false },
+      { "text": "1/16", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let p = (1 - tan²x)/(1 + tan²x) and q = 1 - 3tan²x. What is pq equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "-8/3", "isCorrect": false },
+      { "text": "-8/3", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let p = (1 - tan²x)/(1 + tan²x) and q = 1 - 3tan²x. For how many values of x does 1/p become zero?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "no value", "isCorrect": false },
+      { "text": "only one value", "isCorrect": true },
+      { "text": "only two values", "isCorrect": false },
+      { "text": "only three values", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let sin x + sin y = √3 (cos y - cos x); x + y = π/2, 0 < x, y < π/2. What is a value of sin 3x + sin 3y?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": true },
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Let sin x + sin y = √3 (cos y - cos x); x + y = π/2, 0 < x, y < π/2. What is a value of cos³x + cos³y?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "3√3/8", "isCorrect": true },
+      { "text": "3√6/8", "isCorrect": false },
+      { "text": "3√6/4", "isCorrect": false },
+      { "text": "1", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of sin10° sin50° + sin50° sin250° + sin250° sin10° equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "3/4", "isCorrect": false },
+      { "text": "-3/4", "isCorrect": false },
+      { "text": "3/8", "isCorrect": false },
+      { "text": "-3/8", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If f(θ) = 1/(1+tanθ) and α + β = 5π/4, then what is the value of f(α) f(β)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1/2", "isCorrect": false },
+      { "text": "1/2", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If tanα and tanβ are the roots of the equation x² - 6x + 8 = 0, then what is the value of cos(2α + 2β)?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "13/75", "isCorrect": false },
+      { "text": "13/85", "isCorrect": true },
+      { "text": "17/85", "isCorrect": false },
+      { "text": "19/85", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of tan 65° + 2tan 45° - 2tan 40° - tan 25°?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "0", "isCorrect": false },
+      { "text": "1", "isCorrect": false },
+      { "text": "2", "isCorrect": true },
+      { "text": "4", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is (√3 cos 10° - sin 10°) / (sin 25° cos 25°) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "1", "isCorrect": false },
+      { "text": "√3", "isCorrect": false },
+      { "text": "2", "isCorrect": false },
+      { "text": "4", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is (sin 9° - cos 9°) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-(√(5 - √5)) / 2", "isCorrect": true },
+      { "text": "-(√(5 - √5)) / 4", "isCorrect": false },
+      { "text": "(√(5 - √5)) / 2", "isCorrect": false },
+      { "text": "(...)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the number of solutions of (sinθ - cosθ)² = 2 where -π < θ < π?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "Only one", "isCorrect": false },
+      { "text": "Only two", "isCorrect": true },
+      { "text": "Four", "isCorrect": false },
+      { "text": "No solution", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the maximum value of a cos x + b sin x + c?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "√(a² + b²) + c", "isCorrect": false },
+      { "text": "√(a² + b² + c²)", "isCorrect": true },
+      { "text": "√(a² + b²) - c", "isCorrect": false },
+      { "text": "√(a² + b²)", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "Consider the following numbers:\nI. tan 22.5°\nII. cot 22.5°\nIII. tan 22.5° - cot 22.5°\nHow many of the above are irrational numbers?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "none", "isCorrect": false },
+      { "text": "only one", "isCorrect": false },
+      { "text": "only two", "isCorrect": true },
+      { "text": "All three", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If x/cosθ = y/cos(θ - 2π/3) = z/cos(θ + 2π/3), then what is x + y + z equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "-1", "isCorrect": false },
+      { "text": "0", "isCorrect": true },
+      { "text": "1", "isCorrect": false },
+      { "text": "3", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "If p tan(θ - 30°) = q tan(θ + 120°), then what is (p + q)/(p - q) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "sin2θ", "isCorrect": false },
+      { "text": "cos2θ", "isCorrect": false },
+      { "text": "2sin2θ", "isCorrect": false },
+      { "text": "2cos2θ", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the number of solutions of the equation cot 2x . cot 3x = 1 for 0 < x < π?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "only one", "isCorrect": false },
+      { "text": "only two", "isCorrect": false },
+      { "text": "only five", "isCorrect": false },
+      { "text": "More than five", "isCorrect": true }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the general solution of cos¹⁰⁰x - sin¹⁰⁰x = 1?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "nπ", "isCorrect": true },
+      { "text": "(2n + 1)π", "isCorrect": false },
+      { "text": "2nπ", "isCorrect": false },
+      { "text": "(2n + 1)π/2", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is sin 12° sin 48° equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "(√5 - 1) / 4", "isCorrect": false },
+      { "text": "(√5 + 1) / 4", "isCorrect": false },
+      { "text": "(√5 - 1) / 8", "isCorrect": true },
+      { "text": "(√5 + 1) / 8", "isCorrect": false }
+    ]
+  },
+  {
+    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "chapterNumber": 11,
+    "chapterName": "Trigonometry",
+    "questionText": "What is the value of (cos 17° - sin 17°) / (cos 17° + sin 17°) equal to?",
+    "optionsInstruction": "Choose the single correct option.",
+    "options": [
+      { "text": "tan 17°", "isCorrect": false },
+      { "text": "cot 34°", "isCorrect": false },
+      { "text": "tan 52°", "isCorrect": false },
+      { "text": "cot 62°", "isCorrect": true }
     ]
   }
 ]

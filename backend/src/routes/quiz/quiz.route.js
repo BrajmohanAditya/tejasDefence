@@ -24,7 +24,13 @@ quizRoute.post(
 );
 quizRoute.get("/getQuizzes", getQuizzes);
 quizRoute.get("/getQuiz/:id", getQuizById);
-quizRoute.put("/update/:id", isLoggedIn, isAdmin, updateQuiz);
+quizRoute.put(
+  "/update/:id",
+  upload.single("logo"),
+  isLoggedIn,
+  isAdmin,
+  updateQuiz,
+);
 quizRoute.delete("/delete/:id", isLoggedIn, isAdmin, deleteQuiz);
 quizRoute.patch("/toggle-lock/:id", isLoggedIn, isAdmin, toggleQuizLock);
 quizRoute.patch("/quizType/:id", isLoggedIn, isAdmin, toggleQuizType);

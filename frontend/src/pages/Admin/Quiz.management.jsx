@@ -145,9 +145,11 @@ const QuizManagement = () => {
 
                     <td className="px-6 py-4">
                       <div className="flex items-center justify-end gap-3">
-                        <button className="text-emerald-600 hover:text-emerald-800 transition">
-                          <Edit className="w-4 h-4" />
-                        </button>
+                        <CreateQuiz quiz={quiz}>
+                          <button className="text-emerald-600 hover:text-emerald-800 transition cursor-pointer">
+                            <Edit className="w-4 h-4" />
+                          </button>
+                        </CreateQuiz>
 
                         <button
                           className="text-red-500 hover:text-red-700 transition disabled:opacity-50 cursor-pointer"

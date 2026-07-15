@@ -7,6 +7,7 @@ function App() {
   const { data, isLoading, isError } = GetUserHook();
   const setUser = useUserStore((state) => state.setUser);
   const clearUser = useUserStore((state) => state.clearUser);
+  const setCheckingAuth = useUserStore((state) => state.setCheckingAuth);
 
   // Jab API se data aayega, ye usko permanently Zustand mein daal dega
   useEffect(() => {
@@ -14,8 +15,10 @@ function App() {
       setUser(data.user);
     } else if (isError) {
       clearUser();
+    } else if (!isLoading) {
+      setCheckingAuth(false);
     }
-  }, [data, isError, setUser, clearUser]);
+  }, [data, isError, isLoading, setUser, clearUser, setCheckingAuth]);
 
 
 

@@ -117,7 +117,31 @@ export const getQuizById = async (req, res, next) => {
 export const updateQuiz = async (req, res, next) => {
   try {
     const quizId = req.params.id;
-    const updateData = req.body;
+    const updateData = { ...req.body };
+
+    // Parse section array if sent as a JSON string
+    if (updateData.section && typeof updateData.section === "string") {
+      try {
+        updateData.section = JSON.parse(updateData.section);
+      } catch (err) {
+        return res.status(400).json({
+          success: false,
+          message: "Invalid format for section data",
+        });
+      }
+    }
+
+    // If new logo is uploaded, upload it to Cloudinary
+    if (req.file) {
+      const file = req.file;
+      const base64 = `data:${file.mimetype};base64,${file.buffer.toString("base64")}`;
+      const uploadRes = await cloudinary.uploader.upload(base64, {
+        folder: "Akash_Academy",
+        timeout: 120000,
+      });
+      updateData.logoUrl = uploadRes.secure_url;
+      updateData.logoId = uploadRes.public_id;
+    }
 
     const updatedQuiz = await Quiz.findByIdAndUpdate(
       quizId,

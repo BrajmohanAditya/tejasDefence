@@ -55,3 +55,11 @@ export const toggleQuizTypeApi = async (id) => {
     });
     return res.data;
 };
+
+export const updateQuizApi = async ({ id, payload }) => {
+    const res = await axios.put(`${baseUrl}/quiz/update/${id}`, payload, {
+        headers: { 'Content-Type': 'multipart/form-data' },
+        withCredentials: true
+    });
+    return res.data;
+};
