@@ -1,6 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { Lightbulb, CheckCircle2, Eye, EyeOff } from "lucide-react";
 
+const decodeHtml = (html) => {
+  if (!html) return "";
+  return html
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&");
+};
+
 const SolutionUI = ({ solutionText, solutionImage, correctOptionText }) => {
   const [showSolution, setShowSolution] = useState(false);
 
@@ -61,7 +71,7 @@ const SolutionUI = ({ solutionText, solutionImage, correctOptionText }) => {
               {solutionText && (
                 <div
                   className="text-slate-700 text-[15px] leading-relaxed whitespace-pre-wrap"
-                  dangerouslySetInnerHTML={{ __html: solutionText }}
+                  dangerouslySetInnerHTML={{ __html: decodeHtml(solutionText) }}
                 />
               )}
 

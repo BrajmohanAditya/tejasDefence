@@ -1,6 +1,16 @@
 import React from "react";
 import { AlertTriangle } from "lucide-react";
 
+const decodeHtml = (html) => {
+  if (!html) return "";
+  return html
+    .replace(/&lt;/g, "<")
+    .replace(/&gt;/g, ">")
+    .replace(/&quot;/g, '"')
+    .replace(/&#39;/g, "'")
+    .replace(/&amp;/g, "&");
+};
+
 const QuestionUI = ({ children, question, questionNumber = 1 }) => {
   return (
     <div className="flex flex-col bg-white h-auto lg:h-full">
@@ -13,7 +23,7 @@ const QuestionUI = ({ children, question, questionNumber = 1 }) => {
         <div className="mb-8">
           <div
             className="text-slate-800 text-[16px] leading-relaxed font-medium whitespace-pre-wrap"
-            dangerouslySetInnerHTML={{ __html: question?.questionText }}
+            dangerouslySetInnerHTML={{ __html: decodeHtml(question?.questionText) }}
           />
 
           {/* Question Image (If it exists in the database) */}
