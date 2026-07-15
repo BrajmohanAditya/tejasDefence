@@ -202,12 +202,12 @@ const QuizeInterface = () => {
           {/* Questions and Options Row */}
           <div className="flex-1 flex flex-col lg:flex-row overflow-y-auto lg:overflow-hidden min-h-0">
             {/* Render the Question UI */}
-            <div className="lg:flex-1 min-h-0 border-b lg:border-b-0 lg:border-r border-slate-200 bg-white lg:overflow-y-auto custom-scrollbar">
+            <div className="shrink-0 lg:flex-1 min-h-0 border-b lg:border-b-0 lg:border-r border-slate-200 bg-white lg:overflow-y-auto custom-scrollbar">
               <QuestionUi question={currentQuestion} />
             </div>
             {/* {console.log(currentQuestion)} */}
             {/* Render the Option UI */}
-            <div className="lg:flex-1 min-h-0 border-b lg:border-b-0 border-slate-200 bg-white lg:overflow-y-auto custom-scrollbar flex flex-col">
+            <div className="shrink-0 lg:flex-1 min-h-0 border-b lg:border-b-0 border-slate-200 bg-white lg:overflow-y-auto custom-scrollbar flex flex-col">
               <OptionUI
                 key={currentQuestion?._id || currentQuestionIndex}
                 options={currentQuestion?.options}

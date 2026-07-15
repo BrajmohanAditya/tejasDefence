@@ -3,12 +3,12 @@ import { AlertTriangle } from "lucide-react";
 
 const QuestionUI = ({ children, question, questionNumber = 1 }) => {
   return (
-    <div className="flex flex-col bg-white h-full">
+    <div className="flex flex-col bg-white h-auto lg:h-full">
       {/* 1. Question Header (Top Bar) */}
 
 
       {/* 2. Main Question Body */}
-      <div className="flex flex-col p-6 md:p-8 h-full">
+      <div className="flex flex-col p-6 md:p-8 h-auto lg:h-full">
         {/* Question Content */}
         <div className="mb-8">
           <div
