@@ -269,7 +269,7 @@ const QuizeInterface = () => {
         </div>
 
         {/* Right Side - Question Buttons Panel */}
-        <div className="w-full lg:w-[320px] shrink-0 bg-white h-auto lg:h-full lg:overflow-y-auto custom-scrollbar">
+        <div className="w-full lg:w-[320px] shrink-0 bg-white h-[280px] lg:h-full overflow-hidden">
           <QuestionButtonUI
             sectionName={activeSection}
             questions={sectionQuestions}

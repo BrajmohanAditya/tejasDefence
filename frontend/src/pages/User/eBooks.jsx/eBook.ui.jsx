@@ -154,10 +154,10 @@ const EbookQuestionPractice = () => {
       </header>
 
       {/* Main Layout Area */}
-      <div className="flex-1 w-full mx-auto p-0 grid grid-cols-1 lg:grid-cols-12 gap-0 items-stretch min-h-0 overflow-hidden h-full">
+      <div className="flex-1 w-full mx-auto p-0 flex flex-col lg:flex-row gap-0 items-stretch min-h-0 overflow-hidden h-full">
         
-        {/* LEFT COLUMN: Question Viewer (9 Cols) */}
-        <div className="lg:col-span-9 flex flex-col h-full min-h-0 overflow-hidden border-r border-slate-200 bg-white">
+        {/* LEFT COLUMN: Question Viewer */}
+        <div className="flex-1 flex flex-col h-full min-h-0 overflow-hidden lg:border-r border-slate-200 bg-white">
           {questionsLoading ? (
             <div className="bg-white p-12 flex flex-col items-center justify-center h-full">
               <Loader2 className="w-8 h-8 animate-spin text-indigo-600 mb-2" />
@@ -190,8 +190,8 @@ const EbookQuestionPractice = () => {
           )}
         </div>
 
-        {/* RIGHT COLUMN: Sidebar containing Palette and Chapters (3 Cols) */}
-        <div className="lg:col-span-3 flex flex-col gap-0 w-full h-full min-h-0 overflow-hidden bg-white">
+        {/* RIGHT COLUMN: Sidebar containing Palette and Chapters */}
+        <div className="w-full lg:w-[320px] shrink-0 flex flex-col gap-0 h-[350px] lg:h-full min-h-0 overflow-hidden bg-white">
           
           {/* Card 1: Question Palette Component */}
           <div className="flex-1 min-h-0 flex flex-col overflow-hidden border-b border-slate-200">
