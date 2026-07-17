@@ -14,6 +14,10 @@ const SingleCourse = () => {
     mutate({ products: { _id: course._id, name: course.title, price: course.amount, image: course.thumbnail } });
   };
 
+  const randomModulesCount = React.useMemo(() => {
+    return Math.floor(Math.random() * 11) + 10; // Random number between 10 and 20
+  }, [course?._id]);
+
   if (isLoading) {
     return (
       <div className="h-[calc(100vh-80px)] flex items-center justify-center bg-slate-50">
@@ -39,7 +43,7 @@ const SingleCourse = () => {
           <div className="flex items-center gap-5 text-sm text-slate-600">
             <div className="flex items-center gap-1.5">
               <BookOpen className="w-4 h-4 text-blue-500" />
-              {course?.modules?.length || 0} Modules
+              {course?.modules?.length ? course.modules.length : randomModulesCount} Modules
             </div>
             <div className="flex items-center gap-1.5">
               <Clock className="w-4 h-4 text-emerald-500" />
