@@ -3,19 +3,19 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If the matrix [ cos θ & sin θ & 0 sin θ & cos θ & 0 0 & 0 & 1 ] is singular, then what is one of the values of θ ?",
+    "questionText": "If the matrix $$\\begin{pmatrix} cos \\theta & sin \\theta & 0 \\\\ sin \\theta & cos \\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$$ is singular, then what is one of the values of $\\theta$ ?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "π /4",
+        "text": "$\\pi$ /4",
         "isCorrect": false
       },
       {
-        "text": "π /2",
+        "text": "$\\pi$ /2",
         "isCorrect": false
       },
       {
-        "text": "π",
+        "text": "$\\pi$",
         "isCorrect": false
       },
       {
@@ -28,7 +28,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A = [ 1 & 0 0 & -1 ] and B = [ 1 & x 0 & 1 ] , If AB = BA , then what is the value of x ?",
+    "questionText": "Let A = $$\\begin{pmatrix} 1 & 0 \\\\ 0 & -1 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 1 & x \\\\ 0 & 1 \\end{pmatrix}$$ , If AB = BA , then what is the value of x ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -53,7 +53,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A = (a_ij)_(n× n) and adj(A) = (aij), If A = 1 2 3 then what is the value of a23 ?",
+    "questionText": "Let A = (a_ij)_(n$\\times$ n) and adj(A) = (aij), If A = 1 2 3 then what is the value of a23 ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -103,7 +103,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "M is a matrix with real entries given by M = [ 4 & k & 0 6 & 3 & 0 2 & t & k ] , which of the following conditions guarantee the invertibility of M? 1. k≠ 2 2. k≠ 1 3. t≠ 0 4. t≠ 1",
+    "questionText": "M is a matrix with real entries given by M = $$\\begin{pmatrix} 4 & k & 0 \\\\ 6 & 3 & 0 \\\\ 2 & t & k \\end{pmatrix}$$ , which of the following conditions guarantee the invertibility of M? 1. k$\\neq$ 2 2. k$\\neq$ 1 3. t$\\neq$ 0 4. t$\\neq$ 1",
     "optionsInstruction": "",
     "options": [
       {
@@ -128,7 +128,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A = [ 1 & 1 & 1 1 & 1 & 1 ] be a square matrix of order 3. Then for any positive integer n, what is A^n equal to?",
+    "questionText": "Let A = $$\\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{pmatrix}$$ be a square matrix of order 3. Then for any positive integer n, what is A^n equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -178,7 +178,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the inverse of A = [ 1 + i & 1 + i -1 + i & 1 - i ] ? (options not clearly given, skip)",
+    "questionText": "What is the inverse of A = $$\\begin{pmatrix} 1 + i & 1 + i \\\\ -1 + i & 1 - i \\end{pmatrix}$$ ? (options not clearly given, skip)",
     "optionsInstruction": "",
     "options": []
   },
@@ -194,7 +194,7 @@
         "isCorrect": false
       },
       {
-        "text": "m = n and det(A) ≠ 0",
+        "text": "m = n and det(A) $\\neq$ 0",
         "isCorrect": false
       },
       {
@@ -202,7 +202,7 @@
         "isCorrect": false
       },
       {
-        "text": "m ≠ n",
+        "text": "m $\\neq$ n",
         "isCorrect": false
       }
     ]
@@ -219,23 +219,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The matrix A = [ 1 & 2 2 & 2 ] satisfies which one of the following polynomial equations?",
+    "questionText": "The matrix A = $$\\begin{pmatrix} 1 & 2 \\\\ 2 & 2 \\end{pmatrix}$$ satisfies which one of the following polynomial equations?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "A^2 + 3A + 2I = 0",
+        "text": "$A^2$ + 3A + 2I = 0",
         "isCorrect": false
       },
       {
-        "text": "A^2 + 3A - 2I = 0",
+        "text": "$A^2$ + 3A - 2I = 0",
         "isCorrect": false
       },
       {
-        "text": "A^2 - 3A - 2I = 0",
+        "text": "$A^2$ - 3A - 2I = 0",
         "isCorrect": false
       },
       {
-        "text": "A^2 - 3A + 2I = 0",
+        "text": "$A^2$ - 3A + 2I = 0",
         "isCorrect": false
       }
     ]
@@ -269,7 +269,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ ω & 0 0 & ω ] , where ω is cube root of unity, then what is A^100 equal to?",
+    "questionText": "If A = $$\\begin{pmatrix} ω & 0 \\\\ 0 & ω \\end{pmatrix}$$ , where ω is cube root of unity, then what is A^100 equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -319,7 +319,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If X and Y are the matrices of order 2× 2 each and 2x - 3y = [ 7 & 0 7 & -13 ] and 3x + 2y = [ 9 & 13 4 & 13 ] , then what is Y equal to: (options missing)",
+    "questionText": "If X and Y are the matrices of order 2$\\times$ 2 each and 2x - 3y = $$\\begin{pmatrix} 7 & 0 \\\\ 7 & -13 \\end{pmatrix}$$ and 3x + 2y = $$\\begin{pmatrix} 9 & 13 \\\\ 4 & 13 \\end{pmatrix}$$ , then what is Y equal to: (options missing)",
     "optionsInstruction": "",
     "options": []
   },
@@ -327,7 +327,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If the matrix A = [ 2 - x & 1 & 1 1 & 3 - x & 0 -1 & -3 & - x ] is singular, then what is identity matrix, then what is the value of A^(-1) ? the solution set S (a) S = {0,2,3} (b) S = {-1,2,3} (c) S = {1,2,3} (d) S = {2,3} (a) A+ i (b) Null matrix (c) A (d) Transpose of A",
+    "questionText": "If the matrix A = $$\\begin{pmatrix} 2 - x & 1 & 1 \\\\ 1 & 3 - x & 0 \\\\ -1 & -3 & - x \\end{pmatrix}$$ is singular, then what is identity matrix, then what is the value of A^{-1} ? the solution set S (a) S = {0,2,3} (b) S = {-1,2,3} (c) S = {1,2,3} (d) S = {2,3} (a) A+ i (b) Null matrix (c) A (d) Transpose of A",
     "optionsInstruction": "",
     "options": [
       {
@@ -352,7 +352,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ α & 0 1 & 1 ] and B = [ 1 & 0 2 & 1 ] such that A^2 = B , then what is the value of α ?",
+    "questionText": "If A = $$\\begin{pmatrix} \\alpha & 0 \\\\ 1 & 1 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 1 & 0 \\\\ 2 & 1 \\end{pmatrix}$$ such that $A^2$ = B , then what is the value of $\\alpha$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -377,7 +377,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 3 & 1 0 & 4 ] and B = [ 1 & 1 0 & 2 ] , then which of the following is/are correct? I. AB is defined II. BA is defined III. AB = BA",
+    "questionText": "If A = $$\\begin{pmatrix} 3 & 1 \\\\ 0 & 4 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 1 & 1 \\\\ 0 & 2 \\end{pmatrix}$$ , then which of the following is/are correct? I. AB is defined II. BA is defined III. AB = BA",
     "optionsInstruction": "",
     "options": [
       {
@@ -427,23 +427,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If the matrix A = [ α & β β & α ] is such that A^2 = I , then which one of the following is correct?",
+    "questionText": "If the matrix A = $$\\begin{pmatrix} \\alpha & \\beta \\\\ \\beta & \\alpha \\end{pmatrix}$$ is such that $A^2$ = I , then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "α = 0 , β = 1 or α = 1 , β = 0",
+        "text": "$\\alpha$ = 0 , $\\beta$ = 1 or $\\alpha$ = 1 , $\\beta$ = 0",
         "isCorrect": false
       },
       {
-        "text": "α = 0 , β ≠ 1 or α ≠ 1 , β = 0",
+        "text": "$\\alpha$ = 0 , $\\beta$ $\\neq$ 1 or $\\alpha$ $\\neq$ 1 , $\\beta$ = 0",
         "isCorrect": false
       },
       {
-        "text": "α = 1 , β ≠ 0 or α ≠ 1 , β = 0",
+        "text": "$\\alpha$ = 1 , $\\beta$ $\\neq$ 0 or $\\alpha$ $\\neq$ 1 , $\\beta$ = 0",
         "isCorrect": false
       },
       {
-        "text": "α ≠ 0 , β ≠ 0",
+        "text": "$\\alpha$ $\\neq$ 0 , $\\beta$ $\\neq$ 0",
         "isCorrect": false
       }
     ]
@@ -452,7 +452,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "For what value of x does (1 3 2) [ 1 & 3 & 0 3 & 0 & 2 2 & 0 & 1 ] = (0) hold?",
+    "questionText": "For what value of x does (1 3 2) $$\\begin{pmatrix} 1 & 3 & 0 \\\\ 3 & 0 & 2 \\\\ 2 & 0 & 1 \\end{pmatrix}$$ = (0) hold?",
     "optionsInstruction": "",
     "options": [
       {
@@ -527,7 +527,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is a square matrix such that A^2 = I where I is the identity matrix, then what is the value of A^(-1) ?",
+    "questionText": "If A is a square matrix such that $A^2$ = I where I is the identity matrix, then what is the value of A^{-1} ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -552,7 +552,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the order of the product: [ a & h & g h & b & f g & f & c ] [ x & y & z g & f & c ] ?",
+    "questionText": "What is the order of the product: $$\\begin{pmatrix} a & h & g \\\\ h & b & f \\\\ g & f & c \\end{pmatrix}$$ $$\\begin{pmatrix} x & y & z \\\\ g & f & c \\end{pmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -602,23 +602,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 1 & 2 1 & 1 ] and B = [ 0 & -1 1 & 2 ] , then what is the value of B^(-1) A^(-1) ?",
+    "questionText": "If A = $$\\begin{pmatrix} 1 & 2 \\\\ 1 & 1 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 0 & -1 \\\\ 1 & 2 \\end{pmatrix}$$ , then what is the value of B^{-1} A^{-1} ?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "[ 1 & -3 -1 & 2 ]",
+        "text": "$$\\begin{pmatrix} 1 & -3 \\\\ -1 & 2 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ -1 & 3 1 & -2 ]",
+        "text": "$$\\begin{pmatrix} -1 & 3 \\\\ 1 & -2 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ -1 & 3 -1 & -2 ]",
+        "text": "$$\\begin{pmatrix} -1 & 3 \\\\ -1 & -2 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ -1 & -3 -1 & -2 ]",
+        "text": "$$\\begin{pmatrix} -1 & -3 \\\\ -1 & -2 \\end{pmatrix}$$",
         "isCorrect": false
       }
     ]
@@ -627,7 +627,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "A and B are two matrices such that AB = A and BA = B then what is B^2 equal to?",
+    "questionText": "A and B are two matrices such that AB = A and BA = B then what is $B^2$ equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -652,7 +652,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 3 & 4 5 & 6 7 & 8 ] and B = [ 3 & 5 & 7 4 & 6 & 8 ] , then Which one of the following is correct?",
+    "questionText": "If A = $$\\begin{pmatrix} 3 & 4 5 & 6 7 & 8 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 3 & 5 & 7 \\\\ 4 & 6 & 8 \\end{pmatrix}$$ , then Which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -702,23 +702,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If the matrix [ α & 2 & 2 -3 & 0 & 4 1 & -1 & 1 ] is not invertible, then:",
+    "questionText": "If the matrix $$\\begin{pmatrix} \\alpha & 2 & 2 \\\\ -3 & 0 & 4 \\\\ 1 & -1 & 1 \\end{pmatrix}$$ is not invertible, then:",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "α = -5",
+        "text": "$\\alpha$ = -5",
         "isCorrect": false
       },
       {
-        "text": "α = 5",
+        "text": "$\\alpha$ = 5",
         "isCorrect": false
       },
       {
-        "text": "α = 0",
+        "text": "$\\alpha$ = 0",
         "isCorrect": false
       },
       {
-        "text": "α = 1",
+        "text": "$\\alpha$ = 1",
         "isCorrect": false
       }
     ]
@@ -752,23 +752,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If α and β are the roots of the equation 1 + x + x^2 = 0 then the matrix product [ 1 & β α & α ][ α & β 1 & β ] is equal to:",
+    "questionText": "If $\\alpha$ and $\\beta$ are the roots of the equation 1 + x + $x^2$ = 0 then the matrix product $$\\begin{pmatrix} 1 & \\beta \\\\ \\alpha & \\alpha \\end{pmatrix}$$$$\\begin{pmatrix} \\alpha & \\beta \\\\ 1 & \\beta \\end{pmatrix}$$ is equal to:",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "[ 1 & 1 1 & 2 ]",
+        "text": "$$\\begin{pmatrix} 1 & 1 \\\\ 1 & 2 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ -1 & -1 -1 & 2 ]",
+        "text": "$$\\begin{pmatrix} -1 & -1 \\\\ -1 & 2 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ 1 & -1 -1 & 2 ]",
+        "text": "$$\\begin{pmatrix} 1 & -1 \\\\ -1 & 2 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ -1 & -1 -1 & -2 ]",
+        "text": "$$\\begin{pmatrix} -1 & -1 \\\\ -1 & -2 \\end{pmatrix}$$",
         "isCorrect": false
       }
     ]
@@ -777,7 +777,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 1 & 2 2 & 3 ] and A^2 - kA - I_2 = 0 where I_2 is the 2 × 2 identity matrix, then what is the value of k?",
+    "questionText": "If A = $$\\begin{pmatrix} 1 & 2 \\\\ 2 & 3 \\end{pmatrix}$$ and $A^2$ - kA - $I_2$ = 0 where $I_2$ is the 2 $\\times$ 2 identity matrix, then what is the value of k?",
     "optionsInstruction": "",
     "options": [
       {
@@ -802,23 +802,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is a 2 × 3 matrix and AB is a 2 × 5 matrix, then B must be a",
+    "questionText": "If A is a 2 $\\times$ 3 matrix and AB is a 2 $\\times$ 5 matrix, then B must be a",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "3 × 5 matrix",
+        "text": "3 $\\times$ 5 matrix",
         "isCorrect": false
       },
       {
-        "text": "3 × 3 matrix",
+        "text": "3 $\\times$ 3 matrix",
         "isCorrect": false
       },
       {
-        "text": "3 × 2 matrix",
+        "text": "3 $\\times$ 2 matrix",
         "isCorrect": false
       },
       {
-        "text": "5 × 2 matrix",
+        "text": "5 $\\times$ 2 matrix",
         "isCorrect": false
       }
     ]
@@ -827,23 +827,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the inverse of the matrix A = [ cos θ & sin θ & 0 -sin θ & cos θ & 0 0 & 0 & 1 ] ?",
+    "questionText": "What is the inverse of the matrix A = $$\\begin{pmatrix} cos \\theta & sin \\theta & 0 \\\\ -sin \\theta & cos \\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "[ cos θ & -sin θ & 0 sin θ & cos θ & 0 0 & 0 & 1 ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & -sin \\theta & 0 \\\\ sin \\theta & cos \\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ cos θ & 0 & -sin θ 0 & 1 & 0 sin θ & 0 & cos θ ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & 0 & -sin \\\\ \\theta 0 & 1 & 0 \\\\ sin \\theta & 0 & cos \\theta \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ 1 & 0 & 0 0 & cos θ & -sin θ 0 & sin θ & cos θ ]",
+        "text": "$$\\begin{pmatrix} 1 & 0 & 0 \\\\ 0 & cos \\theta & -sin \\\\ \\theta 0 & sin \\theta & cos \\theta \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ cos θ & sin θ & 0 -sin θ & cos θ & 0 0 & 0 & 1 ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & sin \\theta & 0 \\\\ -sin \\theta & cos \\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$$",
         "isCorrect": false
       }
     ]
@@ -852,7 +852,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Consider the following in respect of matrices A and B of same order: A^2 - B^2 = (A + B)(A - B) A^2 - B^2 = (A + B)(A - B) I.A - I (I + A) = 0 Leftrightarrow A² = I Where I is the identity matrix and O is the null matrix. Which of the above is/are correct?",
+    "questionText": "Consider the following in respect of matrices A and B of same order: $A^2$ - $B^2$ = (A + B)(A - B) $A^2$ - $B^2$ = (A + B)(A - B) I.A - I (I + A) = 0 Leftrightarrow A² = I Where I is the identity matrix and O is the null matrix. Which of the above is/are correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -877,7 +877,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let matrix B be the adjoin of a square matrix A, ell be the identity matrix of same order as A. If k (≠ 0) is the determinant of the matrix A, then what is AB equal to?",
+    "questionText": "Let matrix B be the adjoin of a square matrix A, ell be the identity matrix of same order as A. If k ($\\neq$ 0) is the determinant of the matrix A, then what is AB equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -902,7 +902,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Consider the following in respect of matrices A, B and C of same order: I.A = [ 1 & -1 -1 & 1 ] I.A + B + C) = A^2 + B^2 + C^2 I.(AB)^2 = A^2 B^2 I.(ABC)^2 = C^2 B^2 A^2 Where A' is the transpose of the matrix A. Which of the above are correct?",
+    "questionText": "Consider the following in respect of matrices A, B and C of same order: I.A = $$\\begin{pmatrix} 1 & -1 \\\\ -1 & 1 \\end{pmatrix}$$ I.A + B + C) = $A^2$ + $B^2$ + $C^2$ I.(AB)^2 = $A^2$ $B^2$ I.(ABC)^2 = $C^2$ $B^2$ $A^2$ Where A' is the transpose of the matrix A. Which of the above are correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -927,7 +927,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What should be the value of x so that the matrix [ 2 & 4 -8 & x ] does not have an inverse?",
+    "questionText": "What should be the value of x so that the matrix $$\\begin{pmatrix} 2 & 4 \\\\ -8 & x \\end{pmatrix}$$ does not have an inverse?",
     "optionsInstruction": "",
     "options": [
       {
@@ -952,23 +952,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A and B are two invertible square matrices of same order, then what is (AB) ^(-1) equal to?",
+    "questionText": "If A and B are two invertible square matrices of same order, then what is (AB) ^{-1} equal to?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "B^(-1)A^(-1)",
+        "text": "$B^{-1}$A^{-1}",
         "isCorrect": false
       },
       {
-        "text": "A^(-1)B^(-1)",
+        "text": "$A^{-1}$B^{-1}",
         "isCorrect": false
       },
       {
-        "text": "B^(-1)A",
+        "text": "$B^{-1}$A",
         "isCorrect": false
       },
       {
-        "text": "A^(-1)B",
+        "text": "$A^{-1}$B",
         "isCorrect": false
       }
     ]
@@ -977,23 +977,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the ad joint of the matrix: [ cos (-θ) & -sin (-θ) -sin (-θ) & cos (-θ) ] ?",
+    "questionText": "What is the ad joint of the matrix: $$\\begin{pmatrix} cos (-\\theta) & -sin (-\\theta) \\\\ -sin (-\\theta) & cos (-\\theta) \\end{pmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "[ cos θ & -sin θ -sin θ & cos θ ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & -sin \\theta \\\\ -sin \\theta & cos \\theta \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ cos θ & sin θ -sin θ & cos θ ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & sin \\theta \\\\ -sin \\theta & cos \\theta \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ cos θ & sin θ -sin θ & cos θ ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & sin \\theta \\\\ -sin \\theta & cos \\theta \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ cos θ & -sin θ sin θ & cos θ ]",
+        "text": "$$\\begin{pmatrix} cos \\theta & -sin \\theta \\\\ sin \\theta & cos \\theta \\end{pmatrix}$$",
         "isCorrect": false
       }
     ]
@@ -1006,19 +1006,19 @@
     "optionsInstruction": "",
     "options": [
       {
-        "text": "A = A^2",
+        "text": "A = $A^2$",
         "isCorrect": false
       },
       {
-        "text": "A^2 = A^(-1)",
+        "text": "$A^2$ = A^{-1}",
         "isCorrect": false
       },
       {
-        "text": "A = A^(-1)",
+        "text": "A = A^{-1}",
         "isCorrect": false
       },
       {
-        "text": "A = A^2",
+        "text": "A = $A^2$",
         "isCorrect": false
       }
     ]
@@ -1027,7 +1027,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is an identity matrix of order 3, then its inverse (A ^(-1) )",
+    "questionText": "If A is an identity matrix of order 3, then its inverse (A ^{-1} )",
     "optionsInstruction": "",
     "options": [
       {
@@ -1052,19 +1052,19 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If B = [ 3 & -2 & 0 2 & 4 & 0 1 & -1 & 0 ] than what is adjoint of B equal to?",
+    "questionText": "If B = $$\\begin{pmatrix} 3 & -2 & 0 \\\\ 2 & 4 & 0 \\\\ 1 & -1 & 0 \\end{pmatrix}$$ than what is adjoint of B equal to?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "[ 0 & 0 & 0 0 & 0 & 0 -2 & -1 & 8 ]",
+        "text": "$$\\begin{pmatrix} 0 & 0 & 0 \\\\ 0 & 0 & 0 \\\\ -2 & -1 & 8 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ 0 & 0 & -2 0 & 0 & -1 0 & 0 & 8 ]",
+        "text": "$$\\begin{pmatrix} 0 & 0 & -2 \\\\ 0 & 0 & -1 \\\\ 0 & 0 & 8 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ 0 & 0 & 2 0 & 0 & 1 0 & 0 & 0 ]",
+        "text": "$$\\begin{pmatrix} 0 & 0 & 2 \\\\ 0 & 0 & 1 \\\\ 0 & 0 & 0 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
@@ -1077,7 +1077,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 0 & 1 1 & 0 ] then the matrix A is",
+    "questionText": "If A = $$\\begin{pmatrix} 0 & 1 \\\\ 1 & 0 \\end{pmatrix}$$ then the matrix A is",
     "optionsInstruction": "",
     "options": [
       {
@@ -1102,7 +1102,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 1 & -1 -1 & 1 ] then the expression A^3 - 2A^2 is",
+    "questionText": "If A = $$\\begin{pmatrix} 1 & -1 \\\\ -1 & 1 \\end{pmatrix}$$ then the expression $A^3$ - 2A^2 is",
     "optionsInstruction": "",
     "options": []
   },
@@ -1110,7 +1110,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A= [ 1 & 2 2 & 3 3 & 4 ] and B = [ 1 & 2 2 & 1 ] , then Which one of the following is correct?",
+    "questionText": "If A= $$\\begin{pmatrix} 1 & 2 2 & 3 3 & 4 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 1 & 2 \\\\ 2 & 1 \\end{pmatrix}$$ , then Which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1135,7 +1135,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A = [ a & h & g b & f & c g & f & c ] , B = [ x y z ] then what is AB equal to?",
+    "questionText": "Let A = $$\\begin{pmatrix} a & h & g \\\\ b & f & c \\\\ g & f & c \\end{pmatrix}$$ , B = [ x y z ] then what is AB equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1160,23 +1160,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is a matrix of order 3 × 5 and B is a matrix of order 5 × 3 , then the order of AB and BA will respectively be",
+    "questionText": "If A is a matrix of order 3 $\\times$ 5 and B is a matrix of order 5 $\\times$ 3 , then the order of AB and BA will respectively be",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "3 × 3 and 3 × 3",
+        "text": "3 $\\times$ 3 and 3 $\\times$ 3",
         "isCorrect": false
       },
       {
-        "text": "3 × 5 and 5 × 3",
+        "text": "3 $\\times$ 5 and 5 $\\times$ 3",
         "isCorrect": false
       },
       {
-        "text": "3 × 3 and 5 × 5",
+        "text": "3 $\\times$ 3 and 5 $\\times$ 5",
         "isCorrect": false
       },
       {
-        "text": "5 × 3 and 3 × 5",
+        "text": "5 $\\times$ 3 and 3 $\\times$ 5",
         "isCorrect": false
       }
     ]
@@ -1185,7 +1185,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If matrix A = [ 1 - i & i -i & 1 - i ] then which one of the following is correct?",
+    "questionText": "If matrix A = $$\\begin{pmatrix} 1 - i & i \\\\ -i & 1 - i \\end{pmatrix}$$ then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1210,7 +1210,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "For how many values of k, is the matrix [ 0 & k & 4 -k & 0 & -5 -k & k & -1 ] singular?",
+    "questionText": "For how many values of k, is the matrix $$\\begin{pmatrix} 0 & k & 4 \\\\ -k & 0 & -5 \\\\ -k & k & -1 \\end{pmatrix}$$ singular?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1235,7 +1235,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A = [ x + y & y 2x & x - y ] , B = [ 2 -1 ] and C = [ 3 2 ] If AB = C , then what is the value of determinant of A?",
+    "questionText": "Let A = $$\\begin{pmatrix} x + y & y \\\\ 2x & x - y \\end{pmatrix}$$ , B = [ 2 -1 ] and C = [ 3 2 ] If AB = C , then what is the value of determinant of A?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1285,7 +1285,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A and B are two matrices such that AB of order n × n , then which one of the following is correct?",
+    "questionText": "If A and B are two matrices such that AB of order n $\\times$ n , then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1335,11 +1335,11 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 1 & a 0 & 1 ] where A ∈ N , then what is A^100 - A^50 - 2A^25 equal to?",
+    "questionText": "If A = $$\\begin{pmatrix} 1 & a \\\\ 0 & 1 \\end{pmatrix}$$ where A ∈ N , then what is A^100 - A^50 - 2A^25 equal to?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "(-2I)/(-2I)",
+        "text": "$\\frac{-2I}{-2I}$",
         "isCorrect": false
       },
       {
@@ -1385,7 +1385,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Consider the following in respect of the matrix: A = [ 1 & 1 & 1 1 & 1 & 1 1 & 1 & 1 ] 1. Inverse of A does not exist 2. A^3 = A 3. A^3 = A^2 Which of the above are correct?",
+    "questionText": "Consider the following in respect of the matrix: A = $$\\begin{pmatrix} 1 & 1 & 1 \\\\ 1 & 1 & 1 \\\\ 1 & 1 & 1 \\end{pmatrix}$$ 1. Inverse of A does not exist 2. $A^3$ = A 3. $A^3$ = $A^2$ Which of the above are correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1410,23 +1410,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The inverse of a matrix A is given by [ -2 & 1 3 & -2 ] . What is A equal to?",
+    "questionText": "The inverse of a matrix A is given by $$\\begin{pmatrix} -2 & 1 \\\\ 3 & -2 \\end{pmatrix}$$ . What is A equal to?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "[ 1 & 2 3 & 4 ]",
+        "text": "$$\\begin{pmatrix} 1 & 2 \\\\ 3 & 4 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ 1 & -2 -3 & 4 ]",
+        "text": "$$\\begin{pmatrix} 1 & -2 \\\\ -3 & 4 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ 1 & 2 3 & -4 ]",
+        "text": "$$\\begin{pmatrix} 1 & 2 \\\\ 3 & -4 \\end{pmatrix}$$",
         "isCorrect": false
       },
       {
-        "text": "[ -1 & 2 3 & 4 ]",
+        "text": "$$\\begin{pmatrix} -1 & 2 \\\\ 3 & 4 \\end{pmatrix}$$",
         "isCorrect": false
       }
     ]
@@ -1435,7 +1435,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A = [ 0 & 2 -2 & 0 ] and (mI + nA)^2 = A where m, n are positive real numbers and I is the identity matrix. What is (m + n) equal to?",
+    "questionText": "Let A = $$\\begin{pmatrix} 0 & 2 \\\\ -2 & 0 \\end{pmatrix}$$ and (mI + nA)^2 = A where m, n are positive real numbers and I is the identity matrix. What is (m + n) equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1460,7 +1460,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of | 1 - i & e^2 & -e^2 e^2 + i & e^2 & -i | , where e is the cube root of unity?",
+    "questionText": "What is the value of $$\\begin{vmatrix} 1 - i & e^2 & -e^2 e^2 \\\\ + i & e^2 & -i \\end{vmatrix}$$ , where e is the cube root of unity?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1485,7 +1485,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If a, b and c are non-zero real numbers and | 1 + a & 1 & 1 1 & 1 + b & 1 1 & 1 & 1 + c | = 0 , then what is the value of 1/a +1/b +1/c ?",
+    "questionText": "If a, b and c are non-zero real numbers and $$\\begin{vmatrix} 1 + a & 1 & 1 \\\\ 1 & 1 + b & 1 \\\\ 1 & 1 & 1 + c \\end{vmatrix}$$ = 0 , then what is the value of 1/a +1/b +1/c ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1510,7 +1510,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | y & x & y + z z & y & x + y x & z & z + x | = 0 , then which one of the following is correct?",
+    "questionText": "If $$\\begin{vmatrix} y & x & y + \\\\ z z & y & x + \\\\ y x & z & z + x \\end{vmatrix}$$ = 0 , then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1535,7 +1535,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of k, if | k & b + c & b^2 + c^2 k & c + a & c + a^2 | = (a - b) (b - c) ?",
+    "questionText": "What is the value of k, if $$\\begin{vmatrix} k & b + c & b^2 + \\\\ c^2 k & c + a & c + a^2 \\end{vmatrix}$$ = (a - b) (b - c) ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1560,7 +1560,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of | sin 10^(circ) & cos 10^(circ) sin 80^(circ) & cos 80^(circ) | ?",
+    "questionText": "What is the value of $$\\begin{vmatrix} sin 10^(circ) & cos 10^(circ) \\\\ sin 80^(circ) & cos 80^(circ) \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1585,7 +1585,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | 2 & 4 & 0 0 & 5 & 16 0 & 0 & 1 + p | = 20 , then what is the value of p ?",
+    "questionText": "If $$\\begin{vmatrix} 2 & 4 & 0 \\\\ 0 & 5 & 16 \\\\ 0 & 0 & 1 + p \\end{vmatrix}$$ = 20 , then what is the value of p ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1610,7 +1610,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If (a_1 / x) + b_1 / y)c_1 , (a_2 / x) + b_2 / y) = c_2 and Delta_1 = | a_1 & b_1 a_2 & b_2 |,Delta_2 = | b_1 & c_1 b_2 & c_2 |,Delta_3 = | c_1 & a_1 c_2 & a_2 |, Then (x, y) is equal to which one of the following?",
+    "questionText": "If ($a_1$ / x) + $b_1$ / y)$c_1$ , ($a_2$ / x) + $b_2$ / y) = $c_2$ and Delta_1 = $$\\begin{vmatrix} a_1 & b_1 \\\\ a_2 & b_2 \\end{vmatrix}$$,Delta_2 = $$\\begin{vmatrix} b_1 & c_1 \\\\ b_2 & c_2 \\end{vmatrix}$$,Delta_3 = $$\\begin{vmatrix} c_1 & a_1 \\\\ c_2 & a_2 \\end{vmatrix}$$, Then (x, y) is equal to which one of the following?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1635,7 +1635,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the determinant | bc & a & a^2 ca & b & b^2 ab & c & c^2 | equal to?",
+    "questionText": "What is the determinant $$\\begin{vmatrix} bc & a & a^2 \\\\ ca & b & b^2 \\\\ ab & c & c^2 \\end{vmatrix}$$ equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1660,7 +1660,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If x^2 + y^2 + z^2 = 1 , then what is the value of the determinant? (options missing)",
+    "questionText": "If $x^2$ + $y^2$ + $z^2$ = 1 , then what is the value of the determinant? (options missing)",
     "optionsInstruction": "",
     "options": []
   },
@@ -1668,7 +1668,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If f(x) = (1 + sin^2x)/(sin^2x) +(cos^2x)/(1 + cos^2x) +(4sin 2x)/(4sin 2x) What is the maximum value of f(x)?",
+    "questionText": "If f(x) = $\\frac{1 + sin^2x}{sin^2x}$ +$\\frac{cos^2x}{1 + cos^2x}$ +$\\frac{4sin 2x}{4sin 2x}$ What is the maximum value of f(x)?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1709,7 +1709,7 @@
         "isCorrect": false
       },
       {
-        "text": "k≠ 0",
+        "text": "k$\\neq$ 0",
         "isCorrect": false
       }
     ]
@@ -1768,7 +1768,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of | a & b & c b & c & a c & a & b | ?",
+    "questionText": "What is the value of $$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1793,7 +1793,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | x & x^2 y & y^2 | + y^2 where x, y, z are distinct what is | A | ? (incomplete)",
+    "questionText": "If $$\\begin{vmatrix} x & x^2 \\\\ y & y^2 \\end{vmatrix}$$ + $y^2$ where x, y, z are distinct what is | A | ? (incomplete)",
     "optionsInstruction": "",
     "options": []
   },
@@ -1801,15 +1801,15 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of the determinant | x+1 & x+2 & x+4 x+3 & x+5 & x+8 x+7 & x+10 & x+14 | ?",
+    "questionText": "What is the value of the determinant $$\\begin{vmatrix} x+1 & x+2 & x+4 \\\\ x+3 & x+5 & x+8 \\\\ x+7 & x+10 & x+14 \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "× +2",
+        "text": "$\\times$ +2",
         "isCorrect": false
       },
       {
-        "text": "×^2 + 2",
+        "text": "$\\times$^2 + 2",
         "isCorrect": false
       },
       {
@@ -1826,7 +1826,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If 5 and 7 are the roots of the equation | 5 & 8 & x 7 & 10 & x 3 & 6 & x | = 0 what is the third root?",
+    "questionText": "If 5 and 7 are the roots of the equation $$\\begin{vmatrix} 5 & 8 & x \\\\ 7 & 10 & x \\\\ 3 & 6 & x \\end{vmatrix}$$ = 0 what is the third root?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1876,23 +1876,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The root of the equation | β & γ & α γ & α & β α & β & γ | = 0 are independent of:",
+    "questionText": "The root of the equation $$\\begin{vmatrix} \\beta & \\gamma & \\alpha \\\\ \\gamma & \\alpha & \\beta \\\\ \\alpha & \\beta & \\gamma \\end{vmatrix}$$ = 0 are independent of:",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "α",
+        "text": "$\\alpha$",
         "isCorrect": false
       },
       {
-        "text": "β",
+        "text": "$\\beta$",
         "isCorrect": false
       },
       {
-        "text": "γ",
+        "text": "$\\gamma$",
         "isCorrect": false
       },
       {
-        "text": "α ,β and γ",
+        "text": "$\\alpha$ ,$\\beta$ and $\\gamma$",
         "isCorrect": false
       }
     ]
@@ -1901,7 +1901,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | p & -q & 0 0 & p & q q & 0 & p | = 0 then which one of the following is correct?",
+    "questionText": "If $$\\begin{vmatrix} p & -q & 0 \\\\ 0 & p & q \\\\ q & 0 & p \\end{vmatrix}$$ = 0 then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -1926,11 +1926,11 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of the determinant | a & b & c b & c & a c & a & b | ?",
+    "questionText": "What is the value of the determinant $$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "a^3 + b^3 + c^3",
+        "text": "$a^3$ + $b^3$ + $c^3$",
         "isCorrect": false
       },
       {
@@ -1938,7 +1938,7 @@
         "isCorrect": false
       },
       {
-        "text": "a^3 + b^3 + c^2 - 3abc",
+        "text": "$a^3$ + $b^3$ + $c^2$ - 3abc",
         "isCorrect": false
       },
       {
@@ -1976,7 +1976,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If a^(- 1) + b^(- 1) + c^(- 1) = 0 such that | 1 & a & bc 1 & b & ca 1 & c & ab | = λ what is λ equal to?",
+    "questionText": "If a^{-1} + b^{-1} + c^{-1} = 0 such that $$\\begin{vmatrix} 1 & a & bc \\\\ 1 & b & ca \\\\ 1 & c & ab \\end{vmatrix}$$ = $\\lambda$ what is $\\lambda$ equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2051,7 +2051,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | 8 & -5 & 1 5 & x & 1 6 & 3 & 1 | = 2 then what is the value of x?",
+    "questionText": "If $$\\begin{vmatrix} 8 & -5 & 1 \\\\ 5 & x & 1 \\\\ 6 & 3 & 1 \\end{vmatrix}$$ = 2 then what is the value of x?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2076,7 +2076,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ 1 & 2 2 & 3 ] and B = [ 1 & 0 1 & 0 ] then what is the value of determinant of AB?",
+    "questionText": "If A = $$\\begin{pmatrix} 1 & 2 \\\\ 2 & 3 \\end{pmatrix}$$ and B = $$\\begin{pmatrix} 1 & 0 \\\\ 1 & 0 \\end{pmatrix}$$ then what is the value of determinant of AB?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2101,7 +2101,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of | abc & a & a b & abc & b c & c & abc | ?",
+    "questionText": "What is the value of $$\\begin{vmatrix} abc & a & a \\\\ b & abc & b \\\\ c & c & abc \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2151,7 +2151,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The value of the determinant | x^2 & 1 & y^2 + z^2 y^2 & 1 & z^2 + x^2 z^2 & 1 & x^2 + y^2 | is:",
+    "questionText": "The value of the determinant $$\\begin{vmatrix} x^2 & 1 & y^2 + \\\\ z^2 y^2 & 1 & z^2 + \\\\ x^2 z^2 & 1 & x^2 + y^2 \\end{vmatrix}$$ is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -2159,11 +2159,11 @@
         "isCorrect": false
       },
       {
-        "text": "x^2 + y^2 + z^2",
+        "text": "$x^2$ + $y^2$ + $z^2$",
         "isCorrect": false
       },
       {
-        "text": "x^2 + y^2 + z^2 + 1",
+        "text": "$x^2$ + $y^2$ + $z^2$ + 1",
         "isCorrect": false
       },
       {
@@ -2180,11 +2180,11 @@
     "optionsInstruction": "",
     "options": [
       {
-        "text": "D^(prime) = D^2",
+        "text": "D^(prime) = $D^2$",
         "isCorrect": false
       },
       {
-        "text": "D^(prime) = D^3",
+        "text": "D^(prime) = $D^3$",
         "isCorrect": false
       },
       {
@@ -2226,7 +2226,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The roots of the equation | 1 & t - 1 & 1 -1 & 1 & 1 1 & 1 & t - 1 | = 0 are",
+    "questionText": "The roots of the equation $$\\begin{vmatrix} 1 & t - 1 & 1 \\\\ -1 & 1 & 1 \\\\ 1 & 1 & t - 1 \\end{vmatrix}$$ = 0 are",
     "optionsInstruction": "",
     "options": [
       {
@@ -2251,7 +2251,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The value of the determinant | m & n & p p & m & n n & p & m |",
+    "questionText": "The value of the determinant $$\\begin{vmatrix} m & n & p \\\\ p & m & n \\\\ n & p & m \\end{vmatrix}$$",
     "optionsInstruction": "",
     "options": [
       {
@@ -2301,7 +2301,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of the minor of the element 9 in the determinant | 10 & 19 & 2 0 & 13 & 1 9 & 24 & 2 | ?",
+    "questionText": "What is the value of the minor of the element 9 in the determinant $$\\begin{vmatrix} 10 & 19 & 2 \\\\ 0 & 13 & 1 \\\\ 9 & 24 & 2 \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2330,7 +2330,7 @@
     "optionsInstruction": "",
     "options": [
       {
-        "text": "± 1",
+        "text": "$\\pm$ 1",
         "isCorrect": false
       },
       {
@@ -2342,7 +2342,7 @@
         "isCorrect": false
       },
       {
-        "text": "± 2",
+        "text": "$\\pm$ 2",
         "isCorrect": false
       }
     ]
@@ -2351,7 +2351,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The cofactor of the element 4 in the determinant | 1 & 2 & 3 4 & 5 & 6 5 & 8 & 9 |",
+    "questionText": "The cofactor of the element 4 in the determinant $$\\begin{vmatrix} 1 & 2 & 3 \\\\ 4 & 5 & 6 \\\\ 5 & 8 & 9 \\end{vmatrix}$$",
     "optionsInstruction": "",
     "options": [
       {
@@ -2376,7 +2376,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of the determinant | 1 & bc & a(b + c) 1 & ca & b(c + a) 1 & ab & c(a + b) | ?",
+    "questionText": "What is the value of the determinant $$\\begin{vmatrix} 1 & bc & a(b + \\\\ c) 1 & ca & b(c + \\\\ a) 1 & ab & c(a + b) \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2451,7 +2451,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "One of the roots of | x + a & b & c a & x + b & c a & b & x + c | = 0 is:",
+    "questionText": "One of the roots of $$\\begin{vmatrix} x + a & b & c \\\\ a & x + b & c \\\\ a & b & x + c \\end{vmatrix}$$ = 0 is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -2476,7 +2476,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If a ≠ b ≠ c all are positive, then the value of determinant | a & b & c b & c & a c & a & b | is",
+    "questionText": "If a $\\neq$ b $\\neq$ c all are positive, then the value of determinant $$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix}$$ is",
     "optionsInstruction": "",
     "options": [
       {
@@ -2555,7 +2555,7 @@
     "optionsInstruction": "",
     "options": [
       {
-        "text": "det A",
+        "text": "$det A$",
         "isCorrect": false
       },
       {
@@ -2576,7 +2576,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | a & b & 0 0 & a & b b & 0 & a | = 0 then which one of the following is correct?",
+    "questionText": "If $$\\begin{vmatrix} a & b & 0 \\\\ 0 & a & b \\\\ b & 0 & a \\end{vmatrix}$$ = 0 then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2601,7 +2601,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | 6i & -3i & 1 4 & 3i & -1 20 & 3 & i | = x + iy where i = √(-1) then what is x equal to?",
+    "questionText": "If $$\\begin{vmatrix} 6i & -3i & 1 \\\\ 4 & 3i & -1 \\\\ 20 & 3 & i \\end{vmatrix}$$ = x + iy where i = $\\sqrt{-1}$ then what is x equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2626,7 +2626,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Consider the following in respect of two non- singular matrices A and B of same order I. det (A + B) = det A + det B II. (A + B)^(-1) = A^(-1) + B^(-1) Which of the above statement(s) is/are correct?",
+    "questionText": "Consider the following in respect of two non- singular matrices A and B of same order I. det (A + B) = $det A$ + $det B$ II. (A + B)^{-1} = A^{-1} + B^{-1} Which of the above statement(s) is/are correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2651,7 +2651,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The value of | 1 & 1 & 1 1 & 1 + x & 1 1 & 1 & 1 + y | is",
+    "questionText": "The value of $$\\begin{vmatrix} 1 & 1 & 1 \\\\ 1 & 1 + x & 1 \\\\ 1 & 1 & 1 + y \\end{vmatrix}$$ is",
     "optionsInstruction": "",
     "options": [
       {
@@ -2676,7 +2676,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If the value of the determinant | 1 & 1 & 1 & 1 1 & b & 1 & 1 1 & 1 & c & 1 | is positive, where a ≠ b≠ c , then the value of abc.",
+    "questionText": "If the value of the determinant $$\\begin{vmatrix} 1 & 1 & 1 & 1 \\\\ 1 & b & 1 & 1 \\\\ 1 & 1 & c & 1 \\end{vmatrix}$$ is positive, where a $\\neq$ b$\\neq$ c , then the value of abc.",
     "optionsInstruction": "",
     "options": [
       {
@@ -2701,7 +2701,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Consider the following statements in respect of the determinant | cos^2(α)/(2) & sin^2(α)/(2) sin^2(β)/(2) & cos^2(β)/(2) | Where α ,β are complementary angles. I. The value of the determinant is 1/√(2)cos ((α + β)/(2)) II. The maximum value of the determinant is 1/√(2) Which of the above statement(s) is/are correct?",
+    "questionText": "Consider the following statements in respect of the determinant $$\\begin{vmatrix} cos^2(\\alpha)/(2) & sin^2(\\alpha)/(2) \\\\ sin^2(\\beta)/(2) & cos^2(\\beta)/(2) \\end{vmatrix}$$ Where $\\alpha$ ,$\\beta$ are complementary angles. I. The value of the determinant is $\\frac{1}{\\sqrt{2}}$cos $\\frac{\\alpha + \\beta}{2}$ II. The maximum value of the determinant is $\\frac{1}{\\sqrt{2}}$ Which of the above statement(s) is/are correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2726,7 +2726,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is an invertible matrix of order n and k is any positive real number, then the value of [operatorname{det}(kA)]^(-1) det A is:",
+    "questionText": "If A is an invertible matrix of order n and k is any positive real number, then the value of [operatorname{det}(kA)]^{-1} $det A$ is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -2734,7 +2734,7 @@
         "isCorrect": false
       },
       {
-        "text": "k^(-1)",
+        "text": "k^{-1}",
         "isCorrect": false
       },
       {
@@ -2751,7 +2751,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If a, b and c are real numbers, then the value of the determinant | 1 - a & a - b - c & b + c 1 - b & b - c - a & c + a 1 - c & c - a - b & a + b | is",
+    "questionText": "If a, b and c are real numbers, then the value of the determinant $$\\begin{vmatrix} 1 - a & a - b - c & b + c \\\\ 1 - b & b - c - a & c + a \\\\ 1 - c & c - a - b & a + b \\end{vmatrix}$$ is",
     "optionsInstruction": "",
     "options": [
       {
@@ -2776,7 +2776,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is an orthogonal matrix of order 3 and B = | 1 & 2 & 3 -3 & 0 & 2 2 & 5 & 0 | then which of the following is/are correct? 1. |AB| = ± 47 2. AB = BA Select the correct answer using the code given below:",
+    "questionText": "If A is an orthogonal matrix of order 3 and B = $$\\begin{vmatrix} 1 & 2 & 3 \\\\ -3 & 0 & 2 \\\\ 2 & 5 & 0 \\end{vmatrix}$$ then which of the following is/are correct? 1. |AB| = $\\pm$ 47 2. AB = BA Select the correct answer using the code given below:",
     "optionsInstruction": "",
     "options": [
       {
@@ -2801,7 +2801,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Which of the following determinants have value 'zero'? 1. | 41 & 1 & 5 79 & 7 & 9 29 & 5 & 3 | 2. | 1 & a & b+c 1 & b & c+a 1 & c & a+b | 3. | 0 & c & b -c & 0 & a -b & -a & 0 | Select the correct answer using the codes given below:",
+    "questionText": "Which of the following determinants have value 'zero'? 1. $$\\begin{vmatrix} 41 & 1 & 5 \\\\ 79 & 7 & 9 \\\\ 29 & 5 & 3 \\end{vmatrix}$$ 2. $$\\begin{vmatrix} 1 & a & b+c \\\\ 1 & b & c+a \\\\ 1 & c & a+b \\end{vmatrix}$$ 3. $$\\begin{vmatrix} 0 & c & b \\\\ -c & 0 & a \\\\ -b & -a & 0 \\end{vmatrix}$$ Select the correct answer using the codes given below:",
     "optionsInstruction": "",
     "options": [
       {
@@ -2830,19 +2830,19 @@
     "optionsInstruction": "",
     "options": [
       {
-        "text": "k≠ 1 and k≠ -2",
+        "text": "k$\\neq$ 1 and k$\\neq$ -2",
         "isCorrect": false
       },
       {
-        "text": "k≠ 1 and k≠ 2",
+        "text": "k$\\neq$ 1 and k$\\neq$ 2",
         "isCorrect": false
       },
       {
-        "text": "k≠ -1 and k≠ -2",
+        "text": "k$\\neq$ -1 and k$\\neq$ -2",
         "isCorrect": false
       },
       {
-        "text": "k≠ -1 and k≠ 2",
+        "text": "k$\\neq$ -1 and k$\\neq$ 2",
         "isCorrect": false
       }
     ]
@@ -2851,7 +2851,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A is a square matrix of order 3 and det A = 5, then what is det [(2A)^(- 1)] equal to?",
+    "questionText": "If A is a square matrix of order 3 and $det A$ = 5, then what is det [(2A)^{-1}] equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2876,7 +2876,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let ax^3 + bx^2 + cx + d = | x+1 & 2x & 3x 2x+3 & x+1 & x 2-x & 3x+4 & 5x-1 | , then What is the value of c?",
+    "questionText": "Let ax^3 + bx^2 + cx + d = $$\\begin{vmatrix} x+1 & 2x & 3x \\\\ 2x+3 & x+1 & x \\\\ 2-x & 3x+4 & 5x-1 \\end{vmatrix}$$ , then What is the value of c?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2901,7 +2901,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let ax^3 + bx^2 + cx + d = | x+1 & 2x & 3x 2x+3 & x+1 & x 2-x & 3x+4 & 5x-1 | , then What is the value of a + b + c + d?",
+    "questionText": "Let ax^3 + bx^2 + cx + d = $$\\begin{vmatrix} x+1 & 2x & 3x \\\\ 2x+3 & x+1 & x \\\\ 2-x & 3x+4 & 5x-1 \\end{vmatrix}$$ , then What is the value of a + b + c + d?",
     "optionsInstruction": "",
     "options": [
       {
@@ -2976,7 +2976,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | x & y & 0 0 & x & y y & 0 & x | = 0, then which one of the following is correct?",
+    "questionText": "If $$\\begin{vmatrix} x & y & 0 \\\\ 0 & x & y \\\\ y & 0 & x \\end{vmatrix}$$ = 0, then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3001,23 +3001,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = [ α & 2 2 & α ] and operatorname{det}(A^3) = 125 , then α is equal to:",
+    "questionText": "If A = $$\\begin{pmatrix} \\alpha & 2 \\\\ 2 & \\alpha \\end{pmatrix}$$ and operatorname{det}($A^3$) = 125 , then $\\alpha$ is equal to:",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "± 1",
+        "text": "$\\pm$ 1",
         "isCorrect": false
       },
       {
-        "text": "± 2",
+        "text": "$\\pm$ 2",
         "isCorrect": false
       },
       {
-        "text": "± 3",
+        "text": "$\\pm$ 3",
         "isCorrect": false
       },
       {
-        "text": "± 5",
+        "text": "$\\pm$ 5",
         "isCorrect": false
       }
     ]
@@ -3026,7 +3026,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If a≠ b≠ c , then one value of x which satisfies the equation | 0 & x - a & x - b x + a & 0 & x - c x + b & x + c & 0 | = 0 is given by:",
+    "questionText": "If a$\\neq$ b$\\neq$ c , then one value of x which satisfies the equation $$\\begin{vmatrix} 0 & x - a & x - b \\\\ x + a & 0 & x - c \\\\ x + b & x + c & 0 \\end{vmatrix}$$ = 0 is given by:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3051,7 +3051,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If B is a non- singular matrix and A is a square matrix, then the value of operatorname{det}(B^(-1)AB) is equal to:",
+    "questionText": "If B is a non- singular matrix and A is a square matrix, then the value of operatorname{det}($B^{-1}$AB) is equal to:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3063,11 +3063,11 @@
         "isCorrect": false
       },
       {
-        "text": "operatorname{det}(B^(-1))",
+        "text": "operatorname{det}(B^{-1})",
         "isCorrect": false
       },
       {
-        "text": "operatorname{det}(A^(-1))",
+        "text": "operatorname{det}(A^{-1})",
         "isCorrect": false
       }
     ]
@@ -3076,7 +3076,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Consider the set A of all matrices of order 3× 5 with entries 0 or 1 only. Let B be the subset of A consisting of all matrices whose determinant is 1. Let C be the subset of A consisting of all matrices whose determinant is -1. Then which one of the following is correct?",
+    "questionText": "Consider the set A of all matrices of order 3$\\times$ 5 with entries 0 or 1 only. Let B be the subset of A consisting of all matrices whose determinant is 1. Let C be the subset of A consisting of all matrices whose determinant is -1. Then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3101,7 +3101,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The value of the determinant | cos (θ)/(2) & sin (θ)/(2) & sin (θ)/(2) sin (θ)/(2) & cos (θ)/(2) & cos (θ)/(2) | for all values of θ , is:",
+    "questionText": "The value of the determinant $$\\begin{vmatrix} cos (\\theta)/(2) & sin (\\theta)/(2) & sin (\\theta)/(2) \\\\ sin (\\theta)/(2) & cos (\\theta)/(2) & cos (\\theta)/(2) \\end{vmatrix}$$ for all values of $\\theta$ , is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3109,11 +3109,11 @@
         "isCorrect": false
       },
       {
-        "text": "cos θ",
+        "text": "cos $\\theta$",
         "isCorrect": false
       },
       {
-        "text": "sin θ",
+        "text": "sin $\\theta$",
         "isCorrect": false
       },
       {
@@ -3126,7 +3126,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The system of equations kx + y + z = 1 , x + ky + z = k and x + y + kz = k^2 has no solution if k equals:",
+    "questionText": "The system of equations kx + y + z = 1 , x + ky + z = k and x + y + kz = $k^2$ has no solution if k equals:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3151,7 +3151,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If p + q + r = a + b + c = 0 , then the determinant | pa & qb & rc qc & ra & pb rb & pc & qa | equal to:",
+    "questionText": "If p + q + r = a + b + c = 0 , then the determinant $$\\begin{vmatrix} pa & qb & rc \\\\ qc & ra & pb \\\\ rb & pc & qa \\end{vmatrix}$$ equal to:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3176,7 +3176,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "The value of the determinant | 1 - a & a - a^2 & 1 - b b - b^2 & 1 - c & c - c^2 | is equal to: (options garbled)",
+    "questionText": "The value of the determinant $$\\begin{vmatrix} 1 - a & a - a^2 & 1 - b \\\\ b - b^2 & 1 - c & c - c^2 \\end{vmatrix}$$ is equal to: (options garbled)",
     "optionsInstruction": "",
     "options": []
   },
@@ -3184,7 +3184,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A, B and C are the angles of a triangle and | 1 & 1 & 1 1+sin A & 1+sin B & 1+sin C sin A+sin 2A & sin B+sin 2B & sin C+sin 2C | = 0 which one of the following is correct?",
+    "questionText": "If A, B and C are the angles of a triangle and $$\\begin{vmatrix} 1 & 1 & 1 \\\\ 1+sin A & 1+sin B & 1+sin C \\\\ sin A+sin 2A & sin B+sin 2B & sin C+sin 2C \\end{vmatrix}$$ = 0 which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3209,7 +3209,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the determinant of the matrix | 1 & x & y 1 & x^2 & y^2 1 & x^3 & y^3 | ?",
+    "questionText": "What is the determinant of the matrix $$\\begin{vmatrix} 1 & x & y \\\\ 1 & x^2 & y^2 \\\\ 1 & x^3 & y^3 \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3234,7 +3234,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If u, v and w (all positive) are the p^th , q^th and r^th terms of a GP, the determinant of the matrix | ln u & p & 1 ln v & q & 1 ln w & r & 1 | is:",
+    "questionText": "If u, v and w (all positive) are the p^th , q^th and r^th terms of a GP, the determinant of the matrix $$\\begin{vmatrix} ln u & p & 1 \\\\ ln v & q & 1 \\\\ ln w & r & 1 \\end{vmatrix}$$ is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3250,7 +3250,7 @@
         "isCorrect": false
       },
       {
-        "text": "lnu× lnv× lnw",
+        "text": "lnu$\\times$ lnv$\\times$ lnw",
         "isCorrect": false
       }
     ]
@@ -3259,7 +3259,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If a + b + c = 0, then one of the solution of | a-x & c & b c & b-x & a b & a & c-x | = 0 is:",
+    "questionText": "If a + b + c = 0, then one of the solution of $$\\begin{vmatrix} a-x & c & b \\\\ c & b-x & a \\\\ b & a & c-x \\end{vmatrix}$$ = 0 is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3267,11 +3267,11 @@
         "isCorrect": false
       },
       {
-        "text": "x = sqrt{(3(a^2 + b^2 + c^2))/(2)}",
+        "text": "x = sqrt{(3($a^2$ + $b^2$ + $c^2$))/(2)}",
         "isCorrect": false
       },
       {
-        "text": "x = sqrt{(2(a^2 + b^2 + c^2))/(3)}",
+        "text": "x = sqrt{(2($a^2$ + $b^2$ + $c^2$))/(3)}",
         "isCorrect": false
       },
       {
@@ -3284,7 +3284,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Which one of the following factors does the expansion of the determinant | x & y & 3 x^2 & 5y^3 & 9 x^3 & 10y^5 & 27 | contain?",
+    "questionText": "Which one of the following factors does the expansion of the determinant $$\\begin{vmatrix} x & y & 3 \\\\ x^2 & 5y^3 & 9 \\\\ x^3 & 10y^5 & 27 \\end{vmatrix}$$ contain?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3334,7 +3334,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "For a square matrix A, which of the following properties hold? I. (A^(-1))^(-1) = A II. det(A^(-1)) = 1/det A III. (λ A)^(-1) = λ A^(-1) where λ is a scalar",
+    "questionText": "For a square matrix A, which of the following properties hold? I. (A^{-1})^{-1} = A II. det(A^{-1}) = 1/$det A$ III. ($\\lambda$ A)^{-1} = $\\lambda$ A^{-1} where $\\lambda$ is a scalar",
     "optionsInstruction": "",
     "options": [
       {
@@ -3359,7 +3359,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | x & -3i & 1 y & 1 & i 0 & 2i & -i | = 6 + i then what are the value of x and y respectively?",
+    "questionText": "If $$\\begin{vmatrix} x & -3i & 1 \\\\ y & 1 & i \\\\ 0 & 2i & -i \\end{vmatrix}$$ = 6 + i then what are the value of x and y respectively?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3434,7 +3434,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A and B be (3x3) matrices with det A = 4 and det B = 3. What is det(2AB) equal to?",
+    "questionText": "Let A and B be (3x3) matrices with $det A$ = 4 and $det B$ = 3. What is det(2AB) equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3459,7 +3459,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let A and B be (3x3) matrices with det A = 4 and det B = 3. What is det(3AB^(-1)) equal to?",
+    "questionText": "Let A and B be (3x3) matrices with $det A$ = 4 and $det B$ = 3. What is det(3AB^{-1}) equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3484,7 +3484,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of determinant | 1! & 2! & 3! 2! & 3! & 4! 3! & 4! & 5! | ?",
+    "questionText": "What is the value of determinant $$\\begin{vmatrix} 1! & 2! & 3! \\\\ 2! & 3! & 4! \\\\ 3! & 4! & 5! \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3509,7 +3509,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What are the values of x that satisfy equation | x & 0 & 2 2x & 2 & 1 1 & 1 & 1 | + | 3x & 0 & 2 x^2 & 2 & 1 0 & 1 & 1 | = 0?",
+    "questionText": "What are the values of x that satisfy equation $$\\begin{vmatrix} x & 0 & 2 \\\\ 2x & 2 & 1 \\\\ 1 & 1 & 1 \\end{vmatrix}$$ + $$\\begin{vmatrix} 3x & 0 & 2 \\\\ x^2 & 2 & 1 \\\\ 0 & 1 & 1 \\end{vmatrix}$$ = 0?",
     "optionsInstruction": "",
     "options": []
   },
@@ -3517,7 +3517,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If x + a + b + c = 0 , then what is the value of | x + a & b & c a & x + b & c a & b & x + c | ?",
+    "questionText": "If x + a + b + c = 0 , then what is the value of $$\\begin{vmatrix} x + a & b & c \\\\ a & x + b & c \\\\ a & b & x + c \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3529,7 +3529,7 @@
         "isCorrect": false
       },
       {
-        "text": "a^2 + b^2 + c^2",
+        "text": "$a^2$ + $b^2$ + $c^2$",
         "isCorrect": false
       },
       {
@@ -3542,7 +3542,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Let p, q, r be three distinct positive real numbers, If D = | p & q & r q & r & p r & p & q | , then which one of the following is correct?",
+    "questionText": "Let p, q, r be three distinct positive real numbers, If D = $$\\begin{vmatrix} p & q & r \\\\ q & r & p \\\\ r & p & q \\end{vmatrix}$$ , then which one of the following is correct?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3567,7 +3567,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of the determinant | i & i^2 & i^3 i^4 & i^6 & i^8 i^9 & i^12 & i^15 | where i = √(-1) ?",
+    "questionText": "What is the value of the determinant $$\\begin{vmatrix} i & i^2 & i^3 \\\\ i^4 & i^6 & i^8 \\\\ i^9 & i^12 & i^15 \\end{vmatrix}$$ where i = $\\sqrt{-1}$ ?",
     "optionsInstruction": "",
     "options": []
   },
@@ -3575,7 +3575,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If the determinant | x & 1 & 3 0 & 0 & 1 1 & x & 4 | = 0 , then what is x = ?",
+    "questionText": "If the determinant $$\\begin{vmatrix} x & 1 & 3 \\\\ 0 & 0 & 1 \\\\ 1 & x & 4 \\end{vmatrix}$$ = 0 , then what is x = ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3600,7 +3600,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If f(x) = | 1 & 2x & x(x-1) 0 & 3x & x(x+1) 0 & 0 & 2x(x+1)(x-1) | then what is f(-1) + f(0) + f(1) = ?",
+    "questionText": "If f(x) = $$\\begin{vmatrix} 1 & 2x & x(x-1) \\\\ 0 & 3x & x(x+1) \\\\ 0 & 0 & 2x(x+1)(x-1) \\end{vmatrix}$$ then what is f(-1) + f(0) + f(1) = ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3675,7 +3675,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If Delta is the value of the determinant | a_1 & b_1 & c_1 a_2 & b_2 & c_2 a_3 & b_3 & c_3 | then what is the value of the following determinant? (image missing)",
+    "questionText": "If Delta is the value of the determinant $$\\begin{vmatrix} a_1 & b_1 & c_1 \\\\ a_2 & b_2 & c_2 \\\\ a_3 & b_3 & c_3 \\end{vmatrix}$$ then what is the value of the following determinant? (image missing)",
     "optionsInstruction": "",
     "options": []
   },
@@ -3699,7 +3699,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = | p & q r & s | where p, q, r and s are any four different prime numbers less than 20, what is the maximum value of the determinant?",
+    "questionText": "If A = $$\\begin{vmatrix} p & q \\\\ r & s \\end{vmatrix}$$ where p, q, r and s are any four different prime numbers less than 20, what is the maximum value of the determinant?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3749,7 +3749,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If A = | a & b & c d & e & f g & h & i | then what is | 3d + 5g & 4a + 7g & 6g 3e + 5h & 4b + 7h & 6h 3f + 5i & 4c + 7i & 6i | equal to?",
+    "questionText": "If A = $$\\begin{vmatrix} a & b & c \\\\ d & e & f \\\\ g & h & i \\end{vmatrix}$$ then what is $$\\begin{vmatrix} 3d + 5g & 4a + 7g & 6g 3e \\\\ + 5h & 4b + 7h & 6h 3f \\\\ + 5i & 4c + 7i & 6i \\end{vmatrix}$$ equal to?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3774,7 +3774,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If | a & -b & a - b - c -a & b & -a + b - c -a & -b & -a - b + c | = k abc = 0 (a ≠ 0 , b ≠ 0 , c ≠ 0 ) then what is the value of k?",
+    "questionText": "If $$\\begin{vmatrix} a & -b & a - b \\\\ - c -a & b & -a + b \\\\ - c -a & -b & -a - b + c \\end{vmatrix}$$ = k abc = 0 (a $\\neq$ 0 , b $\\neq$ 0 , c $\\neq$ 0 ) then what is the value of k?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3799,7 +3799,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If x = (a)/(b - c) , y = (b)/(c - a) , z = (c)/(a - b) then what is the value of | 1 & x & 1 1 & y & 1 1 & z & 1 | ?",
+    "questionText": "If $x = \\frac{a}{b-c}$ , $y = \\frac{b}{c-a}$ , $z = \\frac{c}{a-b}$ then what is the value of $$\\begin{vmatrix} 1 & x & 1 \\\\ 1 & y & 1 \\\\ 1 & z & 1 \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3824,23 +3824,23 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "For what values of k is the system of equations 2k^2x + 3y - 1 = 0 , 7x - 2y + 3 = 0 , 6kx + y + 1 = 0 consistent?",
+    "questionText": "For what values of k is the system of equations $2k^2x + 3y - 1 = 0$ , $7x - 2y + 3 = 0$ , $6kx + y + 1 = 0$ consistent?",
     "optionsInstruction": "",
     "options": [
       {
-        "text": "(3±√(11))/(10)",
+        "text": "$\\frac{3\\pm\\sqrt{11}}{10}$",
         "isCorrect": false
       },
       {
-        "text": "(21±√(161))/(10)",
+        "text": "$\\frac{21\\pm\\sqrt{161}}{10}$",
         "isCorrect": false
       },
       {
-        "text": "(3±√(7))/(10)",
+        "text": "$\\frac{3\\pm\\sqrt{7}}{10}$",
         "isCorrect": false
       },
       {
-        "text": "(4±√(11))/(10)",
+        "text": "$\\frac{4\\pm\\sqrt{11}}{10}$",
         "isCorrect": false
       }
     ]
@@ -3849,7 +3849,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "What is the value of following determinant | cos C & tan A & 0 sin B & 0 & -tan A 0 & sin B & cos C | ?",
+    "questionText": "What is the value of following determinant $$\\begin{vmatrix} cos C & tan A & 0 \\\\ sin B & 0 & -tan \\\\ A 0 & sin B & cos C \\end{vmatrix}$$ ?",
     "optionsInstruction": "",
     "options": [
       {
@@ -3874,7 +3874,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If Delta_1 = | 1 & p & q 1 & q & r | and Delta_2 = | 1 & 1 & 1 r & p & q | where p≠ q≠ r then Delta_1 + Delta_2 is:",
+    "questionText": "If Delta_1 = $$\\begin{vmatrix} 1 & p & q \\\\ 1 & q & r \\end{vmatrix}$$ and Delta_2 = $$\\begin{vmatrix} 1 & 1 & 1 \\\\ r & p & q \\end{vmatrix}$$ where p$\\neq$ q$\\neq$ r then Delta_1 + Delta_2 is:",
     "optionsInstruction": "",
     "options": [
       {
@@ -3899,7 +3899,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "If (a-b)(b-c)(c-a) = 2 and abc = 6, then what is the value of | a & b & c b & c & a c & a & b | ? (image missing)",
+    "questionText": "If (a-b)(b-c)(c-a) = 2 and abc = 6, then what is the value of $$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix}$$ ? (image missing)",
     "optionsInstruction": "",
     "options": []
   },
@@ -3907,7 +3907,7 @@
     "ebookId": "6a4cd1ecc1c2d2802cac50f0",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
-    "questionText": "Under which of the following conditions does the determinant | a & b & c b & c & a c & a & b | become zero? 1. a+b+c=0 2. a^3+b^3+c^3=3abc 3. a^2+b^2+c^2-ab-bc-ca=0",
+    "questionText": "Under which of the following conditions does the determinant $$\\begin{vmatrix} a & b & c \\\\ b & c & a \\\\ c & a & b \\end{vmatrix}$$ become zero? 1. a+b+c=0 2. $a^3$+$b^3$+$c^3$=3abc 3. $a^2$+$b^2$+$c^2$-ab-bc-ca=0",
     "optionsInstruction": "",
     "options": [
       {

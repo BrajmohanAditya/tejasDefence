@@ -1,5 +1,6 @@
 import React from "react";
 import { AlertTriangle } from "lucide-react";
+import MathText from "../../common/MathText";
 
 const decodeHtml = (html) => {
   if (!html) return "";
@@ -21,9 +22,9 @@ const QuestionUI = ({ children, question, questionNumber = 1 }) => {
       <div className="flex flex-col p-6 md:p-8 h-auto lg:h-full">
         {/* Question Content */}
         <div className="mb-8">
-          <div
+          <MathText
             className="text-slate-800 text-[16px] leading-relaxed font-medium whitespace-pre-wrap"
-            dangerouslySetInnerHTML={{ __html: decodeHtml(question?.questionText) }}
+            text={decodeHtml(question?.questionText)}
           />
 
           {/* Question Image (If it exists in the database) */}

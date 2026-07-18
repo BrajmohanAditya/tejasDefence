@@ -1,5 +1,6 @@
 import React from "react";
 import { CheckCircle2, XCircle } from "lucide-react";
+import MathText from "../../common/MathText";
 
 const OptionList = ({ options = [], questionId, userAnswer, onSelectOption }) => {
   const optionLetters = ["A", "B", "C", "D"];
@@ -43,7 +44,7 @@ const OptionList = ({ options = [], questionId, userAnswer, onSelectOption }) =>
               <span className={`w-6 h-6 rounded-md flex items-center justify-center font-bold text-xs shrink-0 transition-colors ${optionBadgeStyle}`}>
                 {optionLetters[oIdx]}
               </span>
-              <span>{opt.text}</span>
+              <MathText className="inline" text={opt.text} />
             </div>
             {feedbackIcon}
           </button>

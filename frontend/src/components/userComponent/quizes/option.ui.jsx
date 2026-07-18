@@ -1,5 +1,6 @@
 import React, { useState } from "react";
 import { Eye } from "lucide-react";
+import MathText from "../../common/MathText";
 
 const OptionUI = ({ options, instruction, selectedOption, onSelectOption, isSubmitted, isRevealed }) => {
   const displayOptions = options || [];
@@ -55,9 +56,7 @@ const OptionUI = ({ options, instruction, selectedOption, onSelectOption, isSubm
               />
 
               <div className={`flex-1 ${bgColor}`}>
-                <span className={`text-[15px] ${optionStyle}`}>
-                  {opt.text}
-                </span>
+                <MathText className={`inline text-[15px] ${optionStyle}`} text={opt.text} />
                 
                 {/* Labels dikhane ke liye */}
                 {showReveal && isCorrect && <span className="ml-3 text-green-600 text-xs font-bold">(Correct)</span>}

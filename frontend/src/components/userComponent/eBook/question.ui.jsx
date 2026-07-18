@@ -2,6 +2,7 @@ import React from "react";
 import { ChevronLeft, ChevronRight } from "lucide-react";
 import OptionList from "./option.ui";
 import SolutionExplanation from "./solution";
+import MathText from "../../common/MathText";
 
 const QuestionCard = ({
   currentQuestion,
@@ -37,9 +38,7 @@ const QuestionCard = ({
               (Que No. {currentIdx + 1})
             </div>
             <div className="flex-1 overflow-y-auto pr-2 custom-scrollbar text-xs sm:text-sm text-slate-800 font-bold leading-relaxed whitespace-pre-line min-h-0 space-y-4">
-              <h2 className="text-xs sm:text-sm font-bold text-slate-800 leading-relaxed">
-                {currentQuestion.questionText}
-              </h2>
+              <MathText text={currentQuestion.questionText} className="text-xs sm:text-sm font-bold text-slate-800 leading-relaxed" />
               
               {/* Question Image if present */}
               {currentQuestion.questionImage && (
