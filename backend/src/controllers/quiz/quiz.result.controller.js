@@ -68,6 +68,7 @@ export const submitQuiz = async (req, res, next) => {
     });
 
     // 4. Save result to database
+    totalScore = Number(totalScore.toFixed(2));
     const newResult = await QuizResult.create({
       user: userId,
       quiz: quizId,

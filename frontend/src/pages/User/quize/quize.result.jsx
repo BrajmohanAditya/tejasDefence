@@ -45,7 +45,7 @@ const QuizResult = () => {
       isError={isError}
       errorMessage="Failed to load your result."
     >
-      <div className="min-h-[calc(100vh-80px)] bg-[#f8f9fa] py-8 px-4 md:px-8">
+      <div className="min-h-[calc(100vh-80px)] bg-[#f8f9fa] py-4 px-4 md:px-8">
         <div className="max-w-5xl mx-auto flex flex-col lg:flex-row gap-8 items-start justify-center">
           {/* Left Column: Your Score Card */}
           <div className="bg-white rounded-2xl shadow-lg border border-slate-100 w-full lg:w-[380px] p-6 text-center shrink-0">
@@ -68,7 +68,7 @@ const QuizResult = () => {
             <div className="bg-[#158993] rounded-xl p-4 mb-5 text-white">
               <p className="text-xs font-medium opacity-80 mb-1">Your Score</p>
               <p className="text-4xl font-extrabold">
-                {result?.totalScore ?? "—"}
+                {result?.totalScore != null ? Number(Number(result.totalScore).toFixed(2)) : "—"}
               </p>
               <p className="text-xs opacity-70 mt-1">
                 out of {quiz?.totalMarks ?? "—"} marks
@@ -129,16 +129,16 @@ const QuizResult = () => {
               Other Participants Leaderboard
             </h2>
 
-            <div className="overflow-x-auto">
+            <div className="max-h-[340px] overflow-y-auto overflow-x-auto pr-1">
               <table className="w-full text-left border-collapse">
-                <thead>
-                  <tr className="border-b border-slate-100 text-[11px] text-slate-400 font-bold uppercase tracking-wider">
-                    <th className="py-3 px-2 text-center w-12">Rank</th>
-                    <th className="py-3 px-3">Student</th>
-                    <th className="py-3 px-3 text-center">Score</th>
-                    <th className="py-3 px-3 text-center">Correct</th>
-                    <th className="py-3 px-3 text-center">Accuracy</th>
-                  </tr>
+                  <thead className="sticky top-0 bg-white z-10 shadow-xs">
+                    <tr className="border-b border-slate-100 text-[11px] text-slate-400 font-bold uppercase tracking-wider">
+                        <th className="py-3 px-2 text-center w-12">Rank</th>
+                        <th className="py-3 px-3">Student</th>
+                        <th className="py-3 px-3 text-center">Score</th>
+                        <th className="py-3 px-3 text-center">Correct</th>
+                        <th className="py-3 px-3 text-center">Accuracy</th>
+                    </tr>
                 </thead>
                 <tbody className="divide-y divide-slate-50 text-sm">
                   {allResults.length === 0 ? (
@@ -187,7 +187,7 @@ const QuizResult = () => {
                             </div>
                           </td>
                           <td className="py-3.5 px-3 text-center font-bold text-slate-700">
-                            {item.totalScore}
+                            {item.totalScore != null ? Number(Number(item.totalScore).toFixed(2)) : 0}
                           </td>
                           <td className="py-3.5 px-3 text-center text-green-600 font-semibold">
                             {item.correctCount}
