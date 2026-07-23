@@ -14,7 +14,7 @@ const QuestionUI = ({ children, question, questionNumber = 1 }) => {
         {/* Question Content */}
         <div className="mb-8">
           <MathText
-            className="text-slate-800 text-[16px] leading-relaxed font-medium whitespace-pre-wrap"
+            className="text-slate-800 text-[16px] leading-relaxed font-medium whitespace-pre-wrap break-words [overflow-wrap:anywhere]"
             text={decodeHtml(question?.questionText)}
           />
 
