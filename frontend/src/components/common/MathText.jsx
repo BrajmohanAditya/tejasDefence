@@ -12,7 +12,6 @@ const MathText = ({ text, className = "" }) => {
       renderMathInElement(containerRef.current, {
         delimiters: [
           { left: "$$", right: "$$", display: true },
-          { left: "$", right: "$", display: false },
           { left: "\\(", right: "\\)", display: false },
           { left: "\\[", right: "\\]", display: true }
         ],
