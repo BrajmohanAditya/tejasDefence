@@ -1,16 +1,7 @@
 import React from "react";
 import { AlertTriangle } from "lucide-react";
 import MathText from "../../common/MathText";
-
-const decodeHtml = (html) => {
-  if (!html) return "";
-  return html
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&amp;/g, "&");
-};
+import { decodeHtml } from "@/utils/decodeHtml";
 
 const QuestionUI = ({ children, question, questionNumber = 1 }) => {
   return (

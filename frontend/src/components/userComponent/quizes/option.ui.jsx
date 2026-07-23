@@ -10,7 +10,7 @@ const OptionUI = ({ options, instruction, selectedOption, onSelectOption, isSubm
       {/* --- ADD THIS INSTRUCTION BLOCK --- */}
       {instruction && (
         <div className="text-slate-500 font-medium italic text-[15px] mb-6 p-3 rounded-md ">
-          {instruction}
+          <MathText text={instruction} />
         </div>
       )}
 

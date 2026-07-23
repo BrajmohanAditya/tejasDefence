@@ -1,15 +1,6 @@
 import React, { useState, useEffect } from "react";
 import { Lightbulb, CheckCircle2, Eye, EyeOff } from "lucide-react";
-
-const decodeHtml = (html) => {
-  if (!html) return "";
-  return html
-    .replace(/&lt;/g, "<")
-    .replace(/&gt;/g, ">")
-    .replace(/&quot;/g, '"')
-    .replace(/&#39;/g, "'")
-    .replace(/&amp;/g, "&");
-};
+import { decodeHtml } from "@/utils/decodeHtml";
 
 const SolutionUI = ({ solutionText, solutionImage, correctOptionText }) => {
   const [showSolution, setShowSolution] = useState(false);

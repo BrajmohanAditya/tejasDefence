@@ -1,9 +1,11 @@
 import React, { useEffect, useRef } from "react";
 import renderMathInElement from "katex/contrib/auto-render";
 import "katex/dist/katex.min.css";
+import { decodeHtml } from "@/utils/decodeHtml";
 
 const MathText = ({ text, className = "" }) => {
   const containerRef = useRef(null);
+  const decodedText = decodeHtml(text);
 
   useEffect(() => {
     if (containerRef.current) {
@@ -17,13 +19,13 @@ const MathText = ({ text, className = "" }) => {
         throwOnError: false
       });
     }
-  }, [text]);
+  }, [decodedText]);
 
   return (
     <div
       ref={containerRef}
       className={className}
-      dangerouslySetInnerHTML={{ __html: text || "" }}
+      dangerouslySetInnerHTML={{ __html: decodedText }}
     />
   );
 };

@@ -1,158 +1,133 @@
 [
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><strong>Direction: The given idiom is followed by four meanings. Choose the one which best expresses the meaning of the given idiom.</strong></p> <div><u>Blaze the trail</u></div>",
+    "questionText": "<p><strong>The questions below consist of a set of labelled parts of a sentence. Out of four options given, select the most logical order of the parts which form a coherent sentence.</strong></p> <p>It had</p> <p>P: he could accept it</p> <p>Q: Narendra&#39;s nature to test</p> <p>R: something thoroughly before</p> <p>S: always been in</p>",
     "options": [
       {
-        "text": "<span style=\"\">To start a movement</span>",
+        "text": "QSPR",
+        "isCorrect": false
+      },
+      {
+        "text": "PSRQ",
+        "isCorrect": false
+      },
+      {
+        "text": "SQRP",
         "isCorrect": true
       },
       {
-        "text": "<span style=\"\">To be defeated </span>",
-        "isCorrect": false
-      },
-      {
-        "text": "<span style=\"\">Sudden or unexpected shock</span>",
-        "isCorrect": false
-      },
-      {
-        "text": "<span style=\"\">To beat mercilessly</span>",
+        "text": "RSPQ",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p style=\"\">The correct answer is- <strong><span style=\"font-weight: 700;\">&#39;</span>To start a movement<span style=\"font-weight: 700;\">.&#39;</span></strong></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"font-weight: 700;\"><span style=\"vertical-align: middle;\"><u><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></u></span></span></span></p> <ul style=\"\"> <li>The meaning of the idiom <span style=\"font-weight: 700;\">&#39;Blaze the trail&#39;</span> is to do something that has never been done before. <ul> <li>Idiom <span style=\"font-weight: 700;\">&#39;Blaze the trial&#39;</span> का अर्थ कुछ ऐसा करना जो पहले कभी न किया गया हो है। <ul> <li><span style=\"font-weight: 700;\"> Example</span>:<em> Le Corbusier <strong>blazed a trail </strong>in architecture.</em></li> </ul> </li> </ul> </li> <li>Therefore, the option which best expresses the meaning of the given idiom is <span style=\"font-weight: 700;\">\"To start a movement.\"</span></li> </ul> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span></span> </span></span> </span></span></span><br /> </span> </span></span> </span> </span> <br /> </span></span></p> <ul style=\"\"> <li>The <span style=\"font-weight: 700;\">past indefinite</span> tense, also known as simple past tense, is used to indicate a finished or completed action/task that occurred/happened at a specific point in time in the past. <ul> <li>Structure: <span style=\"font-weight: 700; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; text-align: justify;\">Subject + verb in the past form + . . . . . + adverb of time + . . . . .</span></li> <li><span style=\"font-weight: 700; margin: 0px; padding: 0px; border: 0px; vertical-align: baseline; text-align: justify;\">Example: </span><em>I ate a mango a few minutes ago.</em></li> </ul> </li> </ul>",
+    "solutionExplanation": "<p>The correct answer is<strong> <span style=\"\">SQRP.</span></strong></p> <p><strong><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></strong></p> <ul> <li>Part <span style=\"font-weight: 700;\">1</span> has already been given. <span style=\"font-weight: 700;\">(It had)</span></li> <li>Among the given sentences, Part <span style=\"font-weight: 700;\">S </span>will be the next. After<strong> &#39;had&#39;</strong> we use third form of verb, thus- <span style=\"\"><strong>always been in </strong>is the next part.</span></li> <li>After preposition, we need to use prepositional object which is a noun/pronoun. Thus, <span style=\"\"><strong>Narendra&#39;s nature to test i.e. Q</strong> is the next part</span></li> <li><span style=\"\"><strong>R </strong>would be the next part as it answers what is to be tested- <strong>something thoroughly before</strong></span></li> <li><span style=\"\">before is a conjunction, so, we need to write a clause after it, thus, <strong>he could </strong><strong>accept it </strong></span><span style=\"font-weight: 700; \">i.e. P </span><span style=\"\">is the last part.</span></li> </ul> <p><br /> <span style=\"\"><strong>Correct sentence: </strong><em>It had </em></span><em>always been in Narendra&#39;s nature to test something thoroughly before he could accept it.</em></p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><!-- x-tinymce/html -->Select the most appropriate ANTONYM of the underlined word in the given sentence.</p> <p>Marine ecosystems provide essential services, including oxygen production, climate regulation and <u>nutrient</u> cycling.</p>",
+    "questionText": "<strong>Choose the correctly spelt word:- </strong>",
     "options": [
       {
-        "text": "Insalubrious",
+        "text": "Vetarinary",
+        "isCorrect": false
+      },
+      {
+        "text": "Veteninary",
+        "isCorrect": false
+      },
+      {
+        "text": "Veterinary",
         "isCorrect": true
       },
       {
-        "text": "Implacable",
-        "isCorrect": false
-      },
-      {
-        "text": "Sumptuous",
-        "isCorrect": false
-      },
-      {
-        "text": "Opulent",
+        "text": "Vetniary",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is: <b>Insalubrious</b>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The word <strong>\"nutrient\"</strong> means a substance that provides nourishment essential for growth and the maintenance of life. (पोषक तत्व) <ul> <li><strong>Example: </strong>Vitamins and minerals are important nutrients that our body needs.</li> </ul> </li> <li><strong>\"Insalubrious\"</strong> refers to something that is not conducive to health; unhealthy and lacking in nutrients. (अस्वास्थ्यकर) <ul> <li><strong>Example: </strong>The insalubrious food served in some fast food restaurants is often high in calories but low in essential nutrients.</li> </ul> </li> <li>Hence, we can infer that the opposite of <strong>&#39;nutrient&#39; </strong>is <strong>&#39;insalubrious&#39;</strong>.</li> </ul> <p>Therefore, the correct answer is: <strong>Insalubrious</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Implacable </strong>(असमाधान): Unable to be appeased or pacified. <ul> <li><strong>Example: </strong>He has an implacable hatred for anyone who opposed him.</li> </ul> </li> <li><strong>Sumptuous </strong>(भव्य): Splendid and expensive-looking. <ul> <li><strong>Example: </strong>The royal palace was filled with sumptuous rooms and lavish decor.</li> </ul> </li> <li><strong>Opulent </strong>(ऐश्वर्यशाली): Ostentatiously rich and luxurious or lavish. <ul> <li><strong>Example: </strong>The billionaire&#39;s opulent mansion was the epitome of extravagance.</li> </ul> </li> </ul>",
+    "solutionExplanation": "<p>The correct spelling is <span style=\"font-weight: 700;\">Veterinary.</span></p> <p><span style=\"font-weight: 700;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p> <ul> <li><strong>Veterinary</strong> refers to <em>relating to the diseases, injuries, and treatment of farm and domestic animals.</em></li> <li>An example of the same is: <em>The <strong>veterinary</strong> clinic was a lifelong dream he had attained.</em></li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><strong>Direction: The following question consists of an incomplete sentence or a sentence which is split into four parts. All four parts are jumbled up and are named as P, Q, R and S. These four parts are not given in their proper order. Arrange the jumbled parts of the sentence and find out which of the four combinations from the given options will correctly complete the sentence.</strong></p> <p>While the recent ______.</p> <p>P : century show that the June rainfall is</p> <p>Q : of a drought, India's rainfall data for over a</p> <p>R : rain may have soothed concerns</p> <p>S : no predictor of the monsoon's outcome </p>",
+    "questionText": "<p><span style=\"font-weight: 700; \">Direction: In the following question, there is a related pair of words given. Each pair is followed by four other pairs of words. Choose the pair from the given option the pair of words that best expresses the relationship like the original pair.</span></p> Jeopardy : Safe",
     "options": [
       {
-        "text": "<span style=\"\">PSRQ</span>",
+        "text": "Detrimental : Menace",
         "isCorrect": false
       },
       {
-        "text": "<span style=\"\">RQPS </span>",
+        "text": "Lethargic : Nimble",
         "isCorrect": true
       },
       {
-        "text": "<span style=\"\">PQRS</span>",
+        "text": "Amity : Reconciliation",
         "isCorrect": false
       },
       {
-        "text": "<span style=\"\">RSPQ</span>",
+        "text": "Sloth : Indolent",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p style=\"\">The correct answer is<span style=\"font-weight: 700;\"> &#39;RQPS</span><span style=\"font-weight: 700;\">.&#39;</span></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <ul style=\"\"> <li>While arranging the parts of the sentence given in options, we have to <u>find some grammatical or contextual connections between them</u>, so let's find out.</li> <li>In this sentence, we can see that there are different parts like Subject, verb, conjunction and continuation of the object.</li> <li><span style=\"font-weight: 700;\">The first part should be R </span>as it is providing sense to the first part of the sentence with the help of the part<strong> \"rain may have soothed.\"</strong></li> <li><span style=\"font-weight: 700;\">R should be followed by Q</span> as a complete sense to the part R is provided with the help of the preposition <strong>\"of.\"</strong></li> <li><span style=\"font-weight: 700;\">Q should be followed by P </span>as the phrase <strong>\"over a\"</strong> is completed with the help of the word <strong>\"century.\"</strong></li> <li><span style=\"font-weight: 700;\">The last part should be S </span>as S is talking about a <strong>prediction of the monsoon's outcome.</strong></li> <li>Thus, forming the basic structure of a sentence.</li> <li><span style=\"font-weight: 700;\">​​<u>Correct sentence</u>:</span><em> While the recent <strong>rain may have soothed concerns of a drought, India's rainfall data for over a century show that the June rainfall is no predictor of the monsoon's outcome</strong>.</em></li> </ul> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span> </span></span> </span> </span> </span></span></span> </span></span></span><br /> </span></span></p> <ul style=\"\"> <li>Before rearranging parts of the sentence, it is very important to read them carefully.</li> <li>It is very important to analyse the use of a determiner and conjunction in such cases.</li> <li>This confusion can be eradicated by practising more and more questions of <span style=\"font-weight: 700;\">Sentence Jumbles.</span><br /> </li> </ul> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/hinglish-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Hinglish</u></span></strong></span> </span> </span> </span> </span> </span> </span></span></span></span></span></span></span></span></span></span></p> <ul style=\"\"> <li>विकल्पों में दिए गए वाक्य के भागों को व्यवस्थित करते समय हमें उनके बीच कुछ व्याकरणिक या प्रासंगिक संबंध खोजने होंगे, तो आइए जानें।</li> <li>इस वाक्य में, हम देख सकते हैं कि Subject, verb, conjunction and continuation of the object जैसे विभिन्न भाग हैं।</li> <li><strong>पहला भाग R होना चाहिए </strong>क्योंकि यह वाक्य के पहले भाग को <span style=\"\">part</span><span style=\"font-weight: 700; \"> \"rain may have soothed\"</span> की मदद से अर्थ प्रदान कर रहा है।</li> <li><strong>R के बाद Q का पालन किया जाना चाहिए</strong> क्योंकि भाग R को पूर्ण अर्थ के रूप में <span style=\"\">preposition </span><span style=\"font-weight: 700; \">\"of\"</span> की सहायता से प्रदान किया जाता है।</li> <li><strong>Q के बाद P आना चाहिए</strong> क्योंकि <span style=\"\">phrase </span><span style=\"font-weight: 700; \">\"over a\", </span> <span style=\"\">word </span><span style=\"font-weight: 700; \">\"century\"</span> की मदद से पूरा होता है।</li> <li>अंतिम भाग <strong>S</strong> होना चाहिए क्योंकि<strong> S </strong>मानसून के परिणाम की भविष्यवाणी के बारे में बात कर रहा है।</li> <li>इस प्रकार, एक वाक्य की मूल संरचना का निर्माण हैं।</li> </ul>",
+    "solutionExplanation": "<p>The correct answer is <span name=\"_Hlk120738021\" style=\"\"><b>&ldquo;Lethargic : </b></span><b>Nimble&rdquo;</b></p> <p><b><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></b></p> <ul> <li>The words '<strong>Jeopardy'</strong> and <strong>'Safe</strong>' are <u>Antonyms</u>. <ul> <li><strong>Jeopardy:</strong> It means risk or exposure to harm, loss, death or injury.</li> <li><strong>Safe:</strong> Anything that is 'safe' does not cause physical harm or danger.</li> </ul> </li> <li>Similarly, the words <strong>'Lethargic'</strong> and <strong>'Nimble'</strong> are antonyms. <ul> <li><strong>Lethargic:</strong> If you&#39;re 'lethargic', you don&#39;t have much energy or enthusiasm.</li> <li><strong>Nimble: </strong>If you say that someone has a 'Nimble' mind, you mean that they are clever, smart, energetic and active<strong>.</strong></li> </ul> </li> <li>Therefore,<strong> 'Lethargic'</strong> and <strong>'Nimble' </strong>have the same relationship as<strong> 'Jeopardy' </strong>and<strong> 'Safe'</strong></li> </ul> <p>Hence, the correct pair is '<strong><em>Lethargy: Nimble'</em></strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> Let's discuss the other options. The words given in the other options are synonyms.</p> <ol> <li><strong>Detrimental and Menace (हानिकारक): </strong>It is an environment that gives you the feeling that you are in danger or that someone wants to harm you.</li> <li><strong>Amity and Reconciliation (मित्रता और मेल-जोल): </strong>It is a peaceful, friendly relationship between people or countries.</li> <li><strong>Sloth and Indolent (आलसी)</strong>: Unwillingness to work or laziness. Someone who is indolent and sloth is lazy.</li> </ol> <p> </p> <p> </p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><strong>In the following question there is a related pair of words given. Choose the pair from the given option the pair of words that best expresses the relationship like the original pair.</strong></p> <p>Elucidate : Clarify</p>",
+    "questionText": "<p><strong>Select the most appropriate ANTONYM of the given word.</strong></p> <p>Devious</p>",
     "options": [
       {
-        "text": "Fabricate : Build",
+        "text": "<span style=\"\">Dishonest</span>",
+        "isCorrect": false
+      },
+      {
+        "text": "<span style=\"\">Crooked</span>",
+        "isCorrect": false
+      },
+      {
+        "text": "<span style=\"\">Crafty</span>",
+        "isCorrect": false
+      },
+      {
+        "text": "<span style=\"\">Sincere</span>",
+        "isCorrect": true
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is<strong> \"Sincere\"</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>Let&#39;s see the meanings of the given words- <ul> <li><strong>Devious- </strong>showing a skillful use of underhand tactics to achieve goals. लक्ष्यों को प्राप्त करने के लिए अंडरहैंड रणनीति का एक कुशल उपयोग दिखा रहा है।</li> <li><strong>Dishonest- </strong>behaving or prone to behave in an untrustworthy, deceitful, or insincere way. व्यवहार करना या एक अविश्वसनीय, धोखेबाज, या ईमानदार तरीके से व्यवहार करने के लिए प्रवण।</li> <li><strong>Crooked- </strong>dishonest; illegal. बेईमान; अवैध।</li> <li><strong>Crafty- </strong>clever at achieving one&#39;s aims by indirect or deceitful methods. अप्रत्यक्ष या कपटपूर्ण तरीकों से अपने लक्ष्यों को प्राप्त करने में चतुर</li> <li><strong>Sincere- </strong>free from pretense or deceit; proceeding from genuine feelings. ढोंग या कपट से मुक्त; वास्तविक भावनाओं से आगे बढ़ना।</li> </ul> </li> <li>Hence, according to the meanings of the given words, the correct answer is <strong>Option 4 i.e. \"Sincere\"</strong></li> </ul>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "<p><span style=\"font-weight: 700;\">Select the most appropriate antonym of the given word.</span></p> <div>Veteran</div>",
+    "options": [
+      {
+        "text": "Novice",
         "isCorrect": true
       },
       {
-        "text": "Diminish : Increase",
+        "text": "Crumble",
         "isCorrect": false
       },
       {
-        "text": "Frugal : Lavish",
+        "text": "Wither",
         "isCorrect": false
       },
       {
-        "text": "Ponderous : Light",
+        "text": "Vanish",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is<strong> &#39;Fabricate : Build&#39;.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>\"Elucidate\" and \"Clarify\" both mean to make something clear or to explain something in detail. The relationship is that they are synonymous.</li> <li>\"Fabricate\" means to make or create something, and \"Build\" similarly refers to constructing or making something. Thus, they are synonyms.</li> <li>The relationship between these two pairs is that they have similar or synonymous meanings.</li> <li>The other options provide pairs that are antonyms or unrelated.</li> </ul> <p><strong>Therefore, the correct answer is Option 1.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <ul> <li>Diminish : Increase - These words are antonyms.</li> <li>Frugal : Lavish - These words are opposite in meaning.</li> <li>Ponderous : Light - This pair consists of antonyms, where \"Ponderous\" refers to something heavy or clumsy and \"Light\" is the opposite.</li> </ul>",
+    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">&#39;Novice&#39;.</span></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The most appropriate <strong>antonym</strong> of the given word<span style=\"font-weight: 700;\"> &#39;Veteran&#39; is &#39;Novice&#39;.</span></li> <li>Let&#39;s look at the meaning and examples of the given words:</li> </ul> <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\"> <tbody> <tr> <td style=\"text-align: center;\"><strong>Word</strong></td> <td style=\"text-align: center; width: 200px; height: 20px;\"><strong>Meaning</strong></td> <td style=\"text-align: center; width: 200px; height: 20px;\"><strong>Example</strong></td> </tr> <tr> <td style=\"text-align: center;\"><span style=\"font-weight: 700;\">Veteran</span></td> <td style=\"text-align: center;\">a person who has had a lot of experience of a particular activity</td> <td style=\"text-align: center;\"><em>Thousands of <strong>veterans</strong> will take part in a commemoration of the battle.</em></td> </tr> <tr> <td style=\"text-align: center;\"><span style=\"font-weight: 700;\">Novice</span></td> <td style=\"text-align: center;\">a person who is not experienced in a job or situation</td> <td style=\"text-align: center;\"><em>This plant can be difficult for <strong>novice</strong> gardeners to grow.</em></td> </tr> <tr> <td style=\"text-align: center;\"><span style=\"font-weight: 700;\">Crumble</span></td> <td style=\"text-align: center;\">to break, or cause something to break, into small pieces</td> <td style=\"text-align: center;\"><em>She nervously <span style=\"font-weight: 700;\">crumbled </span>the bread between her fingers.</em></td> </tr> <tr> <td style=\"text-align: center;\"><span style=\"font-weight: 700;\">Wither</span></td> <td style=\"text-align: center;\">(to cause) to become weak and dry and decay</td> <td style=\"text-align: center;\"><em>The grass had <span style=\"font-weight: 700;\">withered </span>in the fields.</em></td> </tr> <tr> <td style=\"text-align: center;\"><span style=\"font-weight: 700;\">Vanish</span></td> <td style=\"text-align: center;\">to disappear or stop being present or existing, especially in a sudden, surprising way</td> <td style=\"text-align: center;\"><em>The child <span style=\"font-weight: 700;\">vanished </span>while on her way home from school.</em></td> </tr> </tbody> </table> <ul> <li>Therefore, by reading the above explanation we find that the correct answer is <span style=\"font-weight: 700;\">Option 1.</span>​</li> </ul> <p><span style=\"font-weight: 700;\">​​<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/hinglish-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Hinglish</u></span></strong></span></span></p> <ul> <li> <table border=\"1\" cellpadding=\"1\" cellspacing=\"1\" style=\"background-color: rgb(255, 255, 255);\"> <tbody> <tr> <td style=\"text-align: center;\"><strong>Word</strong></td> <td style=\"text-align: center;\"><strong>Meaning</strong></td> </tr> <tr> <td style=\"text-align: center;\"><strong>Veteran</strong></td> <td style=\"text-align: center;\">एक व्यक्ति जिसे किसी विशेष गतिविधि का बहुत अनुभव है</td> </tr> <tr> <td style=\"text-align: center;\"><strong>Novice</strong></td> <td style=\"text-align: center;\">ऐसा व्यक्ति जिसे नौकरी या स्थिति का अनुभव नहीं है</td> </tr> <tr> <td style=\"text-align: center;\"><strong>Crumble</strong></td> <td style=\"text-align: center;\">कुछ तोड़ना या छोटे टुकड़ों में तोड़ना</td> </tr> <tr> <td style=\"text-align: center;\"><strong>Wither</strong></td> <td style=\"text-align: center;\">कमजोर और शुष्क और क्षय हो जाना</td> </tr> <tr> <td style=\"text-align: center;\"><strong>Vanish</strong></td> <td style=\"text-align: center;\">अचानक और रहस्यमय तरीके से गायब हो जाना</td> </tr> </tbody> </table> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p>In the following question, out of the four given options, select the one which best expresses the meaning of the idiom/phrase.</p> <p>Play it by ear.</p>",
-    "options": [
-      {
-        "text": "To focus on one thing.",
-        "isCorrect": false
-      },
-      {
-        "text": "Last try before giving up.",
-        "isCorrect": false
-      },
-      {
-        "text": "Act without preparation.",
-        "isCorrect": true
-      },
-      {
-        "text": "A fleeting moment.",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p>The correct answer<strong> </strong>is<strong> &#39;Act without preparation&#39;</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /> <strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <blockquote> <ul> <li>The idiom &#39;Play it by ear&#39; originates from music, where it refers to playing music without reference to written notation.</li> <li>In a broader sense, it means to act according to the circumstances,<strong> rather than according to a predetermined plan.</strong> <ul> <li><strong>Example - </strong>Since I&#39;m not sure when my last meeting will end, let&#39;s play it by ear for our dinner plans</li> </ul> </li> <li>The other options do not correctly reflect this meaning.</li> </ul> </blockquote> <p><strong>Therefore, the correct answer is Option 3.</strong></p>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "Pick up the most effective word from the given words to fill in the blanks to make the sentence meaningfully complete.\n\nWhile on a routine flight, the aircraft was hit by a missile and ____ into flames.",
-    "options": [
-      {
-        "text": "Fired",
-        "isCorrect": false
-      },
-      {
-        "text": "Burst",
-        "isCorrect": true
-      },
-      {
-        "text": "Caught",
-        "isCorrect": false
-      },
-      {
-        "text": "Engulfed",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">option 2)</span> i.e. <strong>Burst</strong>.<br /> </p> <p><span id=\"docs-internal-guid-fbfc52b9-7fff-692e-d70c-e6cab6c985c0\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border: none; display: inline-block; overflow: hidden; width: 40px; height: 35px;\"><img height=\"35\" src=\"https://lh5.googleusercontent.com/28i2H4qZUMqoricKhH6aaLqxFoqVxqpmaJpMBy62DoGJbWBmmYJxPuBF6Wq_gGqfYCkpEpr0WIm9NnvtUCdNGqm-1_wqVyF46346wBwUiFK7AiZX8LxkL7abs3B0GOqVQ9Wwde-d\" style=\"margin-left: 0px; margin-top: 0px;\" width=\"40\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Explanation </span></span></p> <ul> <li><u><span style=\"font-weight: 700;\">Let</span> us <span style=\"font-weight: 700;\">explore</span> the <span style=\"font-weight: 700;\">options</span></u>: <ul> <li>&#39;<span style=\"font-weight: 700;\">Fired</span>&#39; means <em>a destructive burning</em>.</li> <li>&#39;<span style=\"font-weight: 700;\">Burst</span>&#39; means a <em>sudden outbreak, explosion, eruption,</em> to <em>break open, apart, or into pieces usually from impact or from pressure from within</em>.</li> <li>&#39;<span style=\"font-weight: 700;\">Caught</span>&#39; means to <em>capture or seize especially after a pursuit</em>.</li> <li>&#39;<span style=\"font-weight: 700;\">Engulfed</span>&#39; means <em>to flow over and enclose</em>.</li> </ul> </li> <li><span style=\"font-weight: 700;\">Hence</span>, from the explanation of the given options, we can easily say that &#39;<span style=\"font-weight: 700;\">burst</span>&#39; is the <span style=\"font-weight: 700;\">correct</span> answer.<br /> </li> </ul> <p><span style=\"font-weight: 700;\"><u>The correct sentence</u></span>: \"<em>While on a routine flight, the aircraft was hit by a missile and <strong>burst</strong> into flames</em>.\"<br /> <br /> <span id=\"docs-internal-guid-87250975-7fff-a880-cbae-59c582c09ba7\"><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border: none; display: inline-block; overflow: hidden; width: 120px; height: 40px;\"><img height=\"40\" src=\"https://lh3.googleusercontent.com/sWn1oC6mlNsROP-zVXMvAlT_Fqes0HlQMQeDtmr94LuJqLv7dOdQtJ2Q7iQ1JS5REaHqKFCFChrBmdKT4svOFMwg4y1JdWWC5pg4X0ls_aEdE-_EV4rBZGTOua1aQGpEgOl5QU9H\" style=\"margin-left: 0px; margin-top: 0px;\" width=\"120\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> </span></span></p> <ul> <li><strong>Synonyms</strong> of &#39;<strong>burst</strong>&#39;<strong>:</strong> \"<strong>blow, blow up, crump, detonate, explode, flare, flare-up, flash, flicker, flurry, flutter, outbreak, outburst</strong>.\"</li> <li><u><strong>Examples </strong>of<strong> &#39;burst&#39;</strong> in a <strong>sentence</strong></u>: <ul> <li>\"<em>The <strong>burst</strong> strength and the fatigue life of the damaged GRP pipes were decreased as the impact energy increased</em>.\"</li> <li>\"<em>Changes in the tubes&#39; <strong>burst</strong> pressures were recorded and the resulting damages on the tubes were studied</em>.\"</li> </ul> </li> </ul>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p><strong>In the following question, some part of the sentence may have errors. Find out which part of the sentence has an error and select the appropriate option. If a sentence is free from error, select &#39;No Error&#39; </strong></p> <p>One of the (A) / files in the cabinet (B) / are missing. (C) / No error (D)</p>",
+    "questionText": "<p><span style=\"font-weight: 700; \">In the following question, the given sentence has four parts marked as A, B, C, and D. Choose the part of the sentence with an error and mark it as your answer. If there is no error, mark D as your answer.</span></p> <p>The judge was (A) / referring to the two post&shy;mortem reports (B) / that was reviewed by a team of forensic experts. (C) / No Error (D)</p>",
     "options": [
       {
         "text": "A",
@@ -171,582 +146,607 @@
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is <strong>option 3 i.e. C.</strong></p> <p><img alt=\"\" src=\"//cdn.testbook.com/images/production/quesImages/quesImage3012.png\" style=\"height: 39px; width: 150px;\" /></p> <ul> <li>The given sentence is starting with the phrase<strong> \"one of the\". </strong></li> <li>The noun following the phrase \"one of the\" is always a plural noun i.e. &#39;files&#39; in the given sentence.</li> <li>The <u>verb following the phrase \"one of the\" is always singular as the subject &#39;one&#39; is singular. </u></li> <li><strong>For example:</strong> <ul> <li><strong>​</strong>One of the girls <strong>is</strong> doing homework.</li> </ul> </li> <li>Therefore, the plural verb &#39;are&#39; should be replaced by &#39;is&#39; in the given sentence.</li> <li>Hence, the phrase <strong>\"are missing\" contains an error.</strong></li> </ul> <p><img alt=\"\" src=\"//cdn.testbook.com/images/production/quesImages/quesImage4175.png\" />​<strong> The correct sentence</strong>: \"<em>One of the files in the cabinet is missing</em>.\" </p>",
+    "solutionExplanation": "<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">C</span></p> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span> </span></span></span></span></span></span></span></p> <ul style=\"\"> <li>Part C of the sentence is erroneous.</li> <li>The sentence is referring to the postmortem reports which is a plural subject.</li> <li>According to the Subject-Verb agreement rule, the helping verb <strong>was</strong> is to be replaced by <strong>were</strong> in the sentence.<br /> </li> </ul> <p style=\"\"><em><span style=\"font-weight: 700;\">​</span></em>Hence, the correct sentence would be, <em><span style=\"\">The judge was referring to the two post&shy;mortem reports that <strong>were</strong> reviewed by a team of forensic experts.</span></em><br /> <br /> <em>Therefore, it can be inferred that the<span style=\"font-weight: 700;\"> correct </span>answer is <span style=\"font-weight: 700;\">option 3)</span></em></p> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span></span></span></span></span></span></span></p> <p style=\"\"> The basic rule of the Subject-Verb agreement is that a singular subject (he, she, car) takes a singular verb (is, goes, shines) whereas a plural subject takes a plural verb.</p> <ul> <li style=\"\">Ex: The <u>list</u> of items <u>is</u> on the table (SIngular subject- singular verb)</li> <li style=\"\">Ex: <u>I and my friends</u> <u>are</u> going to a movie. (Plural subject-plural verb) </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><strong>Give Synonym for the following word:</strong></p> <p>CHERISH</p>",
+    "questionText": "<p>Give a single word that substitutes for the following expression.</p> <p>One who does not marry typically for religious reasons</p>",
     "options": [
       {
-        "text": "Treasure",
-        "isCorrect": true
-      },
-      {
-        "text": "Disregard",
+        "text": "Bachelor",
         "isCorrect": false
       },
       {
-        "text": "Forsake",
+        "text": "Widower",
         "isCorrect": false
       },
       {
-        "text": "Contest",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p style=\"\">The correct answer is<span style=\"font-weight: 700;\"> <strong>&#39;</strong></span><strong>Treasure<span style=\"font-weight: 700;\">.&#39;</span></strong></p> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></span></span></span></p> <ul style=\"\"> <li>The meaning of the word<span style=\"font-weight: 700;\"> &#39;Cherish</span>&#39;<span style=\"font-weight: 700;\"> </span>is <span style=\"color: rgb(32, 33, 36); \">to love somebody/something and look after him/her/it carefully</span>. <ul> <li>Word<span style=\"font-weight: 700;\"> &#39;Cherish&#39;</span> का अर्थ हैं किसी से स्&zwj;नेह करना और सावधानीपूर्वक देखरेख में रखना।</li> </ul> </li> <li><span style=\"font-weight: 700;\">Let us discuss the meanings of the given options:</span> <ul> <li><strong>Treasure: </strong>to consider somebody/something to be very special or valuable. (किसी व्यक्ति या वस्&zwj;तु को बहुत ख़ास या मूल्&zwj;यवान समझना)</li> <li><strong>Disregard: </strong>to take no notice of somebody/something; to treat something as unimportant. (किसी की उपेक्षा करना, किसी बात पर ध्यान न देना; किसी बात को महत्वहीन या उपेक्षणीय समझना)</li> <li><strong>Forsake: </strong>to leave a person or a place for ever (especially when you should stay). (किसी व्&zwj;यक्ति या स्&zwj;थान का सदा के लिए परित्&zwj;याग करना (विशेषतः अनपेक्षित रूप से))</li> <li><strong>Contest:</strong>to take part in a competition or try to win something. (स्&zwj;पर्धा में भाग लेना)<strong> </strong></li> </ul> </li> <li>Therefore, the word which is synonymous with the given word is <span style=\"font-weight: 700;\">&#39;Treasure.&#39;</span><br /> </li> </ul> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span> </span></span></span> </span> </span></span></p> <ul style=\"\"> <li>Let us the synonyms of the given words​: <ul> <li><span style=\"font-weight: 700;\">Sluggish: Inactive</span></li> <li><span style=\"font-weight: 700;\">Extreme: Utmost</span></li> </ul> </li> </ul>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p>Select the lettered pair that expresses a relationship similar to that expressed in the original pair.</p> <p>Bat : Cricket</p>",
-    "options": [
-      {
-        "text": "Goal : Hockey",
+        "text": "Virgin",
         "isCorrect": false
       },
       {
-        "text": "Cock : Badminton",
-        "isCorrect": false
-      },
-      {
-        "text": "Racket : Badminton",
-        "isCorrect": true
-      },
-      {
-        "text": "Penalty : Football",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p> The correct answer is <strong>\"Racket : Badminton\"</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>In the given question we have to find an option that is similar to the given question.</li> <li>As the <strong>\"Bat\"</strong> is used to shoot a ball in<strong> \"Cricket\"</strong>, in the same way, the<strong> \"Racket\"</strong> is used to shoot a cock in<strong> \"Badminton\"</strong>.</li> <li>Thus, the correct answer is<strong> \"Racket : Badminton\"</strong></li> </ul> <p><strong><em><u>Correct answer:</u></em> Racket : Badminton</strong></p>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p style=\"\"><span style=\"font-weight: 700;\">Direction: Select the one which is synonymous with the bold/underlined word:</span></p> <p style=\"\">He is facing charges of grand theft by embezzlement and <u><strong>forgery</strong></u>.</p>",
-    "options": [
-      {
-        "text": "Dominating",
-        "isCorrect": false
-      },
-      {
-        "text": "Authentic",
-        "isCorrect": false
-      },
-      {
-        "text": "Counterfeit",
-        "isCorrect": true
-      },
-      {
-        "text": "Extensive",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p>The correct answer is: <strong><span style=\"color: rgb(33, 37, 41);\">Counterfeit</span></strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The word <strong>\"forgery\"</strong> means the act of falsely making, altering, or imitating documents, signatures, or works of art with the intent to deceive. (जालसाज़ी) <ul> <li><strong>Example: </strong>The artist was accused of <strong>forgery </strong>after several paintings were found to be fakes.</li> </ul> </li> <li><strong>\"Counterfeit\" </strong>refers to something made in exact imitation of something valuable with the intention to deceive or defraud. (नकली) <ul> <li><strong>Example: </strong>The police seized <strong>counterfeit </strong>currency notes from the suspect&#39;s house.</li> </ul> </li> <li>Hence, we can infer that the synonym of <strong>&#39;forgery&#39; </strong>is <strong>&#39;counterfeit&#39;</strong>.</li> </ul> <p>Therefore, the correct answer is: <strong>Option 3</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Dominating </strong>(<span style=\"color: rgb(33, 37, 41);\">प्रभुत्व</span>): Exerting control or influence over others. <ul> <li><strong>Example:</strong> His <strong>dominating </strong>personality often makes others feel uncomfortable.</li> </ul> </li> <li><strong>Authentic </strong>(<span style=\"color: rgb(33, 37, 41);\">प्रामाणिक</span>): Genuine, real, and not fake. <ul> <li><strong>Example: </strong>The museum displayed an <strong>authentic </strong>piece of ancient pottery.</li> </ul> </li> <li><strong>Extensive</strong> (<span style=\"color: rgb(33, 37, 41);\">विस्तृत</span>): Covering a large area; having a wide scope. <ul> <li><strong>Example:</strong> The company conducted an <strong>extensive </strong>survey to understand customer needs.</li> </ul> </li> </ul>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p><strong>In the following question, some part of the sentence may have errors. Find out which part of the sentence has an error and select the appropriate option. If a sentence is free from error, select &#39;No Error&#39;.</strong></p> <p>She insisted me (A)/ to watch the movie with (B)/ her after dinner. (C) No error (D)</p>",
-    "options": [
-      {
-        "text": "A",
-        "isCorrect": false
-      },
-      {
-        "text": "B",
-        "isCorrect": true
-      },
-      {
-        "text": "C",
-        "isCorrect": false
-      },
-      {
-        "text": "No error",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p>The correct answer is <strong>B</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The <strong>transitive form</strong> of the verb &#39;to watch&#39; does not fit after the verb &#39;insisted.&#39;</li> <li>The verb &#39;insisted&#39; is always followed by the preposition &#39;on&#39; and participle form of the verb, so it should be &#39;watching&#39; here. <br /> </li> </ul> <p><strong>The correct sentence is:</strong> &#39;She insisted me <strong><em>on watching</em> </strong>the movie with her after dinner.&#39;</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/important-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Important Points</u></span></strong></span></p> <ul> <li>Usage of the <em>preposition </em><strong>on </strong>with words, <u>concentrate, depend, insist</u>:</li> <li>Examples: <ul> <li><em>Rivansh is <strong>concentrating on</strong> his work.</em></li> <li><em>They <strong>depend on</strong> each other.</em></li> <li><em>She must <strong>insist on </strong>following this rule.</em></li> </ul> </li> </ul>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p><strong>Fill in the blanks with the idioms /phrases out of the given options.</strong></p> <p>I am prepared to meet you ________.</p>",
-    "options": [
-      {
-        "text": "halfway",
-        "isCorrect": true
-      },
-      {
-        "text": "middle way",
-        "isCorrect": false
-      },
-      {
-        "text": "no way",
-        "isCorrect": false
-      },
-      {
-        "text": "final way",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p>The correct answer is <strong>&#39;halfway</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The meaning of the phrase <em>&#39;Half-way&#39; is &#39;Halfway means in the middle of a place or between two points, at an equal distance from each of them.&#39;</em></li> <li>Let&#39;s see an example- <ul> <li>He was<strong> halfway</strong> up the ladder. </li> </ul> </li> </ul> <p><br /> So the correct answer is <strong>Option 1 i.e. &#39;halfway&#39;</strong></p>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "Select the most appropriate Antonym of the word &ldquo;glut&rdquo;:",
-    "options": [
-      {
-        "text": "Shortage",
-        "isCorrect": true
-      },
-      {
-        "text": "Shout",
-        "isCorrect": false
-      },
-      {
-        "text": "Sick",
-        "isCorrect": false
-      },
-      {
-        "text": "Shroud",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "The correct answer is Option 1 . Key Points The word \" glut \" means an excessive supply of something. An antonym is a word that has the opposite meaning to another word. A \" shortage \" refers to a lack or insufficiency of something. Therefore, \" shortage \" is the most appropriate antonym for the word \" glut .\" Therefore, the correct answer is Option 1 .",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p>Select the most appropriate option to improve the underlined segment in the given sentence. If there is no improvement required, select 'No improvement'.</p> <p><u>Scarcely</u> he see his opponent than he went numb with fear.</p>",
-    "options": [
-      {
-        "text": "No improvement",
-        "isCorrect": false
-      },
-      {
-        "text": "As soon as",
-        "isCorrect": false
-      },
-      {
-        "text": "Hardly did",
-        "isCorrect": false
-      },
-      {
-        "text": "No sooner did",
+        "text": "Celibate",
         "isCorrect": true
       }
     ],
-    "solutionExplanation": "<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">&#39;No sooner did</span><span style=\"font-weight: 700;\">&#39; </span><span style=\"font-weight: 700;\">i.e.</span><span style=\"font-weight: 700;\"> this part of the sentence</span> <span style=\"font-weight: 700;\">has an error</span>.</p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>In the given sentence, the phrase <span style=\"font-weight: 700;\">&#39;Scarcely he see&#39;</span> is <span style=\"font-weight: 700;\">incorrect</span>.</li> <li>The correct expression is <strong>&#39;No sooner did he see&#39;</strong> as it follows the correct grammatical structure for such sentences.</li> <li>The structure for such sentences is: <strong>No sooner + did + subject + base form of the verb + than</strong>. <ul> <li><strong>Example:</strong> <em><strong>No sooner did</strong> she <strong>arrive</strong> <strong>than</strong> it started raining</em>.</li> </ul> </li> <li>Therefore, the <span style=\"font-weight: 700;\">correct form</span> should be <span style=\"font-weight: 700;\">&#39;No sooner did he see&#39;</span>.</li> </ul> <p style=\"\">Hence, the correct answer is <span style=\"font-weight: 700;\">option 4</span>.</p> <p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>No sooner did he see his opponent than he went numb with fear</em>.<br /> <br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>The phrases <strong>&#39;No sooner... than&#39;</strong> and <strong>&#39;Hardly... when&#39;</strong> are often used to indicate that one action quickly followed another. <ul> <li><strong>Example:</strong> <em><strong>Hardly had</strong> he <strong>arrived</strong> <strong>when</strong> the meeting started</em>.</li> </ul> </li> <li>These phrases are used with the past perfect or simple past tense, and the auxiliary verb (did/had) is used before the subject.</li> </ul>",
+    "solutionExplanation": "<p>The correct answer is: <b>Option 4 (Celibate)</b>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The word <strong>\"Celibate\"</strong> refers to a person who abstains from marriage and sexual relations, often for religious or spiritual reasons. (कौमार्य व्रतधारी) <ul> <li><strong>Example:</strong> The monk took a vow to remain celibate for the rest of his life.</li> </ul> </li> <li><strong>\"Celibate\"</strong> is the correct word to describe someone who does not marry, typically for religious reasons. <ul> <li><strong>Example:</strong> Many priests and nuns choose to live a celibate life to fully devote themselves to their faith.</li> </ul> </li> </ul> <p>Therefore, the correct answer is: <strong>Option 4 (Celibate)</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Bachelor</strong> (<span style=\"color: rgb(33, 37, 41);\">कुवाँरा</span>): A man who is not and has never been married. <ul> <li><strong>Example:</strong> He remained a bachelor all his life, focusing on his career.</li> </ul> </li> <li><strong>Widower</strong> (<span style=\"color: rgb(33, 37, 41);\">विधुर</span>): A man whose spouse has died and who has not remarried. <ul> <li><strong>Example:</strong> After his wife passed away, he lived the life of a widower.</li> </ul> </li> <li><strong>Virgin</strong> (<span style=\"color: rgb(33, 37, 41);\">कुँवारा/कुँवारी</span>): A person who has never engaged in sexual intercourse. <ul> <li><strong>Example:</strong> The young woman chose to remain a virgin until marriage.</li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p>Direction: Choose the correct synonyms for the given words from the alternatives given below them.</p> <p>Patronage</p>",
+    "questionText": "<p>Select the most appropriate synonym of the given word.</p> <p>Broad</p>",
     "options": [
       {
-        "text": "Donation",
-        "isCorrect": false
-      },
-      {
-        "text": "Support",
+        "text": "Wide",
         "isCorrect": true
       },
       {
-        "text": "Espionage",
+        "text": "Particular",
         "isCorrect": false
       },
       {
-        "text": "Beneficiary",
+        "text": "Exact",
+        "isCorrect": false
+      },
+      {
+        "text": "Small",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is: <b>Support</b>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The word <strong>\"Patronage\"</strong> refers to the support, encouragement, or financial aid provided by someone, especially to an individual or organization. (संरक्षण) <ul> <li><strong>Example:</strong> The artist&#39;s career flourished under the patronage of a wealthy benefactor.</li> </ul> </li> <li><strong>\"Support\"</strong> means giving assistance or backing to someone or something, especially in terms of moral, financial, or physical aid. (सहायता) <ul> <li><strong>Example:</strong> The NGO relies on public support to carry out its initiatives.</li> </ul> </li> <li>Hence, the synonym for <strong>\"Patronage\"</strong> is <strong>\"Support\"</strong>.</li> </ul> <p>Therefore, the correct answer is: <strong>Support</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Donation</strong> (<span style=\"color: rgb(33, 37, 41);\">दान</span>): Something that is given, typically money or goods, to help a person or organization. <ul> <li><strong>Example:</strong> The charity received a large donation from an anonymous donor.</li> </ul> </li> <li><strong>Espionage</strong> (<span style=\"color: rgb(33, 37, 41);\">जासूसी</span>): The act of spying or using spies to obtain information about the activities of a foreign government or company. <ul> <li><strong>Example:</strong> The movie revolves around a thrilling espionage plot involving international agents.</li> </ul> </li> <li><strong>Beneficiary</strong> (<span style=\"color: rgb(33, 37, 41);\">लाभार्थी</span>): A person who receives benefits, often in terms of money or assets. <ul> <li><strong>Example:</strong> She was named the sole beneficiary of her grandfather&#39;s estate.</li> </ul> </li> </ul>",
+    "solutionExplanation": "<p>The correct answer is: <b>Option 1</b>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The word <strong>\"Broad\"</strong> means having an ample distance from side to side; wide. (चौड़ा) <ul> <li><strong>Example: </strong>The road was <strong>broad </strong>enough to accommodate four lanes of traffic.</li> </ul> </li> <li><strong>\"Wide\" </strong>refers to having a great extent from side to side. (विस्तृत) <ul> <li><strong>Example: </strong>The river was too <strong>wide </strong>to cross without a bridge.</li> </ul> </li> <li>Hence, we can infer that the synonym of <strong>&#39;Broad&#39; </strong>is <strong>&#39;Wide&#39;</strong>.</li> </ul> <p>Therefore, the correct answer is: <strong>Option 1</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Particular </strong>(<span style=\"color: rgb(33, 37, 41);\">विशेष</span>): Specific or distinct. <ul> <li><strong>Example:</strong> She wanted that <strong>particular </strong>dress for her birthday.</li> </ul> </li> <li><strong>Exact </strong>(<span style=\"color: rgb(33, 37, 41);\">सटीक</span>): Precise, correct in all details. <ul> <li><strong>Example: </strong>He gave the <strong>exact </strong>measurements for the project.</li> </ul> </li> <li><strong>Small</strong> (<span style=\"color: rgb(33, 37, 41);\">छोटा</span>): Of a size that is less than normal or usual. <ul> <li><strong>Example:</strong> She lives in a <strong>small </strong>apartment in the city.</li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><strong>The following sentence has been divided into parts. One of them may contain an error. Select the part that contains the error from the given options. If you don't find any error, mark 'No error' as your answer.</strong></p> <p>He is faster enough / to defeat / the current record holder. </p>",
+    "questionText": "<p>Select the most appropriate word to fill in the blank.</p> <p>The trio of women at the table ________ representative of the enormous flux of American life.</p>",
     "options": [
       {
-        "text": "He is faster enough",
+        "text": "had being",
+        "isCorrect": false
+      },
+      {
+        "text": "was",
         "isCorrect": true
+      },
+      {
+        "text": "has been",
+        "isCorrect": false
+      },
+      {
+        "text": "were",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is<strong> &#39;was&#39;.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li> \"The trio of women\" is a collective noun that is singular in form and takes a singular verb.</li> <li>Even though \"women\" is plural, the subject \"trio\" is singular, necessitating a singular verb form.</li> <li>The context of the sentence suggests a simple past tense scenario.</li> <li> \"Was\" correctly matches the singular collective noun \"trio\" and the simple past tense context.</li> <li>Using \"was\" makes the sentence clear and grammatically correct.</li> </ul> <p>Therefore, the correct answer is <strong>&#39;Option 2&#39;.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <ul> <li>Option 1 (had being): Grammatically incorrect; the phrase \"had being\" is not a valid verb form.</li> <li>Option 3 (has been): Incorrect tense; \"has been\" is present perfect, not consistent with the simple past needed here.</li> <li>Option 4 (were): Incorrect verb form; \"were\" is plural, whereas \"trio\" is singular.</li> </ul>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "<p><strong>Identify the segment in the sentence that contains a grammatical error.</strong></p> <p>One of the girls from our college have been selected for the National Basketball Championship.</p>",
+    "options": [
+      {
+        "text": "for National Basketball Championship",
+        "isCorrect": false
+      },
+      {
+        "text": "One of the girls from",
+        "isCorrect": false
       },
       {
         "text": "No error",
         "isCorrect": false
       },
       {
-        "text": "the current record holder",
-        "isCorrect": false
-      },
-      {
-        "text": "to defeat",
-        "isCorrect": false
-      }
-    ],
-    "solutionExplanation": "<p>The correct answer is <strong>&#39;He is faster enough&#39;.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The question involves identifying a grammatical error in the given sentence.</li> <li>The sentence is divided into parts, and we need to find the part that is grammatically incorrect.</li> <li>The first part of the sentence says &#39;<strong>He is faster enough&#39;,</strong> which is not grammatically correct.</li> <li>In English, we usually say someone is \"<strong>fast enough\"</strong> or \"<strong>quick enough</strong>\", not \"faster enough\".</li> <li>The adverb &#39;enough&#39; modifies adjectives but it does not usually modify comparatives.</li> <li>So, the error lies in the<strong> first part of the sentence.</strong></li> <li>&#39;To defeat&#39; and &#39;the current record holder&#39; are grammatically correct as they convey clear and specific meanings.</li> <li>&#39;To defeat&#39; indicates the action that can be done because the person is &#39;fast enough&#39;, and &#39;The current record holder&#39; identifies who the person can defeat.</li> </ul> <p>Therefore, the correct answer is<strong> Option 1.</strong></p>",
-    "marks": 1
-  },
-  {
-    "quizId": "6a606fad69c929fb6d251b55",
-    "sectionName": "English",
-    "questionText": "<p>Parts of a sentence are given below in jumbled order. Arrange the parts in the correct order to form a meaningful sentence.</p> <p>P. and allows them to come out of their imaginary world</p> <p>Q. which helps in illuminating and enlightening the dark world</p> <p>R. of two blind or visually impaired persons</p> <p>S. eye donation is a very generous act towards society</p>",
-    "options": [
-      {
-        "text": "SQPR",
-        "isCorrect": false
-      },
-      {
-        "text": "SRQP",
-        "isCorrect": false
-      },
-      {
-        "text": "SPQR",
-        "isCorrect": false
-      },
-      {
-        "text": "SQRP",
+        "text": "our college have been selected",
         "isCorrect": true
       }
     ],
-    "solutionExplanation": "<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">&#39;SQRP&#39;.</span></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>The correct sequence to form a meaningful sentence is <strong>SQRP</strong>, which reads as \"<em>Eye donation is a very generous act towards society, which helps in illuminating and enlightening the dark world of two blind or visually impaired persons and allows them to come out of their imaginary world</em>.\"</li> <li>Option 4 starts with <strong>S</strong>, introducing the topic of eye donation.</li> <li>It is logically followed by <strong>Q</strong>, which explains the impact of this act.</li> <li>Then comes <strong>R</strong>, specifying the beneficiaries of the act.</li> <li>Finally, <strong>P</strong> concludes the sentence by explaining the outcome for those beneficiaries.</li> </ul> <p style=\"\">Hence, the correct answer is <span style=\"font-weight: 700;\">option 4</span>.</p> <p style=\"\"><span style=\"font-weight: 700;\">Correct sentence:</span> <em>Eye donation is a very generous act towards society, which helps in illuminating and enlightening the dark world of two blind or visually impaired persons and allows them to come out of their imaginary world</em>.<br /> <br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li><strong>Option 1 (SQPR)</strong>: This option incorrectly places \"R\" at the end, disrupting the logical flow of beneficiaries before the outcome.</li> <li><strong>Option 2 (SRQP)</strong>: This sequence incorrectly suggests that the sentence starts with the beneficiaries, which is illogical as an introduction to the act of eye donation.</li> <li><strong>Option 3 (SPQR)</strong>: This order places the outcome before explaining who benefits, which makes the sentence confusing.</li> </ul>",
+    "solutionExplanation": "<p>The correct answer is<strong> &#39;our college have been selected&#39;.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The given sentence is grammatically incorrect.</li> <li>Here, <span style=\"font-weight: bolder;\">&#39;our college has been selected&#39; </span>should be used instead of <span style=\"font-weight: bolder;\">&#39;our college have been selected&#39;.</span></li> <li>The given sentence is an example of <strong>subject-verb agreement.</strong> And here, <strong>&#39;singular verb&#39;</strong> that is &#39;<strong>has</strong>&#39; should be used.</li> <li>The structure of these kinds of sentences is:<span style=\"font-weight: bolder;\"> One + of + the + plural noun + singular verb.</span> <ul> <li><em>Example: This is one of the best <span style=\"font-weight: bolder;\">institutions</span> I have ever enrolled in.</em><br /> </li> </ul> </li> </ul> <p><strong><u>Correct Sentence:</u></strong> <em>One of the girls from<strong> our college has been selected </strong>for the National Basketball Championship.</em> </p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><span style=\"font-weight: 700;\">Select the most appropriate meaning of the given idiom.</span></p> <p>Keep one&#39;s word.</p>",
+    "questionText": "<p><strong>Rearrange the parts of the sentence in correct order.</strong></p> <p>The absence of</p> <p>P. data on the migrant workers was</p> <p>Q. formulating effective policy decisions and</p> <p>R. preventing the governments from</p> <p>S. strategies for the welfare of migrant workers</p>",
     "options": [
       {
-        "text": "To hide something",
+        "text": "QPRS",
         "isCorrect": false
       },
       {
-        "text": "Do not say any word",
+        "text": "RPQS",
         "isCorrect": false
       },
       {
-        "text": "To keep one&#39;s promise",
+        "text": "PSRQ",
+        "isCorrect": false
+      },
+      {
+        "text": "PRQS",
         "isCorrect": true
-      },
-      {
-        "text": "Keep talking",
-        "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is-<strong> ​To keep one&#39;s promise.</strong><br /> <span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>Let&#39;s look at the meaning of the given<span style=\"font-weight: 700;\"> idiom:</span></li> <li><strong>Keep one&#39;s word</strong><span style=\"font-weight: 700;\">: </span>To do as one has promised.(जैसा वादा किया था वैसा करना।) <ul> <li><span style=\"font-weight: 700;\">Example: </span>​Tom always keeps his word, so if he promised to help you move, then he&#39;ll be here.</li> </ul> </li> </ul> <p><br /> Hence, the given idiom&#39;s correct meaning is to<strong><em> keep one&#39;s promise.</em></strong><br /> <em><span style=\"font-weight: 700;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></em></p> <ul> <li>Let&#39;s find out some synonym of Promise:</li> <li><span style=\"font-weight: 700;\">Assurance: </span>A promise. (एक वादा।)</li> <li><span style=\"font-weight: 700;\">Commitment: </span>A promise or firm decision to do something. (कुछ करने का वादा या दृढ़ निर्णय।) </li> </ul>",
+    "solutionExplanation": "<p>The correct answer is <strong>&#39;PRQS&#39;.</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The given question is an example of a <span style=\"font-weight: 700;\">Sentence Jumble.</span></li> <li><strong>Sentence P</strong> should be the first sentence because <em>\"Data on the migrant workers\" </em>is the subject of the sentence, and the lack of this data is the main point being made.</li> <li>After <strong>Sentence P,</strong> <strong>Sentence R</strong> should be used because <em>\"Preventing the governments from\"</em> is the effect of the absence of data. This part of the sentence explains the consequences of the missing data.</li> <li><strong>Sentence Q </strong>should be used next because <em>\"Formulating effective policy decisions and\" </em>provides more context to the sentence by explaining what the missing data is preventing.</li> <li>Lastly, <strong>Sentence S</strong> should be used because <em>\"Strategies for the welfare of migrant workers\"</em> is the object of the sentence and is the ultimate goal of having the missing data and formulating effective policies.</li> <li>Overall, the sentence highlights the importance of having accurate data on migrant workers in order to formulate effective policies and strategies for their welfare. Without such data, governments are hindered in their ability to make informed decisions, which can have negative consequences for migrant workers.<br /> </li> </ul> <p><strong><u>Correct Sequence:</u></strong> <em>The absence of data on the migrant workers was preventing the governments from formulating effective policy decisions and strategies for the welfare of migrant workers.</em></p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p>Select the most appropriate option to fill in the blank.</p> <p>The captain dropped the trophy while he ________the victory with his teammates.</p>",
+    "questionText": "<p>Find the part of the given sentence that has an error in it . If there is no error, choose &#39;No error&#39;.</p> <p>Participants in our studies reviewed these online dating profiles.</p>",
     "options": [
       {
-        "text": "celebrated",
+        "text": "online dating profiles",
         "isCorrect": false
       },
       {
-        "text": "was celebrating",
+        "text": "Participants in our",
+        "isCorrect": false
+      },
+      {
+        "text": "studies reviewed these",
+        "isCorrect": false
+      },
+      {
+        "text": "No error",
         "isCorrect": true
-      },
-      {
-        "text": "is celebrating<span style=\"display: none;\"> </span>",
-        "isCorrect": false
-      },
-      {
-        "text": "celebrates",
-        "isCorrect": false
       }
     ],
-    "solutionExplanation": "<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div> <div> </div> <div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div> <ul> <li><span style=\"\">The sentence requires <strong>the past continuous tense to indicate an action that was ongoing at the time another action occurred.</strong></span></li> <li><span style=\"\">The <strong>past continuous tense</strong> is formed using <strong>\"was/were\" + the present participle (verb + -ing).</strong></span></li> <li><span style=\"\">In this case, <strong>\"was celebrating\" </strong>correctly indicates that the celebration was in progress when the trophy was dropped.</span></li> <li><span style=\"\">Therefore, the correct answer is <strong>Option 2</strong>.</span></li> </ul> <div> </div> <div><span style=\"\"><strong>Correct Sentence:</strong> <em>\"The captain dropped the trophy while he <strong>was celebrating</strong> the victory with his teammates.\"</em></span></div> <div> </div> <div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></div> <ul> <li><span style=\"\"><strong>Option 1: \"celebrated\"</strong> &ndash; This is the simple past tense, which does not convey the ongoing nature of the action.</span></li> <li><span style=\"\"><strong>Option 3: \"is celebrating\"</strong> &ndash; This is the present continuous tense, which is not appropriate for past events.</span></li> <li><span style=\"\"><strong>Option 4: \"celebrates\"</strong> &ndash; This is the simple present tense, which is not appropriate for past events.</span></li> </ul>",
+    "solutionExplanation": "<p>The correct answer is<strong> &#39;Option 4&#39; </strong>i.e.<strong> \"No error.\"</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The sentence <em>\"Participants in our studies reviewed these online dating profiles\" </em>is grammatically correct and does not contain any errors.</li> <li>Here&#39;s why each segment is correct: <ul> <li><strong>\"Online dating profiles\"</strong> - This segment is correct. It serves as the object of the sentence, indicating what was reviewed by the participants.</li> <li><strong>\"Participants in our\" </strong>- This segment is also correct. It begins the subject of the sentence (\"Participants in our studies\"), indicating who performed the action of reviewing.</li> <li><strong>\"Studies reviewed these\"</strong> - This segment is correct. It completes the subject (\"Participants in our studies\") and begins the verb and object (\"reviewed these online dating profiles\"), indicating the action that was performed and what it was performed on.</li> </ul> </li> </ul> <p>Therefore, the<strong> correct sentence </strong>is: <em>&#39;Participants in our studies reviewed these online dating profiles.&#39;</em></p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "<p><span style=\"font-weight: 700; \">The following question consists of an incomplete sentence or a sentence that is split into four parts. All four parts are jumbled up and are named P, Q, R, and S. These four parts are not given in their proper order. Arrange the jumbled parts of the sentence and find out which of the four combinations from the given options will correctly complete the sentence.</span></p> <p>Gujarat is a classic example of learning______________________</p> <p>P: acquired the hard way with</p> <p>Q: <span name=\"_Hlk121254872\">every reason to share the expertise </span></p> <p>R: to cope with disasters, and there is</p> <p>S: other Indian states and other nations.</p>",
+    "questionText": "<p><strong>Choose the word which is nearest in meaning to the given word:</strong></p> <p>Abrogate</p>",
     "options": [
       {
-        "text": "RQSP",
-        "isCorrect": false
-      },
-      {
-        "text": "QRPS",
-        "isCorrect": false
-      },
-      {
-        "text": "SQPR",
-        "isCorrect": false
-      },
-      {
-        "text": "RQPS",
+        "text": "Put an end to",
         "isCorrect": true
+      },
+      {
+        "text": "Elope",
+        "isCorrect": false
+      },
+      {
+        "text": "Gatecrash",
+        "isCorrect": false
+      },
+      {
+        "text": "Send away",
+        "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is &ldquo;<strong>RQPS</strong>&rdquo;</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <p>This paragraph talks about the 'Gujarat is a classic example of learning how to deal with disasters.'</p> <ul> <li>If we read the opening statement clearly, we can conclude that the next statement should continue to explain what learning is about. <ul> <li>Clause <strong>'R</strong>' performs this, and it is established that clause 'R' is the following fragment. Thus, the introductory clause and clause '<strong>R</strong>' form a mandatory pair.</li> </ul> </li> <li>Further, clause 'R' ends with <em>'is'</em> and clause <strong>'Q'</strong> begins with <u>singular</u> '<em>every reason.' </em>Thus, clause 'R' and clause 'Q' also form a mandatory pair.</li> <li>Clause 'P' is dependent on clause '<strong>Q'</strong> as it continues &ldquo;<em>&hellip; share the expertise&hellip; acquired the hard way&hellip;'</em></li> </ul> <p><strong>Hence, the correct answer is</strong> &ldquo;<em>Gujarat is a classic example of learning to cope with disasters, and there is</em> <em>every reason to share the expertise acquired the hard way with other Indian states and other nations.&rdquo;</em></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>When we are doing Sentence Rearrangement &amp; Para jumbles, we have to keep three things in our mind:</p> <ol> <li>Identify the <strong>introductory</strong> and <strong>concluding</strong> sentences.</li> <li>After identifying the first and last sentences, the next task is to trace the flow of information the author used. By doing this, you will be able to see the purpose of all the paragraphs, which by default will prompt you to develop a <strong>sequence</strong> between the sentences.</li> <li>&#39;For solving parajumbles, <strong>combining statements</strong> based on particular characteristics or indicators works well.</li> </ol>",
+    "solutionExplanation": "<p>The correct answer is <strong>option 1)</strong> i.e. <strong>Put an end to.</strong></p> <p><span id=\"docs-internal-guid-6ab9fccd-7fff-acd6-cbf6-2b5d5db01d9b\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:40px;height:35px;\"><img height=\"35\" src=\"https://lh5.googleusercontent.com/28i2H4qZUMqoricKhH6aaLqxFoqVxqpmaJpMBy62DoGJbWBmmYJxPuBF6Wq_gGqfYCkpEpr0WIm9NnvtUCdNGqm-1_wqVyF46346wBwUiFK7AiZX8LxkL7abs3B0GOqVQ9Wwde-d\" style=\"margin-left:0px;margin-top:0px;\" width=\"40\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Explanation </span></span></p> <ul> <li>The word &#39;<strong>Abrogate</strong>&#39; means to <strong>abolish by authoritative action.</strong> <ul> <li>He seemed to <strong>abrogate </strong>his duty to withhold law and order. ​</li> </ul> </li> <li>The <strong>synonyms</strong> of &#39;abrogate&#39; are <strong>abate, abolish, annul, avoid, cancel, disannul, dissolve, invalidate, negate, null, nullify, quash, repeal, rescind, rollback, strike down, vacate, void.</strong></li> <li><strong>Hence, </strong>we can say that from the given options<strong> &#39;Put an end&#39; </strong>is the <strong>correct </strong>answer.</li> <li><strong>Examples</strong> of &#39;abrogate&#39; in a sentence:</li> <li>\"<em>It&#39;s illegal for them to <strong>abrogate</strong> our contract</em>\".</li> <li><em>\"The Congress had the power to <strong>abrogate</strong> the treaty at will</em>\".<br /> </li> </ul> <p><span id=\"docs-internal-guid-ebd008cd-7fff-7fc2-7e58-5f50dc2baa14\"><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:120px;height:40px;\"><img height=\"40\" src=\"https://lh3.googleusercontent.com/sWn1oC6mlNsROP-zVXMvAlT_Fqes0HlQMQeDtmr94LuJqLv7dOdQtJ2Q7iQ1JS5REaHqKFCFChrBmdKT4svOFMwg4y1JdWWC5pg4X0ls_aEdE-_EV4rBZGTOua1aQGpEgOl5QU9H\" style=\"margin-left:0px;margin-top:0px;\" width=\"120\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> </span></span></p> <ul> <li><em>\"<strong>Abrogate</strong>\" comes from the Latin root \"rogare\", which means \"to propose a law,\" and ab-, meaning \"from\" or \"away.\" </em></li> <li><em>\"<strong>Abrogate</strong>\" first appeared in English as a verb in the 16th century; it was preceded by an adjective sense meaning \"annulled\" or \"cancelled\" which is now obsolete.</em></li> </ul> <p><br /> <span id=\"docs-internal-guid-1f9935d5-7fff-39a5-c8c5-1d127245bd3d\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:109px;height:28px;\"><img height=\"28\" src=\"https://lh6.googleusercontent.com/ewxJQiz6Bl3h0tsxytgmBKnL3Zd5b3YHkGF9xBBS0FT3CvwKriStvd1SZKIjZyi9ZGDiYyTI6WWZKK53SgUKFeYG3csbL8-frTsSdazuSsJHE8_Cq8tPzVyxfvIAXaHgWq2qiSTV\" style=\"margin-left:0px;margin-top:0px;\" width=\"109\" /></span></span><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> </span></span></p> <ul> <li>&#39;<strong>Abrogate</strong>&#39; and &#39;<strong>arrogate</strong>&#39; are a bit <strong>confusing</strong> because they <strong>look and sound alike </strong>and are infrequently used and therefore unfamiliar.</li> <li>Despite their similarities, these two words have markedly different meanings and do not share an origin.</li> <li>&#39;<strong>Abrogate</strong>&#39; <strong>means </strong>to abolish by authoritative action.</li> <li>&#39;<strong>Arrogate</strong>&#39; <strong>means</strong> to claim or seize without justification shares its etymology with arrogance.</li> </ul> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p> </p> <ul> <li><strong>Elope: </strong>run away secretly in order to get married. <ul> <li>\"later he eloped with one of the housemaids\"</li> </ul> </li> <li><strong>Gatecrash: </strong>enter (a party or other gathering) without an invitation or ticket. <ul> <li>\"you have gatecrashed a private meeting\"</li> </ul> </li> <li><strong>Send away: </strong>order someone to leave a place. <ul> <li>He was sent away to school at an early age.</li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Select the option that can be used as a one-word substitute for the given group of words.<br /> <br /> One who speaks less in a forum.",
+    "questionText": "<p>Select the sentence that uses the given idiom correctly.</p> <p>Skating on thin ice</p>",
     "options": [
       {
-        "text": "Eccentric",
+        "text": "They were on thin ice when they skated on the frozen lake.",
         "isCorrect": false
       },
       {
-        "text": "Loquacious",
+        "text": "She was on thin ice while trying to balance on a tightrope.",
         "isCorrect": false
       },
       {
-        "text": "Gabby",
-        "isCorrect": false
-      },
-      {
-        "text": "Reticent",
+        "text": "He was on thin ice after making a controversial statement.",
         "isCorrect": true
+      },
+      {
+        "text": "They were on thin ice due to the icy conditions on the road.",
+        "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">&#39;Option 4&#39;</span>.</p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>The word \"<strong>reticent</strong>\" refers to someone who is reserved, introverted, or speaks less in a forum or in public settings. (संकोची) <ul> <li><strong>Example:</strong> He was reticent about discussing his personal life in front of strangers.</li> </ul> </li> </ul> <p style=\"\">Hence, the correct answer is &#39;<strong><span style=\"color: rgb(33, 37, 41);\">Option 4</span></strong><span style=\"color: rgb(33, 37, 41);\">&#39;.</span></p> <p><strong>Correct Sentence</strong><em>: She was a reticent speaker who preferred to observe rather than engage in discussions.</em></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li><strong>Option 1: \"Eccentric\"</strong> (<span style=\"color: rgb(33, 37, 41);\">अजीब</span>) refers to someone who behaves in unusual or odd ways, not related to speaking less. <ul> <li><strong>Example:</strong> The eccentric artist wore mismatched clothes every day.</li> </ul> </li> <li><strong>Option 2: \"Loquacious\"</strong> (<span style=\"color: rgb(33, 37, 41);\">बातूनी</span>) means talkative, which is the opposite of speaking less. <ul> <li><strong>Example:</strong> She was so loquacious that she dominated every conversation.</li> </ul> </li> <li><strong>Option 3: \"Gabby\"</strong> (<span style=\"color: rgb(33, 37, 41);\">बातूनी</span>) also means talkative or overly chatty, which again does not fit the context. <ul> <li><strong>Example:</strong> The gabby student never stopped talking during class.</li> </ul> </li> </ul>",
+    "solutionExplanation": "<p>The correct answer is <strong>Option 3)</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The idiom <strong>\"Skating on thin ice\"</strong> means to be in a risky or dangerous situation. (खतरे में होना) <ul> <li><strong>Example: </strong>After failing to meet the deadline, she knew she was skating on thin ice with her boss.</li> </ul> </li> <li><strong>He was on thin ice after making a controversial statement</strong> correctly uses the idiom to indicate that he <strong>was in a risky situation </strong>because of his statement. (वह एक विवादास्पद बयान देने के बाद खतरे में था) <ul> <li><strong>Example: </strong>After criticizing the management openly, he realized he was<strong> on thin ice.</strong></li> </ul> </li> </ul> <p>Therefore, the correct meaning of the given statement is <strong>&#39;He was on thin ice after making a controversial statement.&#39;</strong></p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Option 1:</strong> They were on thin ice when they skated on the frozen lake. (<span style=\"color: rgb(33, 37, 41);\">जब वे जमी हुई झील पर स्केटिंग कर रहे थे तो वे खतरे में थे</span>) <ul> <li>This sentence <strong>uses </strong>the<strong> idiom literally rather than metaphorically.</strong></li> </ul> </li> <li><strong>Option 2:</strong> She was on thin ice while trying to balance on a tightrope. (<span style=\"color: rgb(33, 37, 41);\">तंग रस्सी पर संतुलन बनाते समय वह खतरे में थी</span>) <ul> <li>This sentence <strong>confuses</strong> two idioms: <strong>\"on thin ice\" and \"walking a tightrope\".</strong></li> </ul> </li> <li><strong>Option 4:</strong> They were on thin ice due to the icy conditions on the road. (<span style=\"color: rgb(33, 37, 41);\">सड़क पर बर्फीली स्थिति के कारण वे खतरे में थे</span>) <ul> <li>This sentence also<strong> uses t</strong>he<strong> idiom literally rather than metaphorically.</strong></li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Select the INCORRECTLY spelt word..",
+    "questionText": "<p>Arrange the parts P, Q, R and S in the correct sequence to form a meaningful sentence.</p> <p>P: the &#39;Strategy for New India @ 75&#39; captures a key</p> <p>Q: benefits accruing to them in the form of better ease of living</p> <p>R: message from the Prime Minister that development must become a mass movement</p> <p>S: in which every Indian recognizes their role and also experiences the tangible</p>",
     "options": [
       {
-        "text": "Measurement",
+        "text": "QSRP",
         "isCorrect": false
       },
       {
-        "text": "Region",
-        "isCorrect": false
-      },
-      {
-        "text": "Confidental",
+        "text": "PRSQ",
         "isCorrect": true
       },
       {
-        "text": "Strengths",
+        "text": "RSQP",
+        "isCorrect": false
+      },
+      {
+        "text": "PQSR",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is: <b>Option 3</b>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></p> <ul> <li>The word <strong>\"Confidental\"</strong> is incorrectly spelt. The correct spelling is \"Confidential\" which means intended to be kept secret. (गोपनीय) <ul> <li><strong>Example: </strong>The document contains confidential information that must not be shared.</li> </ul> </li> <li><strong>\"Confidential\" </strong>refers to something that is meant to be kept secret or private. (गोपनीय) <ul> <li><strong>Example: </strong>The company&#39;s financial records are confidential and not available to the public.</li> </ul> </li> </ul> <p>Therefore, the correct answer is: <strong>Option 3</strong>.</p> <p><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <p>Here are the other options explained along with their Hindi meanings and example sentences:</p> <ul> <li><strong>Measurement </strong>(<span style=\"color: rgb(33, 37, 41);\">मापन</span>): The act or process of measuring something. <ul> <li><strong>Example:</strong> Accurate measurement is crucial in scientific experiments.</li> </ul> </li> <li><strong>Region </strong>(<span style=\"color: rgb(33, 37, 41);\">क्षेत्र</span>): A specific area or part of the world, country, etc. <ul> <li><strong>Example: </strong>The Amazon rainforest is a vast and diverse region.</li> </ul> </li> <li><strong>Strengths</strong> (<span style=\"color: rgb(33, 37, 41);\">ताकतें</span>): This is the incorrect spelling; the correct spelling is \"Strengths\" which means qualities or abilities that someone or something has that gives it an advantage. (ताकतें) <ul> <li><strong>Example:</strong> One of her strengths is her ability to stay calm under pressure.</li> </ul> </li> </ul>",
+    "solutionExplanation": "<div><span style=\"\">The correct answer is <strong>Option 2</strong>.</span></div> <div> </div> <div><span style=\"\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></div> <ul> <li><span style=\"\">The paragraph begins by introducing the central vision of India and sets an optimistic tone about its democratic and non-threatening global leadership.</span></li> <li><span style=\"\"><strong>Sentence P is the first sentence</strong> as it sets the vision and current perspective:</span> <ul> <li><span style=\"\">\"the &#39;Strategy for New India @ 75&#39; captures a key\"</span></li> </ul> </li> <li><span style=\"\"><strong>Sentence R follows</strong> as it highlights the key message from the Prime Minister:</span> <ul> <li><span style=\"\">\"message from the Prime Minister that development must become a mass movement\"</span></li> </ul> </li> <li><span style=\"\"><strong>Sentence S is the third sentence</strong> because it explains the mass movement and its benefits:</span> <ul> <li><span style=\"\">\"in which every Indian recognizes their role and also experiences the tangible\"</span></li> </ul> </li> <li><span style=\"\"><strong>Sentence Q is the fourth</strong> as it describes the specific benefits accruing to the people:</span> <ul> <li><span style=\"\">\"benefits accruing to them in the form of better ease of living\"</span></li> </ul> </li> <li><span style=\"\">The correct sequence is <strong>PRSQ</strong>.</span></li> </ul> <div> </div> <div><span style=\"\"><strong>Coherent paragraph after rearrangement</strong>:</span></div> <div><span style=\"\">\"The &#39;Strategy for New India @ 75&#39; captures a key message from the Prime Minister that development must become a mass movement in which every Indian recognizes their role and also experiences the tangible benefits accruing to them in the form of better ease of living.\"</span></div>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Select the option that can be used as a one-word substitute for the given group of words.<br /> <br /> That which cannot be conquered",
+    "questionText": "<p><strong>Select the most appropriate synonym of the word given in the brackets to fill in the blank.</strong></p> <p>Mrs. Rao is one of the _______ (Vociferous) members of the committee and does not let others speak when any issue is being discussed.</p>",
     "options": [
       {
-        "text": "Invisible",
-        "isCorrect": false
-      },
-      {
-        "text": "Indelible",
-        "isCorrect": false
-      },
-      {
-        "text": "Ineffable",
-        "isCorrect": false
-      },
-      {
-        "text": "Invincible",
+        "text": "loud",
         "isCorrect": true
+      },
+      {
+        "text": "silent",
+        "isCorrect": false
+      },
+      {
+        "text": "low",
+        "isCorrect": false
+      },
+      {
+        "text": "soft",
+        "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">&#39;Option 4&#39;</span>.</p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>The word \"<strong>Invincible</strong>\" refers to something that cannot be conquered, defeated, or overcome. (अजेय)</li> <li><strong>Example:</strong> The champion&#39;s winning streak made him seem invincible in the eyes of his opponents.</li> </ul> <p style=\"\">Hence, the correct answer is &#39;<strong>Invincible</strong>&#39;.</p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li><strong>Option 1: Invisible</strong> (अदृश्य) &ndash; Refers to something that cannot be seen. <ul> <li><strong>Example:</strong> The invisible ink revealed the secret message under UV light.</li> </ul> </li> <li><strong>Option 2: Indelible</strong> (अमिट) &ndash; Refers to something that cannot be erased or removed. <ul> <li><strong>Example:</strong> The experience left an indelible mark on her memory.</li> </ul> </li> <li><strong>Option 3: Ineffable</strong> (अवर्णनीय) &ndash; Refers to something too great or extreme to be expressed in words. <ul> <li><strong>Example:</strong> The beauty of the sunset over the mountains was ineffable.</li> </ul> </li> </ul>",
+    "solutionExplanation": "<p style=\"\">The correct answer is &#39;<strong><span style=\"\">loud</span></strong>&#39;.</p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></p> <ul> <li><strong>Vociferous </strong>means expressing or characterized by vehement opinions; loud and forceful. (मुखर, ज़ोर की आवाज़ का , चिल्लानेवाला) <ul> <li style=\"\">For example:- He is her most <strong>vociferous </strong>critic.</li> </ul> </li> <li style=\"\"><span style=\"font-weight: 700; \">Loud </span>means producing or capable of producing much noise; with a great deal of volume. (जोर , ऊँचा , उग्र) <ul> <li style=\"\">For example:- His voice became harsh and <strong>loud</strong>.</li> </ul> </li> </ul> <p>Hence, <span style=\"font-weight: 700; \">loud </span>is similar in meaning to the word <span style=\"font-weight: 700; \">vociferous</span>. <span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></p> <ul> <li>The meaning of the other given words are as follows:- <ul> <li><strong><span style=\"\">Silent </span></strong>- not making or accompanied by any sound. (गुमसुम, मूक)</li> <li><strong><span style=\"\">Low </span></strong>- Not loud; gentle, low pitch. (धीमी)</li> <li><strong><strong><span style=\"\">Soft</span></strong>- </strong>easy to mould, cut, compress, or fold; not hard or firm to the touch; having a pleasing quality involving a subtle effect or contrast rather than sharp definition; in a quiet or gentle way.<strong> (</strong> कोमल<strong>, </strong>नाज़ुक<strong>, </strong>शीतल<strong>)</strong></li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Read the following passage carefully and answer the questions given below. We shall go on to the end, we shall fight in France, we shall fight on the seas and oceans, we shall fight with the growing confidence and strength in the air, we shall defend our island whatever the cost may be, we shall fight on the beaches, we shall fight on the landing grounds, we shall fight in the fields and in the streets, we shall fight in the hills. We shall never surrender, and even if this island or a large part of it were subjugated and starving, then our empire beyond the seas would carry on the struggle until the New world steps forth to the rescue and the liberation of the Old.\n\nThe tone of the speaker is:",
+    "questionText": "<p><strong>Direction: In the following question a sentence or a phrase is given which can be substituted by one word. Choose the most appropriate word explaining the sentence or the phrase from the given option.</strong></p> <p>A short story with a moral or spiritual lesson is known as ___________</p>",
     "options": [
       {
-        "text": "Pleading and urging",
+        "text": "Fiction",
         "isCorrect": false
       },
       {
-        "text": "Inspiring and encouraging",
+        "text": "Prose",
+        "isCorrect": false
+      },
+      {
+        "text": "Parable",
         "isCorrect": true
       },
       {
-        "text": "Discouraging and gloomy",
-        "isCorrect": false
-      },
-      {
-        "text": "Menacing and bullying",
+        "text": "Fairy Tale<span style=\"display: none;\"> </span>",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">option 2</span><strong> i.e.</strong> <strong>Inspiring and encouraging</strong><span style=\"font-weight: 700;\">.</span></p> <p><span id=\"docs-internal-guid-37276ef9-7fff-bc11-88c8-e62f07564466\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border: none; display: inline-block; overflow: hidden; width: 40px; height: 35px;\"><img height=\"35\" src=\"https://lh5.googleusercontent.com/28i2H4qZUMqoricKhH6aaLqxFoqVxqpmaJpMBy62DoGJbWBmmYJxPuBF6Wq_gGqfYCkpEpr0WIm9NnvtUCdNGqm-1_wqVyF46346wBwUiFK7AiZX8LxkL7abs3B0GOqVQ9Wwde-d\" style=\"margin-left: 0px; margin-top: 0px;\" width=\"40\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Explanation</span></span></p> <ul> <li>From the <strong>different phrases </strong><strong>\"we shall go on to the end\", \"we shall fight\", \"we shall defend\", \"we shall never surrender\"</strong> of the passage, we can say that \"<strong>the tone of the speaker is inspiring and encouraging</strong>.\"</li> <li><span style=\"font-weight: 700;\">Hence</span>, the correct answer is \"<span style=\"font-weight: 700;\">Inspiring and encouraging</span>.\"<br /> </li> </ul> <p><span id=\"docs-internal-guid-21b295be-7fff-1109-6071-53afa286e2ed\"><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border: none; display: inline-block; overflow: hidden; width: 120px; height: 40px;\"><img height=\"40\" src=\"https://lh3.googleusercontent.com/sWn1oC6mlNsROP-zVXMvAlT_Fqes0HlQMQeDtmr94LuJqLv7dOdQtJ2Q7iQ1JS5REaHqKFCFChrBmdKT4svOFMwg4y1JdWWC5pg4X0ls_aEdE-_EV4rBZGTOua1aQGpEgOl5QU9H\" style=\"margin-left: 0px; margin-top: 0px;\" width=\"120\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"> </span></span></p> <ul> <li>Given below are the points, we should keep in mind <span style=\"font-weight: 700;\">while solving questions of reading passage</span>- <ul> <li><span style=\"font-weight: 700;\">Identify</span> the <span style=\"font-weight: 700;\">purpose</span> of the passage.</li> <li><span style=\"font-weight: 700;\">Anticipate</span> what may lie ahead.</li> <li>Try to <span style=\"font-weight: 700;\">go through</span> the <span style=\"font-weight: 700;\">question</span> first then the passage so that you can just <span style=\"font-weight: 700;\">focus on the things you need to look in the passage</span>.</li> <li><span style=\"font-weight: 700;\">Read</span> the passage <span style=\"font-weight: 700;\">quickly</span> to <span style=\"font-weight: 700;\">get</span> a <span style=\"font-weight: 700;\">general idea</span> of meaning or to <span style=\"font-weight: 700;\">find specific information, e.g. figures or names.</span></li> <li>Look out for <span style=\"font-weight: 700;\">specific information</span> in the passage.</li> </ul> </li> </ul>",
+    "solutionExplanation": "<p style=\"\">The correct answer is- <span style=\"font-weight: 700;\">&#39;Parable</span></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></span></span></span></span></span></span></span></span></p> <ul style=\"\"> <li>Let us see the meanings of the given options: <ul> <li><strong>Fiction: </strong>stories, novels, etc. which describe events and people that are not real. (कहानियाँ, उपन्&zwj;यास, कथाएँ आदि जो काल्&zwj;पनिक घटनाओं और व्&zwj;यक्तियों का वर्णन करते हैं; कथा-साहित्&zwj;य)</li> <li><strong>Prose: </strong>written or spoken language that is not poetry. (कविता से भिन्&zwj;न लिखित या मौखिक भाषा प्रयोग का खंड; गद्य)</li> <li><strong>Parable: </strong>a short story that teaches a lesson, especially one told by Jesus in the Bible. (नीतिकथा; शिक्षाप्रद कथा (विशेषतः बाइबिल में))<strong> </strong></li> <li><strong>Fairy tale: </strong>a story that is about fairies, magic, etc. (परी कथा)</li> </ul> </li> <li>​Therefore, a short story with a moral or spiritual lesson is known as <strong>Parable</strong>.<br /> </li> </ul> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span></span> </span> </span> </span> </span> </span> </span> </span></span></span></span></p> <ul style=\"\"> <li>Let us see the meanings of other words: <ul> <li><span style=\"font-weight: 700;\">Misanthropic</span>: not liking other people. (अन्य लोगों को पसंद नहीं करना।) <ul> <li><span style=\"font-weight: 700;\">Example</span>: <em>They were not the <span style=\"font-weight: 700;\">misanthropic</span> misfits and ill-adapted persons to be found in the criminal courts of this country.</em></li> </ul> </li> <li><span style=\"font-weight: 700;\">Asceticism:</span> the practice of living a simple life without physical pleasures, often for religious reasons. (भौतिक सुखों के बिना एक साधारण जीवन जीने का अभ्यास, अक्सर धार्मिक कारणों से।) <ul> <li><span style=\"font-weight: 700;\">Example</span>: <em>He believed a closer relationship with God could be found through strict <span style=\"font-weight: 700;\">asceticism</span>.</em></li> </ul> </li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Direction: Read the passage below and answer the questions that follow. A papal decree of 1493 had assigned all land in the New World west of 50 degrees W longitude to Spain and all the land east of that line to Portugal. Magellan offered to prove that the East Indies fell under Spanish authority. On September 20, 1519, Magellan set sail from Spain with five ships. More than a year later, one of these ships was exploring the topography of South America in search of a water route across the continent. This ship sank, but the remaining four ships searched along the southern peninsula of South America. Finally they found the passage they sought near 50 degrees S latitude. Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan. One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean. Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean. During those long days at sea, many of Magellan's men died of starvation and disease. Later, Magellan became involved in an insular conflict in the Philippines and was killed in a tribal battle. Only one ship and 17 sailors under the command of the Basque navigator Elcano survived to complete the westward journey to Spain and thus prove once and for all that the world is round, with no precipice at the edge.\n\nWhen did Magellan set sail from Spain?",
+    "questionText": "Pick up the most effective word from the given words to fill in the blanks to make the sentence meaningfully complete.\r\n\r\nThe villagers _____ the murder of their leader by burning the police van.",
     "options": [
       {
-        "text": "1493",
+        "text": "Protested",
         "isCorrect": false
       },
       {
-        "text": "1519",
+        "text": "Avenged",
         "isCorrect": true
       },
       {
-        "text": "1521",
+        "text": "Mourned",
         "isCorrect": false
       },
       {
-        "text": "1523",
+        "text": "Consoled",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<div>The correct answer is: <strong>1519</strong></div> <div><strong><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></strong></div> <ul> <li> <div>Let us refer to the following lines in the passage, <strong>\"On September 20, 1519, Magellan set sail from Spain with five ships.\"</strong></div> </li> <li> <div>It is stated here that Magellan set sail from Spain in 1591.</div> </li> <li> <div>Thus the answer is 1592</div> </li> </ul> <div><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></div> <div>One should follow the below-mentioned rules to properly solve comprehension questions:</div> <ul> <li> <div><span style=\"font-weight: 700;\">Read</span> the passage carefully.</div> </li> <li> <div><span style=\"font-weight: 700;\">Identify</span> the purpose of the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Go through the questions</span> so that you know what specific information to find in the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Find specific information</span> required to answers questions. </div> </li> </ul>",
+    "solutionExplanation": "<p>The correct answer is <strong>option 2)</strong> i.e. <strong>Avenged</strong>.</p> <p><strong>Explanation</strong></p> <ul> <li><strong>From</strong> the given <strong>sentence</strong>, it is clear that \"<em>the villagers burnt the police van to take <strong>revenge</strong> for the murder of their leader.\"</em></li> <li><u><strong>Let us explore</strong> the <strong>options</strong></u>: <ul> <li>&#39;<strong>Protested</strong>&#39; means a <em>solemn declaration of opinion and usually of dissent.</em></li> <li>&#39;<strong>Avenged</strong>&#39; means to <em>take vengeance or revenge for or on behalf of</em>.</li> <li>&#39;<strong>Mourned</strong>&#39; means to <em>feel or express grief or sorrow</em>.</li> <li>&#39;<strong>Consoled</strong>&#39; means to <em>alleviate the grief, sense of loss, or trouble of.</em></li> </ul> </li> <li>Hence, from the explanation of the given options, we can easily say that &#39;<strong>avenged</strong>&#39; is the <strong>correct </strong>answer.</li> </ul> <p><u>The correct sentence</u>: \"<em>The villagers <strong>avenged</strong> the murder of their leader by burning the police van</em>.\"<br /> <br /> <span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/important-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Important Points</u></span></strong></span></p> <ul> <li><strong>Synonyms</strong> of &#39;<strong>avenged</strong>&#39;<strong>: </strong>\"<strong>redress, requite, retaliate, revenge</strong>\".</li> <li><strong>Examples </strong>of &#39;<strong>avenged</strong>&#39; in a <strong>sentence</strong>: <ul> <li><em>\"It was Ali&#39;s first loss as a professional, but a defeat he <strong>avenged</strong>.\"</em></li> <li>\"<em>Arsenal&#39;s win <strong>avenged</strong> their 2012 semi-final defeat by Chelsea</em>.\"</li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Direction: Read the passage below and answer the questions that follow. A papal decree of 1493 had assigned all land in the New World west of 50 degrees W longitude to Spain and all the land east of that line to Portugal. Magellan offered to prove that the East Indies fell under Spanish authority. On September 20, 1519, Magellan set sail from Spain with five ships. More than a year later, one of these ships was exploring the topography of South America in search of a water route across the continent. This ship sank, but the remaining four ships searched along the southern peninsula of South America. Finally they found the passage they sought near 50 degrees S latitude. Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan. One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean. Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean. During those long days at sea, many of Magellan's men died of starvation and disease. Later, Magellan became involved in an insular conflict in the Philippines and was killed in a tribal battle. Only one ship and 17 sailors under the command of the Basque navigator Elcano survived to complete the westward journey to Spain and thus prove once and for all that the world is round, with no precipice at the edge.\n\nWhat did Magellan ultimately prove?",
+    "questionText": "<p><strong>Select the most appropriate option to fill in the blank.</strong></p> <p>Anant is a musician and his only ______ is to buy expensive musical equipment.</p>",
     "options": [
       {
-        "text": "Magellan proved that the moon moves around the Earth.",
+        "text": "possession",
         "isCorrect": false
       },
       {
-        "text": "Magellan ultimately proved that the Earth was round.",
+        "text": "obsession",
         "isCorrect": true
       },
       {
-        "text": "Magellan proved that the Earth has an edge.",
+        "text": "persuasion",
         "isCorrect": false
       },
       {
-        "text": "Magellan proved that he the Sun moves the Earth.",
+        "text": "accusation",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<div>The correct answer is: <strong>Magellan ultimately proved that the earth was round.</strong></div> <div><strong><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></strong></div> <ul> <li> <div>Let us refer to the following lines in the passage, \"<strong>Only one ship and 17 sailors under the command of the Basque navigator Elcano survived to complete the westward journey to Spain and thus prove once and for all that the world is round, with no precipice at the edge.\"</strong></div> </li> <li> <div>It is stated here that Magellan <strong>proved that the world is round.</strong></div> </li> </ul> <div><strong>​<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></strong></div> <ul> <li> <div>One should follow the below-mentioned rules to properly solve comprehension questions:</div> <ul> <li> <div><span style=\"font-weight: 700;\">Read</span> the passage carefully.</div> </li> <li> <div><span style=\"font-weight: 700;\">Identify</span> the purpose of the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Go through the questions</span> so that you know what specific information to find in the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Find specific information</span> required to answers questions.</div> </li> </ul> </li> </ul>",
+    "solutionExplanation": "<p style=\"\">The correct answer is <span style=\"font-weight: 700;\">option 2) i.e., &#39;obsession&#39;.</span></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p> <ul style=\"\"> <li>Let us look at the <strong>meaning </strong>of the given options - <ul> <li><span style=\"font-weight: 700;\">Possession - </span>the state of having, owning, or controlling something. <ul> <li>For Example - The city can take <strong>possession</strong> of the abandoned buildings.</li> </ul> </li> <li><span style=\"font-weight: 700;\">Obsession - </span>the state of being obsessed with someone or something. <ul> <li>For Example - She has an <strong>obsession</strong> about cleanliness. </li> </ul> </li> <li><span style=\"font-weight: 700;\">Persuasion - </span>the action or process of persuading someone or of being persuaded to do or believe something. <ul> <li>For Example - She agreed to come, after a little gentle <strong>persuasion.</strong></li> </ul> </li> <li><span style=\"font-weight: 700;\">Accusation - </span>a charge or claim that someone has done something illegal or wrong. <ul> <li>For Example - He denied the <strong>accusation</strong> that he had lied to the police.</li> </ul> </li> </ul> </li> <li>The given blank needs a word that would explain <strong>Anant</strong>, the musician&#39;s passion regarding buying expensive musical equipment. </li> <li>From the given meanings, it is clear that <span style=\"font-weight: 700;\">obsession </span>is the best fit word for the given blank.</li> <li>Hence, <span style=\"font-weight: 700;\">option 2 </span>is the correct answer. </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Direction: Read the passage below and answer the questions that follow. A papal decree of 1493 had assigned all land in the New World west of 50 degrees W longitude to Spain and all the land east of that line to Portugal. Magellan offered to prove that the East Indies fell under Spanish authority. On September 20, 1519, Magellan set sail from Spain with five ships. More than a year later, one of these ships was exploring the topography of South America in search of a water route across the continent. This ship sank, but the remaining four ships searched along the southern peninsula of South America. Finally they found the passage they sought near 50 degrees S latitude. Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan. One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean. Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean. During those long days at sea, many of Magellan's men died of starvation and disease. Later, Magellan became involved in an insular conflict in the Philippines and was killed in a tribal battle. Only one ship and 17 sailors under the command of the Basque navigator Elcano survived to complete the westward journey to Spain and thus prove once and for all that the world is round, with no precipice at the edge.\n\nWhat did Magellan name the passage he found?",
+    "questionText": "<p>Go through the sentence and find out which one&#39;s grammatically correct.</p>",
     "options": [
       {
-        "text": "Strait of Spain",
-        "isCorrect": false
-      },
-      {
-        "text": "Saints Strait",
-        "isCorrect": false
-      },
-      {
-        "text": "Strait of All Saints",
+        "text": "No sooner had I left home than it began to rain.",
         "isCorrect": true
       },
       {
-        "text": "Magellan Strait",
+        "text": "No sooner I left home than it began to rain.",
+        "isCorrect": false
+      },
+      {
+        "text": "No sooner had I left home it began to rain.",
+        "isCorrect": false
+      },
+      {
+        "text": "No sooner I had left home than it began to rain.",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<div>The correct answer is: <strong>Strait of All Saints</strong></div> <div><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></div> <ul> <li> <div>Let us take a look at the following line, <strong>\"Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan.\"</strong></div> </li> <li> <div>It was later named Strait <strong>of Magellan.</strong></div> </li> <li> <div>Thus, Magellan named the strait <strong>All Saints Strait.</strong></div> </li> </ul> <div><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></div> <ul> <li> <div><span style=\"font-weight: 700;\">Read</span> the passage carefully.</div> </li> <li> <div><span style=\"font-weight: 700;\">Identify</span> the purpose of the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Go through the questions</span> so that you know what specific information to find in the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Find specific information</span> required to answers questions.</div> </li> </ul>",
+    "solutionExplanation": "<p>The correct answer is <strong>\"<span style=\"color: rgb(33, 37, 41);\">No sooner had I left home than it began to rain.\"</span></strong></p> <p><span style=\"color: rgb(33, 37, 41);\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p> <ul> <li>The conjunction<strong> \"no sooner... than...\"</strong> is used to indicate that one event happens immediately after another.</li> <li>When using<strong> \"no sooner,\"</strong> the sentence typically involves inversion in the first clause following \"no sooner.\"</li> <li>This means that the auxiliary verb<strong> (had)</strong> comes before the subject <strong>(I). </strong></li> </ul> <p>Therefore, the correct answer is<strong> \"option 1\".</strong></p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Direction: Read the passage below and answer the questions that follow. A papal decree of 1493 had assigned all land in the New World west of 50 degrees W longitude to Spain and all the land east of that line to Portugal. Magellan offered to prove that the East Indies fell under Spanish authority. On September 20, 1519, Magellan set sail from Spain with five ships. More than a year later, one of these ships was exploring the topography of South America in search of a water route across the continent. This ship sank, but the remaining four ships searched along the southern peninsula of South America. Finally they found the passage they sought near 50 degrees S latitude. Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan. One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean. Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean. During those long days at sea, many of Magellan's men died of starvation and disease. Later, Magellan became involved in an insular conflict in the Philippines and was killed in a tribal battle. Only one ship and 17 sailors under the command of the Basque navigator Elcano survived to complete the westward journey to Spain and thus prove once and for all that the world is round, with no precipice at the edge.\n\nWhat magnificent sight were few sailors privileged to witness for the first time?",
+    "questionText": "<p><strong>Find the meaning of the given idiom:-</strong></p> <p>Set store by</p>",
     "options": [
       {
-        "text": "a sunset at the ocean",
+        "text": "Being very happy",
         "isCorrect": false
       },
       {
-        "text": "first panorama of the Atlantic Ocean",
+        "text": "Doing something in an easier and least expensive manner",
         "isCorrect": false
       },
       {
-        "text": "first panorama of the Pacific Ocean.",
+        "text": "To believe that something is very important",
         "isCorrect": true
       },
       {
-        "text": "newly discovered islands",
+        "text": "Staying informed and updated about everything",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<div>The correct answer is: <strong>first panorama of the Pacific Ocean</strong></div> <div><strong><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></strong></div> <ul> <li> <div>Let us take a look at the following lines from the passage, <strong>\"One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean.\"</strong></div> </li> <li> <div>The sailors had the privilege to gaze at the first panorama of the Pacific Ocean.</div> </li> </ul> <div><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </div> <ul> <li> <div><span style=\"font-weight: 700;\">Read</span> the passage carefully.</div> </li> <li> <div><span style=\"font-weight: 700;\">Identify</span> the purpose of the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Go through the questions</span> so that you know what specific information to find in the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Find specific information</span> required to answers questions.</div> </li> </ul>",
+    "solutionExplanation": "The correct answer is- <strong>&#39;<span style=\"\">To believe that something is very important&#39;<br /> <span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong> </span></span></strong> <ul style=\"\"> <li>The meaning of the idiom<strong><span style=\"font-weight: 700;\"> &#39;S</span><span style=\"\">et store by</span></strong><span style=\"font-weight: 700;\"><strong>&#39;</strong> </span>is<em> &#39;Regard as valuable or worthwhile.&#39; </em></li> <li>Idiom<span style=\"font-weight: 700;\"> &#39;Set store by&#39;</span> का अर्थ मूल्यवान या सार्थक के रूप में देखें <ul> <li><em><span style=\"font-weight: 700;\">Example</span>: Martina <strong>sets great store by</strong> physical strength and fitness.</em></li> </ul> </li> </ul> <p style=\"\"><span style=\"font-weight: 700;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span></span> </span></span></p> <ul style=\"\"> <li> The meaning of the word<span style=\"font-weight: 700;\"> <strong>&#39;</strong></span><strong>believe<span style=\"font-weight: 700;\">&#39;</span> </strong>is to think that something is true, or that what someone says is true. <ul> <li><em><span style=\"font-weight: 700;\">Example</span>: I can&#39;t <strong>believe</strong> that she wants to go out with me.</em></li> </ul> </li> </ul>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Direction: Read the passage below and answer the questions that follow. A papal decree of 1493 had assigned all land in the New World west of 50 degrees W longitude to Spain and all the land east of that line to Portugal. Magellan offered to prove that the East Indies fell under Spanish authority. On September 20, 1519, Magellan set sail from Spain with five ships. More than a year later, one of these ships was exploring the topography of South America in search of a water route across the continent. This ship sank, but the remaining four ships searched along the southern peninsula of South America. Finally they found the passage they sought near 50 degrees S latitude. Magellan named this passage the Strait of All Saints, but today it is known as the Strait of Magellan. One ship deserted while in this passage and returned to Spain, so fewer sailors were privileged to gaze at that first panorama of the Pacific Ocean. Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean. During those long days at sea, many of Magellan's men died of starvation and disease. Later, Magellan became involved in an insular conflict in the Philippines and was killed in a tribal battle. Only one ship and 17 sailors under the command of the Basque navigator Elcano survived to complete the westward journey to Spain and thus prove once and for all that the world is round, with no precipice at the edge.\n\nWhen did Magellan&#39;s crew cross the International Date Line?",
+    "questionText": "<p><strong>In the following question, some part of the sentence may have errors. Find out which part of the sentence has an error and select the appropriate option. If a sentence is free from error, select No Error.</strong></p> <p>She is (1)/ the better student (2)/ in her class (3)/ No Error (4)</p>",
     "options": [
       {
-        "text": "early spring of 1521",
+        "text": "1",
+        "isCorrect": false
+      },
+      {
+        "text": "2",
         "isCorrect": true
       },
       {
-        "text": "early spring of 1522",
+        "text": "3",
         "isCorrect": false
       },
       {
-        "text": "summer of 1521",
-        "isCorrect": false
-      },
-      {
-        "text": "summer of 1522",
+        "text": "4",
         "isCorrect": false
       }
     ],
-    "solutionExplanation": "<div>The correct answer is: <strong>early spring of 1521 </strong></div> <div><strong><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></strong></div> <ul> <li> <div>Let us refer to the following lines in the passage, <strong>\"Those who remained crossed the meridian now known as the International Date Line in the early spring of 1521 after 98 days on the Pacific Ocean.\"</strong></div> </li> <li> <div>It is stated that the crew crosses the Internation Date Line <strong>in early Spring 1921.</strong></div> </li> </ul> <div><strong>​<span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></strong></div> <ul> <li> <div><span style=\"font-weight: 700;\">Read</span> the passage carefully.</div> </li> <li> <div><span style=\"font-weight: 700;\">Identify</span> the purpose of the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Go through the questions</span> so that you know what specific information to find in the passage.</div> </li> <li> <div><span style=\"font-weight: 700;\">Find specific information</span> required to answers questions.</div> </li> </ul>",
+    "solutionExplanation": "<p>The incorrect part of the sentence would be part 2.</p> <p>Better is a comparative adjective. A comparative adjective is used to compare two things with each other. Best is what is known as a superlative adjective. A superlative adjective is used when you compare three or more things with one another.</p> <p>So, the correct sentence would be:</p> <p><strong>She is the best student in her class.</strong></p>",
     "marks": 1
   },
   {
-    "quizId": "6a606fad69c929fb6d251b55",
+    "quizId": "6a61ac3cb79d20d7367e48a6",
     "sectionName": "English",
-    "questionText": "Directions: Read the following passage and answer the questions accordingly. India and Russia deepened their strategic partnership on Friday by signing nine pacts, including a multi-billion dollar deal for New Delhi to buy the S-400 Triumf air defense missile system despite warnings from the United States that the move could attract sanctions on India under American domestic law. A joint statement issued after talks between visiting Russian President Vladimir Putin and Prime Minister Narendra Modi confirmed the $ 5.4 billion deal, though neither leader referred to it in their remarks to reporters. Another expected defense pact on India acquiring four frigates from Russia was not signed as the two sides were yet to agree on some issues. Putin arrived in New Delhi on Thursday to a red carpet welcome, on a day when the US, Britain, and the Netherlands accused Russia of involvement in a series of cyber plots across the globe, adding to tensions between Moscow and Western nations on a host of issues. India's move to acquire the S-400, which has the ability to track multiple incoming targets, including aircraft, missiles, and unmanned aerial vehicles, up to 400km in distance and 30km in altitude, can attract sanctions under the Countering America's Adversaries Through Sanctions Act (Caatsa) passed by the US Congress on arms purchases from Russia. The US embassy in New Delhi said on Friday that Caatsa was not aimed at stymieing the military capabilities of its &ldquo;allies or partners\", a statement is seen in New Delhi as indicative of a possible waiver coming through from Washington. Waivers of the Countering America's Adversaries Through Sanctions Act (Caatsa) section 231 will be considered on a transaction-by-transaction basis. We cannot prejudge any sanctions decisions, the US embassy spokesperson in New Delhi said. &ldquo;The intent of our implementation of Caatsa is to impose costs on Russia for its malign behavior, including by stopping the flow of money to Russia's defense sector,\" the embassy said. On the waiver itself, it said: &ldquo;The waiver authority is not for a blanket waiver. It is transaction-specific. There are strict criteria for considering a waiver.\" To put economic ties on a stronger footing, Russia has evinced interest in collaboration in the railways and civilian aircraft manufacturing sectors, a person familiar with the development said. India on its part is keen for its pharmaceutical companies to find a foothold in Russian markets, the person said. Both sides have set the target for increasing bilateral trade to $30 billion by 2025 from $10.7 billion in 2017-18. India &ldquo;invited Russian companies to participate in the development of industrial corridors in India, including in areas of road and rail infrastructure, smart cities, construction of wagons and creation of a joint transportation logistics company,\" according to the statement.\n\nAccording to the passage, how many pacts are signed between India and Russia?",
+    "questionText": "<p><strong>Which word or words explain the meaning of the following idioms:</strong></p> <p>Be like a bear with a sore head</p>",
     "options": [
       {
-        "text": "400",
+        "text": "Be in a foul mood",
+        "isCorrect": true
+      },
+      {
+        "text": "Have Headache",
         "isCorrect": false
       },
       {
-        "text": "231",
+        "text": "Powerful and arrogant",
         "isCorrect": false
       },
       {
-        "text": "10",
+        "text": "Restless",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is<strong> option 1)</strong> i.e. <strong>Be in a foul mood.</strong><br /> <br /> <span id=\"docs-internal-guid-3f0efc5e-7fff-be26-7dc7-db910f445aec\"><span style=\"font-size: 11pt; font-family: Arial; color: rgb(0, 0, 0); background-color: transparent; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\"><span style=\"border:none;display:inline-block;overflow:hidden;width:40px;height:35px;\"><img height=\"35\" src=\"https://lh5.googleusercontent.com/28i2H4qZUMqoricKhH6aaLqxFoqVxqpmaJpMBy62DoGJbWBmmYJxPuBF6Wq_gGqfYCkpEpr0WIm9NnvtUCdNGqm-1_wqVyF46346wBwUiFK7AiZX8LxkL7abs3B0GOqVQ9Wwde-d\" style=\"margin-left:0px;margin-top:0px;\" width=\"40\" /></span></span><span style=\"font-size: 10.5pt; font-family: \"Helvetica Neue\", sans-serif; background-color: transparent; font-weight: 700; font-variant-numeric: normal; font-variant-east-asian: normal; vertical-align: baseline; white-space: pre-wrap;\">Explanation </span></span></p> <ul> <li>\"<strong>Be like a bear with a sore head</strong>\" means to be exceptionally <strong>irritable, annoyed, or grumpy.</strong></li> <li>From the given options, \"Be in a foul mood\" is the closest to the meaning of the given idiom.</li> <li><strong>Hence</strong>, \"Be in a foul mood\" explain the meaning of the following idioms.</li> <li>We can use this idiom in a sentence as: <ul> <li><em>\"His riding style is hard on the bike but he was <strong>like a bear with a sore head</strong> all weekend.\"</em><br /> </li> </ul> </li> </ul> <p><img height=\"40\" src=\"https://lh3.googleusercontent.com/sWn1oC6mlNsROP-zVXMvAlT_Fqes0HlQMQeDtmr94LuJqLv7dOdQtJ2Q7iQ1JS5REaHqKFCFChrBmdKT4svOFMwg4y1JdWWC5pg4X0ls_aEdE-_EV4rBZGTOua1aQGpEgOl5QU9H\" style=\"font-family: \"Helvetica Neue\", sans-serif; font-weight: 700; white-space: pre-wrap; margin-left: 0px; margin-top: 0px;\" width=\"120\" /></p> <ul> <li>\"<strong>Be like a bear with a sore head</strong>\"- <em>The expression is of American origin and dates from the late 18th/early 19th century, it probably once involved a very real bear with a sore head. Such a bear would be extremely cross indeed, especially if the cause of his sore head was a bear hunter.</em></li> </ul>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "<p>Fill in the blank with the most appropriate option.</p> <p>I trust him completely. His conduct is ________ suspicion.</p>",
+    "options": [
+      {
+        "text": "over",
         "isCorrect": false
       },
       {
-        "text": "9",
+        "text": "under",
+        "isCorrect": false
+      },
+      {
+        "text": "below",
+        "isCorrect": false
+      },
+      {
+        "text": "above",
         "isCorrect": true
       }
     ],
-    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">&#39;</span><span style=\"font-weight: 700;\">9</span>.<span style=\"font-weight: 700;\">&#39;</span></p> <p><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p> <ul> <li>The first sentence of the first paragraph says \"<strong><em>India and Russia deepened their strategic partnership</em></strong><em><strong> on Friday by signing nine pacts</strong>, including a</em><em><span style=\"font-weight: 700;\"> </span>multi-billion dollar deal for New Delhi to buy the S-400 Triumf air defense missile system</em><em> despite warnings from the United States that the move could attract sanctions on India under American domestic law</em>&#39;&#39;.</li> <li>From the above sentence, we can say that 9 pacts are signed between India and Russia.<br /> </li> </ul> <p>Hence, the only possible answer is <span style=\"font-weight: 700;\">option 4</span>.</p>",
+    "solutionExplanation": "<p style=\"\">The correct answer is <strong>Option 4)</strong></p> <p style=\"\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>In the given context, the word <strong>\"above</strong>\" is the most appropriate choice to complete the sentence.</li> <li>The phrase \"<strong>above suspicion</strong>\" means that someone&#39;s conduct is so good and trustworthy that they are not suspected of doing anything wrong.</li> <li>This is a commonly used expression to indicate a high level of trustworthiness and integrity.</li> </ul> <p style=\"\">Hence, the correct sentence is &#39;<em>I trust him completely. His conduct is <strong>above suspicion</strong>.&#39;</em><br /> <br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></span></span></span></p> <ul style=\"\"> <li>The phrase \"<strong>above suspicion</strong>\" is an<strong> idiomatic expression</strong> and should be used as is without altering its structure.</li> <li>It is important to choose words that fit the context and convey the intended meaning accurately.</li> </ul>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "Directions: Read the following passage and answer the questions accordingly. India and Russia deepened their strategic partnership on Friday by signing nine pacts, including a multi-billion dollar deal for New Delhi to buy the S-400 Triumf air defense missile system despite warnings from the United States that the move could attract sanctions on India under American domestic law. A joint statement issued after talks between visiting Russian President Vladimir Putin and Prime Minister Narendra Modi confirmed the $ 5.4 billion deal, though neither leader referred to it in their remarks to reporters. Another expected defense pact on India acquiring four frigates from Russia was not signed as the two sides were yet to agree on some issues. Putin arrived in New Delhi on Thursday to a red carpet welcome, on a day when the US, Britain, and the Netherlands accused Russia of involvement in a series of cyber plots across the globe, adding to tensions between Moscow and Western nations on a host of issues. India's move to acquire the S-400, which has the ability to track multiple incoming targets, including aircraft, missiles, and unmanned aerial vehicles, up to 400km in distance and 30km in altitude, can attract sanctions under the Countering America's Adversaries Through Sanctions Act (Caatsa) passed by the US Congress on arms purchases from Russia. The US embassy in New Delhi said on Friday that Caatsa was not aimed at stymieing the military capabilities of its &ldquo;allies or partners\", a statement is seen in New Delhi as indicative of a possible waiver coming through from Washington. Waivers of the Countering America's Adversaries Through Sanctions Act (Caatsa) section 231 will be considered on a transaction-by-transaction basis. We cannot prejudge any sanctions decisions, the US embassy spokesperson in New Delhi said. &ldquo;The intent of our implementation of Caatsa is to impose costs on Russia for its malign behavior, including by stopping the flow of money to Russia's defense sector,\" the embassy said. On the waiver itself, it said: &ldquo;The waiver authority is not for a blanket waiver. It is transaction-specific. There are strict criteria for considering a waiver.\" To put economic ties on a stronger footing, Russia has evinced interest in collaboration in the railways and civilian aircraft manufacturing sectors, a person familiar with the development said. India on its part is keen for its pharmaceutical companies to find a foothold in Russian markets, the person said. Both sides have set the target for increasing bilateral trade to $30 billion by 2025 from $10.7 billion in 2017-18. India &ldquo;invited Russian companies to participate in the development of industrial corridors in India, including in areas of road and rail infrastructure, smart cities, construction of wagons and creation of a joint transportation logistics company,\" according to the statement.\r\n\r\nWhat is the intent of implementing Caatsa?",
+    "options": [
+      {
+        "text": "to ignore costs on Russia for its malign behavior.",
+        "isCorrect": false
+      },
+      {
+        "text": "to impose costs on Russia for its malign behavior.",
+        "isCorrect": true
+      },
+      {
+        "text": "to forgive costs on Russia for its malign behavior.",
+        "isCorrect": false
+      },
+      {
+        "text": "to impose costs on US for its malign behavior.",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">&#39;</span><strong>to impose costs on Russia for its malign behavior</strong>.<span style=\"font-weight: 700;\">&#39;</span></p> <p><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></span></p> <ul> <li>The fourth sentence of the third paragraph says \"<em><strong>The intent of our implementation of Caatsa is to impose costs on Russia for its malign behavior</strong>, including by stopping the flow of money to Russia's defense sector, the embassy said</em>&#39;&#39;.</li> <li>From the above sentence, we can say that the intent of implementing Caatsa is to impose costs on Russia for its malign behavior.<br /> </li> </ul> <p>Hence, the only possible answer is <span style=\"font-weight: 700;\">option 2</span>.</p>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "Directions: Read the following passage and answer the questions accordingly. India and Russia deepened their strategic partnership on Friday by signing nine pacts, including a multi-billion dollar deal for New Delhi to buy the S-400 Triumf air defense missile system despite warnings from the United States that the move could attract sanctions on India under American domestic law. A joint statement issued after talks between visiting Russian President Vladimir Putin and Prime Minister Narendra Modi confirmed the $ 5.4 billion deal, though neither leader referred to it in their remarks to reporters. Another expected defense pact on India acquiring four frigates from Russia was not signed as the two sides were yet to agree on some issues. Putin arrived in New Delhi on Thursday to a red carpet welcome, on a day when the US, Britain, and the Netherlands accused Russia of involvement in a series of cyber plots across the globe, adding to tensions between Moscow and Western nations on a host of issues. India's move to acquire the S-400, which has the ability to track multiple incoming targets, including aircraft, missiles, and unmanned aerial vehicles, up to 400km in distance and 30km in altitude, can attract sanctions under the Countering America's Adversaries Through Sanctions Act (Caatsa) passed by the US Congress on arms purchases from Russia. The US embassy in New Delhi said on Friday that Caatsa was not aimed at stymieing the military capabilities of its &ldquo;allies or partners\", a statement is seen in New Delhi as indicative of a possible waiver coming through from Washington. Waivers of the Countering America's Adversaries Through Sanctions Act (Caatsa) section 231 will be considered on a transaction-by-transaction basis. We cannot prejudge any sanctions decisions, the US embassy spokesperson in New Delhi said. &ldquo;The intent of our implementation of Caatsa is to impose costs on Russia for its malign behavior, including by stopping the flow of money to Russia's defense sector,\" the embassy said. On the waiver itself, it said: &ldquo;The waiver authority is not for a blanket waiver. It is transaction-specific. There are strict criteria for considering a waiver.\" To put economic ties on a stronger footing, Russia has evinced interest in collaboration in the railways and civilian aircraft manufacturing sectors, a person familiar with the development said. India on its part is keen for its pharmaceutical companies to find a foothold in Russian markets, the person said. Both sides have set the target for increasing bilateral trade to $30 billion by 2025 from $10.7 billion in 2017-18. India &ldquo;invited Russian companies to participate in the development of industrial corridors in India, including in areas of road and rail infrastructure, smart cities, construction of wagons and creation of a joint transportation logistics company,\" according to the statement.\r\n\r\nIndia and Russia have set the target for increasing bilateral trade by:",
+    "options": [
+      {
+        "text": "$19.3 billion",
+        "isCorrect": true
+      },
+      {
+        "text": "$30 billion",
+        "isCorrect": false
+      },
+      {
+        "text": "$40.7 billion",
+        "isCorrect": false
+      },
+      {
+        "text": "$10.7 billion",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">&#39;</span><strong>$19.3 billion</strong>.<span style=\"font-weight: 700;\">&#39;</span></p> <p><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></span></span></span></span></span></p> <ul> <li>The third sentence of the last paragraph says \"<em><strong>Both sides have set the target for increasing bilateral trade to $30 billion by 2025 from $10.7 billion</strong> <strong>in 2017-18</strong></em>&#39;&#39;.</li> <li>From the above sentence, we can say that India and Russia have set the target for increasing bilateral trade by $19.3 billion.<br /> </li> </ul> <p>Hence, the only possible answer is <span style=\"font-weight: 700;\">option 1</span>.</p>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "Directions: Read the following passage and answer the questions accordingly. India and Russia deepened their strategic partnership on Friday by signing nine pacts, including a multi-billion dollar deal for New Delhi to buy the S-400 Triumf air defense missile system despite warnings from the United States that the move could attract sanctions on India under American domestic law. A joint statement issued after talks between visiting Russian President Vladimir Putin and Prime Minister Narendra Modi confirmed the $ 5.4 billion deal, though neither leader referred to it in their remarks to reporters. Another expected defense pact on India acquiring four frigates from Russia was not signed as the two sides were yet to agree on some issues. Putin arrived in New Delhi on Thursday to a red carpet welcome, on a day when the US, Britain, and the Netherlands accused Russia of involvement in a series of cyber plots across the globe, adding to tensions between Moscow and Western nations on a host of issues. India's move to acquire the S-400, which has the ability to track multiple incoming targets, including aircraft, missiles, and unmanned aerial vehicles, up to 400km in distance and 30km in altitude, can attract sanctions under the Countering America's Adversaries Through Sanctions Act (Caatsa) passed by the US Congress on arms purchases from Russia. The US embassy in New Delhi said on Friday that Caatsa was not aimed at stymieing the military capabilities of its &ldquo;allies or partners\", a statement is seen in New Delhi as indicative of a possible waiver coming through from Washington. Waivers of the Countering America's Adversaries Through Sanctions Act (Caatsa) section 231 will be considered on a transaction-by-transaction basis. We cannot prejudge any sanctions decisions, the US embassy spokesperson in New Delhi said. &ldquo;The intent of our implementation of Caatsa is to impose costs on Russia for its malign behavior, including by stopping the flow of money to Russia's defense sector,\" the embassy said. On the waiver itself, it said: &ldquo;The waiver authority is not for a blanket waiver. It is transaction-specific. There are strict criteria for considering a waiver.\" To put economic ties on a stronger footing, Russia has evinced interest in collaboration in the railways and civilian aircraft manufacturing sectors, a person familiar with the development said. India on its part is keen for its pharmaceutical companies to find a foothold in Russian markets, the person said. Both sides have set the target for increasing bilateral trade to $30 billion by 2025 from $10.7 billion in 2017-18. India &ldquo;invited Russian companies to participate in the development of industrial corridors in India, including in areas of road and rail infrastructure, smart cities, construction of wagons and creation of a joint transportation logistics company,\" according to the statement.\r\n\r\nWhat is the synonym of <span style=\"font-weight: 700;\">&#39;stymieing</span><strong>&#39;</strong>?",
+    "options": [
+      {
+        "text": "Aiding",
+        "isCorrect": false
+      },
+      {
+        "text": "Facilitating",
+        "isCorrect": false
+      },
+      {
+        "text": "Encouraging",
+        "isCorrect": false
+      },
+      {
+        "text": "Hindering",
+        "isCorrect": true
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is <span style=\"font-weight: 700;\">&#39;</span><strong>Hindering</strong>.<span style=\"font-weight: 700;\">&#39;</span></p> <p><span style=\"font-weight: 700;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p> <ul> <li>The word <strong>&#39;</strong><span style=\"font-weight: 700;\">stymieing</span><strong>&#39;</strong> means <strong>to create difficulty for the work or activity of</strong><span style=\"font-weight: 700;\"> something</span>.</li> <li>The first sentence of the third paragraph says \"<em>The US embassy in New Delhi said on Friday that Caatsa was not aimed at <strong>stymieing</strong> the military capabilities of its &ldquo;allies or partners\", a statement is seen in New Delhi as indicative of a possible waiver coming through from Washington</em>.&#39;&#39;</li> <li>Let&#39;s look at the <span style=\"font-weight: 700;\">meaning </span>of the given options:- <ul> <li><span style=\"font-weight: 700;\">Aiding</span><span style=\"font-weight: 700;\"> </span>means <strong>helping somebody or something</strong>.</li> <li><strong>Facilitating</strong><span style=\"font-weight: 700;\"> </span>means <strong>making something possible or easier</strong>.</li> <li><strong>Encouraging</strong><span style=\"font-weight: 700;\"> </span>means <strong>making something happen more easily</strong>.</li> <li><strong>Hindering</strong><span style=\"font-weight: 700;\"> </span>means <strong>making it more difficult for somebody/something to do something</strong>.</li> </ul> </li> <li>From the above explanation, we can say that the word &#39;<span style=\"font-weight: 700;\">hindering</span>&#39; is the synonym of the word &#39;<span style=\"font-weight: 700;\">stymieing</span>&#39;.<br /> </li> </ul> <p>Hence, the only possible answer is <span style=\"font-weight: 700;\">option 4</span>.</p>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "Direction: Read the passage carefully and answer the following questions: Huge attention and resources have been placed on the youth mental health crisis in recent years. Yet, the crisis is getting worse, not better. Existing solutions have assumed that today's youth have a resilience deficit, thus creating programmes to 'build' or 'create' resilience. Knowing this would completely change the approach needed for today's youth &ndash; and this is exactly what iheart has achieved. Our innovative, evidence-based mental wellbeing educational programme challenges current practices and outlooks and has already improved the lives of over 15,000 young people in twenty countries. Our role is to educate young people that they do NOT have a resilience deficit. Rather, we empower them with the confidence that they CAN uncover their built-in mental health, wellbeing and resilience so that they can overcome their challenges and realise their extraordinary potential. When we focus on solving the right problem &ndash; educating our children about their innate resilience &ndash;the evidence speaks for itself. 98% of children noticed a positive change in themselves at the end of the iheart programme. 95% would recommend the programme to a friend. 90% saw increased emotional resilience for dealing with adversity.\r\n\r\nHow many per cent of children noticed a positive change in themselves at the end of the iheart programme?",
+    "options": [
+      {
+        "text": "85%",
+        "isCorrect": false
+      },
+      {
+        "text": "98%",
+        "isCorrect": true
+      },
+      {
+        "text": "90%",
+        "isCorrect": false
+      },
+      {
+        "text": "75%",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is<span style=\"font-weight: 700;\"> &#39;98%.&#39;</span></p> <p><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p> <ul> <li><span style=\"font-weight: 700;\">Let&#39;s have a look at the ninth sentence of the first paragraph of the passage:</span> <ul> <li><em>&#39;</em>98% of children noticed a positive change in themselves at the end of the iheart programme.&#39;</li> <li><em>​</em>It can be concluded from the above line that<span style=\"font-weight: 700;\"><em> </em></span><strong>98% of children noticed a positive change in themselves at the end of the iheart programme.</strong> (यह निष्कर्ष निकाला जा सकता है कि iheart कार्यक्रम के अंत में <span style=\"font-weight: 700;\">98%</span> बच्चों ने अपने आप में एक सकारात्मक बदलाव देखा।).</li> </ul> </li> <li><span style=\"font-weight: 700;\"><em>​</em></span>Hence, the correct answer is<span style=\"font-weight: 700;\"> </span><span style=\"font-weight: 700;\">&#39;98%.&#39;</span></li> </ul> <p><br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span></span></p> <ul> <li>The meaning of the word <span style=\"font-weight: 700;\">&#39;Recommend&#39;</span> is<em> </em>to suggest that someone or something would be good or suitable for a particular job or purpose, or to suggest that a particular action should be done<em>.</em> (<span style=\"font-weight: 700;\">&#39;Recommend&#39;</span> शब्द का अर्थ है यह सुझाव देना कि कोई व्यक्ति या कोई वस्तु किसी विशेष कार्य या उद्देश्य के लिए अच्छा या उपयुक्त होगा, या यह सुझाव देना कि कोई विशेष कार्य किया जाना चाहिए।) <ul> <li><span style=\"font-weight: 700;\">Example:</span><em> I can <strong>recommend</strong> the chicken in mushroom sauce - it&#39;s delicious.</em></li> </ul> </li> </ul>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "Direction: Read the passage carefully and answer the following questions: Huge attention and resources have been placed on the youth mental health crisis in recent years. Yet, the crisis is getting worse, not better. Existing solutions have assumed that today's youth have a resilience deficit, thus creating programmes to 'build' or 'create' resilience. Knowing this would completely change the approach needed for today's youth &ndash; and this is exactly what iheart has achieved. Our innovative, evidence-based mental wellbeing educational programme challenges current practices and outlooks and has already improved the lives of over 15,000 young people in twenty countries. Our role is to educate young people that they do NOT have a resilience deficit. Rather, we empower them with the confidence that they CAN uncover their built-in mental health, wellbeing and resilience so that they can overcome their challenges and realise their extraordinary potential. When we focus on solving the right problem &ndash; educating our children about their innate resilience &ndash;the evidence speaks for itself. 98% of children noticed a positive change in themselves at the end of the iheart programme. 95% would recommend the programme to a friend. 90% saw increased emotional resilience for dealing with adversity.\r\n\r\nHow many saw percent of increased emotional resilience for dealing with adversity?",
+    "options": [
+      {
+        "text": "89%",
+        "isCorrect": false
+      },
+      {
+        "text": "90%",
+        "isCorrect": true
+      },
+      {
+        "text": "98%",
+        "isCorrect": false
+      },
+      {
+        "text": "76%",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is<span style=\"font-weight: 700;\"> &#39;90%.&#39;</span></p> <p><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></span></p> <ul> <li><span style=\"font-weight: 700;\">Let&#39;s have a look at the tenth sentence of the first paragraph of the passage: </span> <ul> <li><em>&#39;</em>90% saw increased emotional resilience for dealing with adversity.&#39;</li> <li><em>​</em>It can be concluded from the above line that<span style=\"font-weight: 700;\"><em> </em></span><strong>90% saw increased emotional resilience for dealing with adversity.</strong> (यह निष्कर्ष निकाला जा सकता है कि <strong>90%</strong> ने प्रतिकूल परिस्थितियों से निपटने के लिए भावनात्मक लचीलापन बढ़ाया।।).</li> </ul> </li> <li><span style=\"font-weight: 700;\"><em>​</em></span>Hence, the correct answer is<span style=\"font-weight: 700;\"> </span><span style=\"font-weight: 700;\">&#39;90%.&#39;</span></li> </ul> <p><br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span></span></p> <ul> <li>The meaning of the word <span style=\"font-weight: 700;\">&#39;adversity&#39;</span> is<em> </em>a difficult or unlucky situation or event. (<span style=\"font-weight: 700;\">&#39;Adversity</span><span style=\"font-weight: 700;\">&#39;</span> शब्द का अर्थ है एक कठिन या अशुभ स्थिति या घटना।) <ul> <li><span style=\"font-weight: 700;\">Example:</span><em> She was always cheerful in <strong>adversity</strong>.</em></li> </ul> </li> </ul>",
+    "marks": 1
+  },
+  {
+    "quizId": "6a61ac3cb79d20d7367e48a6",
+    "sectionName": "English",
+    "questionText": "Direction: Read the passage carefully and answer the following questions: Huge attention and resources have been placed on the youth mental health crisis in recent years. Yet, the crisis is getting worse, not better. Existing solutions have assumed that today's youth have a resilience deficit, thus creating programmes to 'build' or 'create' resilience. Knowing this would completely change the approach needed for today's youth &ndash; and this is exactly what iheart has achieved. Our innovative, evidence-based mental wellbeing educational programme challenges current practices and outlooks and has already improved the lives of over 15,000 young people in twenty countries. Our role is to educate young people that they do NOT have a resilience deficit. Rather, we empower them with the confidence that they CAN uncover their built-in mental health, wellbeing and resilience so that they can overcome their challenges and realise their extraordinary potential. When we focus on solving the right problem &ndash; educating our children about their innate resilience &ndash;the evidence speaks for itself. 98% of children noticed a positive change in themselves at the end of the iheart programme. 95% would recommend the programme to a friend. 90% saw increased emotional resilience for dealing with adversity.\r\n\r\nSelect the word that could replace the word <span style=\"font-weight: 700;\">resilience</span> as used in the passage:",
+    "options": [
+      {
+        "text": "rigidity",
+        "isCorrect": false
+      },
+      {
+        "text": "flexibility",
+        "isCorrect": true
+      },
+      {
+        "text": "fragility",
+        "isCorrect": false
+      },
+      {
+        "text": "weakness",
+        "isCorrect": false
+      }
+    ],
+    "solutionExplanation": "<p>The correct answer is<strong><span style=\"font-weight: 700;\"> &#39;</span>flexibility<span style=\"font-weight: 700;\">.&#39;</span></strong><br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/key-point-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Key Points</u></span></strong></span></span></p> <ul> <li>The meaning of the word<span style=\"font-weight: 700;\"> &#39;resilience&#39;</span> is the quality of being able to return quickly to a previous good condition after problems. <em>(</em><span style=\"font-weight: 700;\">&#39;Resilience&#39;</span> शब्द का अर्थ हैं समस्याओं के बाद पिछली अच्छी स्थिति में जल्दी लौटने में सक्षम होने का गुण।). <ul> <li><span style=\"font-weight: 700;\">Example:</span> <em>The <strong>resilience</strong> of the economy has come as a surprise to some.</em></li> </ul> </li> <li>Let us see the meaning of the following words: <ul> <li><b>Rigidity: </b>inability to be changed or adapted. (बदलने या अनुकूलित करने में असमर्थता।)</li> <li><strong>Flexibility: </strong>the ability to change or be changed easily according to the situation. (स्थिति के अनुसार आसानी से बदलने की क्षमता।)</li> <li><strong>Fragility: </strong>the quality of being easily damaged or broken. (आसानी से क्षतिग्रस्त या टूट जाने का गुण।)</li> <li><strong>Weakness: </strong>the state or condition of being weak. (कमजोर होने की अवस्था या भाव।)</li> </ul> </li> <li><em>​</em>It can be concluded that the word <span style=\"font-weight: 700;\">&#39;flexibility&#39; </span>could replace the word <span style=\"font-weight: 700;\">&#39;resilience&#39;</span> as used in the passage</li> <li><span style=\"font-weight: 700;\"><em>​</em></span> Hence, the correct answer is<span style=\"font-weight: 700;\"> &#39;flexibility.&#39;</span></li> </ul> <p><br /> <span style=\"display: flex; gap: 6px; align-items: center;\"><span style=\"display: flex;gap: 6px;align-items: center;\"><img height=\"26px\" src=\"//cdn.testbook.com/resources/lms_creative_elements/additional-information-image.png\" width=\"26px\" /><strong><span style=\"vertical-align: middle;font-size: 21px;\"><u>Additional Information</u></span></strong></span> </span></p> <ul> <li>Let us discuss the <strong>ANTO</strong><span style=\"font-weight: 700;\"><strong>NYM</strong> </span>of some words:</li> </ul> <p> </p> <table border=\"1\" cellpadding=\"0\" cellspacing=\"0\"> <tbody> <tr> <td> <p>Word</p> </td> <td> <p>Antonym</p> </td> </tr> <tr> <td> <p>Rigidity</p> </td> <td> <p>Mildness</p> </td> </tr> <tr> <td> <p>Flexibility</p> </td> <td> <p>Inflexibility</p> </td> </tr> <tr> <td> <p>Fragility</p> </td> <td> <p>Robustness</p> </td> </tr> </tbody> </table>",
     "marks": 1
   }
 ]
