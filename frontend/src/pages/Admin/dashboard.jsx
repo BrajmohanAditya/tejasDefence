@@ -5,9 +5,9 @@ import { Outlet } from "react-router-dom";
 
 const Dashboard = () => {
   return (
-    <div className="flex flex-col lg:flex-row min-h-screen bg-slate-50">
+    <div className="flex flex-col lg:flex-row min-h-screen bg-slate-50 overflow-x-hidden">
       <DashboardSidebar />
-      <main className="flex-1">
+      <main className="flex-1 min-w-0 max-w-full overflow-x-hidden">
         <Outlet />
       </main>
     </div>

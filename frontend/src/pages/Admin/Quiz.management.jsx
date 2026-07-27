@@ -54,7 +54,7 @@ const QuizManagement = () => {
     useToggleQuizTypeHook();
 
   return (
-    <div className="min-h-screen p-4 sm:p-6 lg:p-8">
+    <div className="w-full max-w-full p-4 sm:p-6 lg:p-8 box-border">
       {/* Header Section */}
       <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-8">
         <div className="flex items-center gap-3">
@@ -84,7 +84,7 @@ const QuizManagement = () => {
       </div>
 
       {/* Main Content Area */}
-      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-6 sm:p-10 min-h-[400px] w-full overflow-hidden">
+      <div className="bg-white rounded-xl border border-slate-200 shadow-sm p-4 sm:p-6 min-h-[400px] w-full max-w-full overflow-hidden">
         {isLoading ? (
           <div className="flex flex-col items-center justify-center h-full">
             <Loader2 className="w-8 h-8 animate-spin text-indigo-600" />
@@ -101,15 +101,15 @@ const QuizManagement = () => {
             </p>
           </div>
         ) : (
-          <div className="overflow-auto max-h-[60vh] custom-scrollbar rounded-lg border border-slate-200">
-            <table className="w-full text-sm text-left relative">
+          <div className="w-full overflow-x-auto overflow-y-auto max-h-[calc(100vh-280px)] custom-scrollbar rounded-lg border border-slate-200">
+            <table className="w-full min-w-[750px] text-sm text-left relative">
               <thead className="text-xs text-slate-500 uppercase bg-slate-100 sticky top-0 z-20 shadow-sm">
                 <tr>
+                  <th className="px-4 py-4 font-semibold w-[150px]">Quiz ID</th>
                   <th className="px-6 py-4 font-semibold">Quiz Name</th>
                   <th className="px-6 py-4 font-semibold">Exam</th>
                   <th className="px-6 py-4 font-semibold">Duration</th>
                   <th className="px-6 py-4 font-semibold">Questions</th>
-                  <th className="px-6 py-4 font-semibold">Created</th>
                   <th className="px-6 py-4 font-semibold text-right">
                     Actions
                   </th>
@@ -121,6 +121,9 @@ const QuizManagement = () => {
                     key={quiz._id}
                     className="border-b hover:bg-slate-50/50 transition"
                   >
+                    <td className="px-4 py-4 font-mono text-xs text-slate-500 select-all font-semibold max-w-[140px] truncate" title={quiz._id}>
+                      {quiz._id}
+                    </td>
                     <td className="px-6 py-4 font-medium text-slate-900 flex items-center gap-3">
                       <div className="p-2 bg-indigo-50 text-indigo-600 rounded-lg">
                         <BookOpen className="w-4 h-4" />
@@ -139,9 +142,7 @@ const QuizManagement = () => {
                       {quiz.totalNoOfQueation}{" "}
                     </td>
 
-                    <td className="px-6 py-4 text-slate-500">
-                      {format(new Date(quiz.createdAt), "MMM d, yyyy")}
-                    </td>
+
 
                     <td className="px-6 py-4">
                       <div className="flex items-center justify-end gap-3">
