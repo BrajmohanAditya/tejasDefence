@@ -1,6 +1,6 @@
 [
   {
-    "ebookId": "6a4cd1ecc1c2d2802cac50f0",
+    "ebookId": "6a631f42691d9360734643a4",
     "chapterNumber": 9,
     "chapterName": "Matrix and Determinant",
     "questionText": "If the matrix $$\\begin{pmatrix} cos \\theta & sin \\theta & 0 \\\\ sin \\theta & cos \\theta & 0 \\\\ 0 & 0 & 1 \\end{pmatrix}$$ is singular, then what is one of the values of $\\theta$ ?",

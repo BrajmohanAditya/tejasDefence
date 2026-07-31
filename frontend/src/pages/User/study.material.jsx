@@ -42,12 +42,15 @@ const StudyMaterial = () => {
           <div className="relative w-6 h-6 bg-red-500 rounded-full shadow-lg border-2 border-white"></div>
         </div>
       ),
-      items: freeQuizzes.slice(0, 4).map((quiz, index) => {
-        // Keep rotating background colors for a nice UI
-        const bgStyles = [
-          "bg-purple-100",
-          "bg-orange-100",
-          "bg-amber-100",
+      items: [...freeQuizzes]
+        .sort((a, b) => new Date(b.createdAt) - new Date(a.createdAt))
+        .slice(0, 4)
+        .map((quiz, index) => {
+          // Keep rotating background colors for a nice UI
+          const bgStyles = [
+            "bg-purple-100",
+            "bg-orange-100",
+            "bg-amber-100",
           "bg-teal-100",
         ];
 
