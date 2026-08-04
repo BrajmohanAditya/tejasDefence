@@ -145,6 +145,7 @@ const CreateEbookDialog = ({ editingEbook, onCloseEdit }) => {
                 <option value="NDA">NDA</option>
                 <option value="CDS">CDS</option>
                 <option value="AFCAT">AFCAT</option>
+                <option value="NDA-CDS-AFCAT">NDA-CDS-AFCAT-CAPF</option>
               </select>
             </div>
             <div>

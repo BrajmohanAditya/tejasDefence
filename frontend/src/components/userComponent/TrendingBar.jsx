@@ -3,14 +3,11 @@ import { Link } from "react-router-dom";
 
 const TrendingBar = () => {
   const trendingLinks = [
-    { text: "NDA I 2026 Written Result Declared", url: "#" },
-    { text: "Agniveer Army Rally Schedule Out 2026", url: "#" },
-    { text: "Air Force Group X & Y Exam Dates Announced", url: "#" },
-    { text: "Navy SSR/MR Online Application Form 2026", url: "#" },
-    { text: "CDS II Notification PDF Download", url: "#" },
-    { text: "Weekly Current Affairs PDF Download", url: "#" },
-    { text: "AFCAT 1 2026 Admit Card Out", url: "#" },
-    { text: "MNS Exam Dates Announced", url: "#" },
+    { text: "NDA foundation(9th, 10th, 11th, 12th)", url: "#" },
+    { text: "NDA target 2026", url: "#" },
+    { text: "CDS", url: "#" },
+    { text: "Air force / Navy", url: "#" },
+    { text: "Addmission open now For Dehradun centre", url: "#" },
   ];
 
   return (
